@@ -1,5 +1,5 @@
 provider "aws" {
-    region="us-east-1"
+    region = "ap-southeast-2"
 }
 
 variable "name" {
@@ -7,11 +7,13 @@ variable "name" {
 }
 
 resource "aws_instance" "do_web_01" {
-    ami = "ami-04b9e92b5572fa0d1"
+    ami = "ami-02769748522663066"
     instance_type = "t2.micro"
     key_name = "devops_01"
+    security_groups = [ "WebDMZ" ]
 
     tags = {
         Name = "${var.name}"
+        CreatedBy = "terraform"
     }
 }
