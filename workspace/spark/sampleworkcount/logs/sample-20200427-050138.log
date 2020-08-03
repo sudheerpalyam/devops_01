@@ -1,0 +1,227 @@
+20/04/27 05:01:40 WARN SparkConf: The configuration key 'spark.yarn.executor.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.executor.memoryOverhead' instead.
+20/04/27 05:01:40 WARN SparkConf: The configuration key 'spark.yarn.driver.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.driver.memoryOverhead' instead.
+Processing data file :/user/d917355/oozieapps/ooziesparkpi/coordinator.xml
+20/04/27 05:01:41 WARN SparkConf: The configuration key 'spark.yarn.executor.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.executor.memoryOverhead' instead.
+20/04/27 05:01:41 WARN SparkConf: The configuration key 'spark.yarn.driver.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.driver.memoryOverhead' instead.
+20/04/27 05:01:41 INFO SparkContext: Running Spark version 2.3.2.3.1.5.0-152
+20/04/27 05:01:41 INFO SparkContext: Submitted application: Simple Spark Hive Application
+20/04/27 05:01:41 INFO SecurityManager: Changing view acls to: d917355
+20/04/27 05:01:41 INFO SecurityManager: Changing modify acls to: d917355
+20/04/27 05:01:41 INFO SecurityManager: Changing view acls groups to: 
+20/04/27 05:01:41 INFO SecurityManager: Changing modify acls groups to: 
+20/04/27 05:01:41 INFO SecurityManager: SecurityManager: authentication disabled; ui acls enabled; users  with view permissions: Set(d917355); groups with view permissions: Set(); users  with modify permissions: Set(d917355); groups with modify permissions: Set()
+20/04/27 05:01:41 INFO Utils: Successfully started service 'sparkDriver' on port 37573.
+20/04/27 05:01:41 INFO SparkEnv: Registering MapOutputTracker
+20/04/27 05:01:41 INFO SparkEnv: Registering BlockManagerMaster
+20/04/27 05:01:41 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/04/27 05:01:41 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/04/27 05:01:41 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-0d1f4670-7259-4163-97f2-3ab6f9a1ff24
+20/04/27 05:01:41 INFO MemoryStore: MemoryStore started with capacity 366.3 MB
+20/04/27 05:01:41 INFO SparkEnv: Registering OutputCommitCoordinator
+20/04/27 05:01:42 INFO log: Logging initialized @2840ms
+20/04/27 05:01:42 INFO Server: jetty-9.3.z-SNAPSHOT, build timestamp: 2018-06-05T17:11:56Z, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+20/04/27 05:01:42 INFO Server: Started @2920ms
+20/04/27 05:01:42 INFO SslContextFactory: x509=X509@389562d6(localhost,h=[lxdmelcly-lxe04-m01-ehc10001.oan],w=[]) for SslContextFactory@5a101b1c(file:///etc/security/serverKeys/spark2_keystore.jks,null)
+20/04/27 05:01:42 INFO AbstractConnector: Started ServerConnector@71bd0316{SSL,[ssl, http/1.1]}{0.0.0.0:4523}
+20/04/27 05:01:42 INFO Utils: Successfully started service 'SparkUI (HTTPS)' on port 4523.
+20/04/27 05:01:42 INFO AbstractConnector: Started ServerConnector@41e1455d{HTTP/1.1,[http/1.1]}{0.0.0.0:4123}
+20/04/27 05:01:42 INFO Utils: Successfully started service 'SparkUI' on port 4123.
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.h.ContextHandler@6999cd39{/,null,AVAILABLE,@HttpsRedirect}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1813f3e9{/jobs,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@187eb9a8{/jobs/json,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@726a6b94{/jobs/job,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@522b2631{/jobs/job/json,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3ff57625{/stages,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1ee29c84{/stages/json,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7c8326a4{/stages/stage,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@69ce2f62{/stages/stage/json,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@c9d82f9{/stages/pool,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6f012914{/stages/pool/json,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@18fdb6cf{/storage,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@d02f8d{/storage/json,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@60baef24{/storage/rdd,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@61533ae{/storage/rdd/json,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@732bb66d{/environment,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@720653c2{/environment/json,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@45f24169{/executors,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6ad5923a{/executors/json,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4463d9d3{/executors/threadDump,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@43b0ade{/executors/threadDump/json,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5395ea39{/static,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@15723761{/,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@312afbc7{/api,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6569dded{/jobs/job/kill,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@466d49f0{/stages/stage/kill,null,AVAILABLE,@Spark}
+20/04/27 05:01:42 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://lxdmelcly-lxe04-m01-ehc10001.oan:4123
+20/04/27 05:01:42 INFO SparkContext: Added JAR file:/home/d917355/workspace/spark/sampleworkcount/sparkwordcount-0.0.1-SNAPSHOT.jar at spark://lxdmelcly-lxe04-m01-ehc10001.oan:37573/jars/sparkwordcount-0.0.1-SNAPSHOT.jar with timestamp 1587963702373
+20/04/27 05:01:43 INFO RequestHedgingRMFailoverProxyProvider: Created wrapped proxy for [rm1, rm2]
+20/04/27 05:01:43 INFO RequestHedgingRMFailoverProxyProvider: Looking for the active RM in [rm1, rm2]...
+20/04/27 05:01:43 INFO RequestHedgingRMFailoverProxyProvider: Found active RM [rm2]
+20/04/27 05:01:43 INFO Client: Requesting a new application from cluster with 4 NodeManagers
+20/04/27 05:01:43 INFO Configuration: found resource resource-types.xml at file:/etc/hadoop/3.1.5.0-152/0/resource-types.xml
+20/04/27 05:01:43 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (28672 MB per container)
+20/04/27 05:01:43 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/04/27 05:01:43 INFO Client: Setting up container launch context for our AM
+20/04/27 05:01:43 INFO Client: Setting up the launch environment for our AM container
+20/04/27 05:01:43 INFO Client: Preparing resources for our AM container
+20/04/27 05:01:43 INFO HadoopFSDelegationTokenProvider: getting token for: DFS[DFSClient[clientName=DFSClient_NONMAPREDUCE_589635280_1, ugi=d917355@OAN (auth:KERBEROS)]]
+20/04/27 05:01:43 INFO DFSClient: Created token for d917355: HDFS_DELEGATION_TOKEN owner=d917355@OAN, renewer=yarn, realUser=, issueDate=1587963703823, maxDate=1588568503823, sequenceNumber=470, masterKeyId=26 on ha-hdfs:ONE-ANALYTICS
+20/04/27 05:01:44 INFO KMSClientProvider: New token created: (Kind: kms-dt, Service: kms://https@lxdmelcly-lxm02-m01-mhm20001.oan:9393/kms, Ident: (kms-dt owner=d917355, renewer=yarn, realUser=, issueDate=1587963704150, maxDate=1588568504150, sequenceNumber=14, masterKeyId=5))
+20/04/27 05:01:45 WARN HiveConf: HiveConf of name hive.server2.http.endpoint does not exist
+20/04/27 05:01:47 INFO Client: Use hdfs cache file as spark.yarn.archive for HDP, hdfsCacheFile:hdfs://ONE-ANALYTICS/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-yarn-archive.tar.gz
+20/04/27 05:01:47 INFO Client: Source and destination file systems are the same. Not copying hdfs://ONE-ANALYTICS/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-yarn-archive.tar.gz
+20/04/27 05:01:47 INFO Client: Distribute hdfs cache file as spark.sql.hive.metastore.jars for HDP, hdfsCacheFile:hdfs://ONE-ANALYTICS/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-hive-archive.tar.gz
+20/04/27 05:01:47 INFO Client: Source and destination file systems are the same. Not copying hdfs://ONE-ANALYTICS/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-hive-archive.tar.gz
+20/04/27 05:01:47 INFO Client: Uploading resource file:/home/d917355/workspace/spark/sampleworkcount/log4j.properties -> hdfs://ONE-ANALYTICS/user/d917355/.sparkStaging/application_1587888096366_0008/log4j.properties
+20/04/27 05:01:48 INFO Client: Uploading resource file:/tmp/spark-70c2a664-c117-44ec-8262-3e78c75b4e63/__spark_conf__7122541190769542259.zip -> hdfs://ONE-ANALYTICS/user/d917355/.sparkStaging/application_1587888096366_0008/__spark_conf__.zip
+20/04/27 05:01:48 INFO SecurityManager: Changing view acls to: d917355
+20/04/27 05:01:48 INFO SecurityManager: Changing modify acls to: d917355
+20/04/27 05:01:48 INFO SecurityManager: Changing view acls groups to: 
+20/04/27 05:01:48 INFO SecurityManager: Changing modify acls groups to: 
+20/04/27 05:01:48 INFO SecurityManager: SecurityManager: authentication disabled; ui acls enabled; users  with view permissions: Set(d917355); groups with view permissions: Set(); users  with modify permissions: Set(d917355); groups with modify permissions: Set()
+20/04/27 05:01:48 INFO Client: Submitting application application_1587888096366_0008 to ResourceManager
+20/04/27 05:01:48 INFO YarnClientImpl: Submitted application application_1587888096366_0008
+20/04/27 05:01:48 INFO SchedulerExtensionServices: Starting Yarn extension services with app application_1587888096366_0008 and attemptId None
+20/04/27 05:01:49 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:01:49 INFO Client: 
+	 client token: N/A
+	 diagnostics: [Mon Apr 27 05:01:48 +0000 2020] Application is added to the scheduler and is not yet activated. User's AM resource limit exceeded.  Details : AM Partition = <DEFAULT_PARTITION>; AM Resource Request = <memory:1024, vCores:1>; Queue Resource Limit for AM = <memory:9216, vCores:3>; User AM Resource Limit of the queue = <memory:5120, vCores:1>; Queue AM Resource Usage = <memory:1024, vCores:1>; 
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: adhoc
+	 start time: 1587963708692
+	 final status: UNDEFINED
+	 tracking URL: https://lxdmelcly-lxm02-m01-mhm20001.oan:8090/proxy/application_1587888096366_0008/
+	 user: d917355
+20/04/27 05:01:50 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:01:51 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:01:52 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:01:53 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:01:54 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:01:55 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:01:56 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:01:57 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:01:58 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:01:59 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:00 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:01 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:02 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:03 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:04 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:05 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:06 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:07 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:08 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:09 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:10 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:11 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:12 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:13 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:15 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:16 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:17 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:18 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:19 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:20 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:21 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:22 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:23 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:24 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:25 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:26 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:27 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:28 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:29 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:30 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:31 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:32 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:33 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:34 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:35 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:36 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:37 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:38 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:39 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:40 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:41 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:42 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:43 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:44 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:45 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:46 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:47 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:48 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:49 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:50 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:51 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:52 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:53 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:54 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:55 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:56 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:57 INFO Client: Application report for application_1587888096366_0008 (state: ACCEPTED)
+20/04/27 05:02:57 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> lxdmelcly-lxm01-m01-mhm10001.oan,lxdmelcly-lxm02-m01-mhm20001.oan, PROXY_URI_BASES -> https://lxdmelcly-lxm01-m01-mhm10001.oan:8090/proxy/application_1587888096366_0008,https://lxdmelcly-lxm02-m01-mhm20001.oan:8090/proxy/application_1587888096366_0008, RM_HA_URLS -> lxdmelcly-lxm01-m01-mhm10001.oan:8090,lxdmelcly-lxm02-m01-mhm20001.oan:8090), /proxy/application_1587888096366_0008
+20/04/27 05:02:57 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /jobs, /jobs/json, /jobs/job, /jobs/job/json, /stages, /stages/json, /stages/stage, /stages/stage/json, /stages/pool, /stages/pool/json, /storage, /storage/json, /storage/rdd, /storage/rdd/json, /environment, /environment/json, /executors, /executors/json, /executors/threadDump, /executors/threadDump/json, /static, /, /api, /jobs/job/kill, /stages/stage/kill.
+20/04/27 05:02:57 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/04/27 05:02:58 INFO Client: Application report for application_1587888096366_0008 (state: RUNNING)
+20/04/27 05:02:58 INFO Client: 
+	 client token: Token { kind: YARN_CLIENT_TOKEN, service:  }
+	 diagnostics: N/A
+	 ApplicationMaster host: 172.16.16.9
+	 ApplicationMaster RPC port: 0
+	 queue: adhoc
+	 start time: 1587963708692
+	 final status: UNDEFINED
+	 tracking URL: https://lxdmelcly-lxm02-m01-mhm20001.oan:8090/proxy/application_1587888096366_0008/
+	 user: d917355
+20/04/27 05:02:58 INFO YarnClientSchedulerBackend: Application application_1587888096366_0008 has started running.
+20/04/27 05:02:58 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45759.
+20/04/27 05:02:58 INFO NettyBlockTransferService: Server created on lxdmelcly-lxe04-m01-ehc10001.oan:45759
+20/04/27 05:02:58 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/04/27 05:02:58 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, lxdmelcly-lxe04-m01-ehc10001.oan, 45759, None)
+20/04/27 05:02:58 INFO BlockManagerMasterEndpoint: Registering block manager lxdmelcly-lxe04-m01-ehc10001.oan:45759 with 366.3 MB RAM, BlockManagerId(driver, lxdmelcly-lxe04-m01-ehc10001.oan, 45759, None)
+20/04/27 05:02:58 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, lxdmelcly-lxe04-m01-ehc10001.oan, 45759, None)
+20/04/27 05:02:58 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, lxdmelcly-lxe04-m01-ehc10001.oan, 45759, None)
+20/04/27 05:02:58 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /metrics/json.
+20/04/27 05:02:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1e191150{/metrics/json,null,AVAILABLE,@Spark}
+20/04/27 05:02:58 INFO EventLoggingListener: Logging events to hdfs:/spark2-history/application_1587888096366_0008
+20/04/27 05:02:58 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after waiting maxRegisteredResourcesWaitingTime: 30000(ms)
+Exception in thread "main" java.lang.NoClassDefFoundError: com/hortonworks/hwc/HiveWarehouseSession
+	at com.cloudera.sparkwordcount.SimpleHiveApp$.main(SimpleHiveApp.scala:13)
+	at com.cloudera.sparkwordcount.SimpleHiveApp.main(SimpleHiveApp.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:900)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:192)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:217)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:137)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+Caused by: java.lang.ClassNotFoundException: com.hortonworks.hwc.HiveWarehouseSession
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 12 more
+20/04/27 05:02:58 INFO SparkContext: Invoking stop() from shutdown hook
+20/04/27 05:02:58 INFO AbstractConnector: Stopped Spark@71bd0316{SSL,[ssl, http/1.1]}{0.0.0.0:4523}
+20/04/27 05:02:58 INFO AbstractConnector: Stopped HttpsRedirect@41e1455d{HTTP/1.1,[http/1.1]}{0.0.0.0:4123}
+20/04/27 05:02:58 INFO SparkUI: Stopped Spark web UI at http://lxdmelcly-lxe04-m01-ehc10001.oan:4123
+20/04/27 05:02:59 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+20/04/27 05:02:59 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/04/27 05:02:59 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/04/27 05:02:59 INFO SchedulerExtensionServices: Stopping SchedulerExtensionServices
+(serviceOption=None,
+ services=List(),
+ started=false)
+20/04/27 05:02:59 INFO YarnClientSchedulerBackend: Stopped
+20/04/27 05:02:59 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/04/27 05:02:59 INFO MemoryStore: MemoryStore cleared
+20/04/27 05:02:59 INFO BlockManager: BlockManager stopped
+20/04/27 05:02:59 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/04/27 05:02:59 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/04/27 05:02:59 INFO SparkContext: Successfully stopped SparkContext
+20/04/27 05:02:59 INFO ShutdownHookManager: Shutdown hook called
+20/04/27 05:02:59 INFO ShutdownHookManager: Deleting directory /tmp/spark-6aeefd70-efc6-4008-bcdd-e4a9599de0b5
+20/04/27 05:02:59 INFO ShutdownHookManager: Deleting directory /tmp/spark-70c2a664-c117-44ec-8262-3e78c75b4e63

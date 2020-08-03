@@ -1,0 +1,62 @@
+<workflow-app name="wf_ingestion_${data_source}_${dataset}"
+    xmlns="uri:oozie:workflow:0.5">
+    <parameters>
+        <property>
+            <name>oozie.use.system.libpath</name>
+            <value>true</value>
+        </property>
+    </parameters>
+    <global>
+        <job-tracker>${resourceManager}</job-tracker>
+        <name-node>${nameNode}</name-node>
+    </global>
+    <credentials>
+        <credential name="hcat_auth" type="hcat">
+            <property>
+                <name>hcat.metastore.principal</name>
+                <value>${hcat_principal}</value>
+            </property>
+            <property>
+                <name>hcat.metastore.uri</name>
+                <value>${hcat_url}</value>
+            </property>
+        </credential>
+    </credentials>
+    <start to="iSpark2_rdbms_import"/>
+    <action name="iSpark2_rdbms_import" cred="hcat_auth">
+        <spark xmlns="uri:oozie:spark-action:0.2">
+            <configuration>
+                <property>
+                    <name>oozie.action.sharelib.for.spark</name>
+                    <value>spark2</value>
+                </property>
+            </configuration>
+            <master>yarn-cluster</master>
+            <name>${ingestion_application_name}</name>
+            <class>${ingestion_application_class}</class>
+            <jar>${nameNode}/${ingestion_application_jar}</jar>
+            <spark-opts>${ingestion_application_spark_opts}</spark-opts>
+            <arg>${ingestion_application_properties}</arg>
+            <arg>${replaceAll(replaceAll(application_extra_columns,"#src_date#",application_src_date),"#load_timestamp#",application_load_timestamp)}</arg>
+            <arg>priorityRating=${priority_rating}</arg>
+            <arg>Workflow Id=${wf:id()}</arg>
+            <arg>Workflow Name=${wf:name()}</arg>
+            <arg>Error Node=iSpark2_rdbms_import</arg>
+            <arg>User Id=${wf:user()}</arg>
+            <arg>Workflow Path=${wf:appPath()}</arg>
+            <arg>jiraProperties=${common_services_dir}/oozie/resources/notificationService.properties</arg>
+            <arg>actualDate=${actualDate}</arg>
+            <arg>actualTimestamp=${actualTimestamp}</arg>
+            <arg>current_nominalDate=${current_nominalDate}</arg>
+            <arg>current_nominalTimestamp=${current_nominalTimestamp}</arg>
+            <arg>previous_nominalDate=${previous_nominalDate}</arg>
+            <arg>previous_nominalTimestamp=${previous_nominalTimestamp}</arg>
+        </spark>
+        <ok to="end"/>
+        <error to="kill"/>
+    </action>
+    <kill name="kill">
+        <message>${wf:errorMessage(wf:lastErrorNode())}</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>

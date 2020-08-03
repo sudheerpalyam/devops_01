@@ -1,0 +1,110 @@
+<coordinator-app name="co_ingestion_${data_source}_${dataset}" frequency="${schedule_frequency}" start="${start_time}" end="${end_time}" timezone="Australia/Melbourne"
+    xmlns="uri:oozie:coordinator:0.5" xmlns:sla="uri:oozie:sla:0.2">
+    <action>
+        <workflow>
+            <app-path>/${base_apps_dir}/${data_source}/oozie/workflow/wf_sudheer_oozie_spark_app.xml</app-path>
+            <configuration>
+                <property>
+                    <name>nameNode</name>
+                    <value>${nameNode}</value>
+                </property>
+                <property>
+                    <name>resourceManager</name>
+                    <value>${resourceManager}</value>
+                </property>
+                <property>
+                    <name>notification_email_address</name>
+                    <value>${notification_email_address}</value>
+                </property>
+                <property>
+                    <name>mapreduce.job.user.name</name>
+                    <value>ds_${data_source}</value>
+                </property>
+                <property>
+                    <name>hcat_url</name>
+                    <value>${hcat_url}</value>
+                </property>
+                <property>
+                    <name>hcat_principal</name>
+                    <value>hive/_HOST@OAN</value>
+                </property>
+                <property>
+                    <name>oozie.use.system.libpath</name>
+                    <value>true</value>
+                </property>
+                <property>
+                    <name>ingestion_application_name</name>
+                    <value>${data_source}_${dataset}</value>
+                </property>
+                <property>
+                    <name>ingestion_application_class</name>
+                    <value>au.com.telstra.in.oan.dataIngestion.sample.DataSetWordCount</value>
+                </property>
+                <property>
+                    <name>ingestion_application_jar</name>
+                    <value>/${base_apps_dir}/${data_source}/oozie/spark/dataprep/apps/ingestion-app-0.1.jarr</value>
+                </property>
+                <property>
+                    <name>ingestion_application_properties</name>
+                    <value>/${base_apps_dir}/${data_source}/oozie/spark/distributed-cache/file/sp_${data_source}.properties</value>
+                </property>
+                <property>
+                    <name>ingestion_application_spark_opts</name>
+                    <value>${ingestion_application_spark_opts}</value>
+                </property>
+                <property>
+                    <name>application_src_date</name>
+                    <value>${coord:formatTime(coord:dateOffset(coord:actualTime(), 0,'DAY'), "yyyy-MM-dd")}</value>
+                </property>
+                <property>
+                    <name>application_load_timestamp</name>
+                    <value>${coord:formatTime(coord:dateOffset(coord:actualTime(), 0,'DAY'), "yyyy-MM-dd HH:mm:ss")}</value>
+                </property>
+                <property>
+                    <name>application_extra_columns</name>
+                    <value>${application_extra_columns}</value>
+                </property>
+                <property>
+                    <name>common_services_dir</name>
+                    <value>/${base_apps_dir}/share</value>
+                </property>
+                <property>
+                    <name>priority_rating</name>
+                    <value>${priority_rating}</value>
+                </property>
+                <property>
+                    <name>actualDate</name>
+                    <value>${coord:formatTime(coord:actualTime(), 'yyyy-MM-dd')}</value>
+                </property>
+                <property>
+                    <name>actualTimestamp</name>
+                    <value>${coord:formatTime(coord:actualTime(), 'yyyy-MM-dd HH:mm:ss')}</value>
+                </property>
+                <property>
+                    <name>current_nominalDate</name>
+                    <value>${coord:formatTime(coord:nominalTime(), 'yyyy-MM-dd')}</value>
+                </property>
+                <property>
+                    <name>current_nominalTimestamp</name>
+                    <value>${coord:formatTime(coord:nominalTime(), 'yyyy-MM-dd HH:mm:ss')}</value>
+                </property>
+                <property>
+                    <name>previous_nominalDate</name>
+                    <value>${coord:formatTime(coord:dateOffset(coord:nominalTime(), -1, 'DAY'), 'yyyy-MM-dd')}</value>
+                </property>
+                <property>
+                    <name>previous_nominalTimestamp</name>
+                    <value>${coord:formatTime(coord:dateOffset(coord:nominalTime(), -1, 'DAY'), 'yyyy-MM-dd HH:mm:ss')}</value>
+                </property>
+            </configuration>
+        </workflow>
+        <sla:info>
+            <sla:nominal-time>${coord:nominalTime()}</sla:nominal-time>
+            <sla:should-start>${sla_wf_should_start_in_minutes * MINUTES}</sla:should-start>
+            <sla:should-end>${sla_wf_should_end_in_minutes * MINUTES}</sla:should-end>
+            <sla:max-duration>${sla_wf_max_duration_minutes * MINUTES}</sla:max-duration>
+            <sla:alert-events>start_miss,end_miss,duration_miss</sla:alert-events>
+            <sla:alert-contact>${notification_email_address}</sla:alert-contact>
+        </sla:info>
+    </action>
+</coordinator-app>

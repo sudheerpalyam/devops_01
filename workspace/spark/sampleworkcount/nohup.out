@@ -1,0 +1,8 @@
+Error: Cannot load main class from JAR file:/home/d917355/workspace/spark/sampleworkcount/.--conf
+Run with --help for usage help or --verbose for debug output
+Exception in thread "main" java.lang.IllegalArgumentException: Missing application resource.
+	at org.apache.spark.launcher.CommandBuilderUtils.checkArgument(CommandBuilderUtils.java:253)
+	at org.apache.spark.launcher.SparkSubmitCommandBuilder.buildSparkSubmitArgs(SparkSubmitCommandBuilder.java:161)
+	at org.apache.spark.launcher.SparkSubmitCommandBuilder.buildSparkSubmitCommand(SparkSubmitCommandBuilder.java:275)
+	at org.apache.spark.launcher.SparkSubmitCommandBuilder.buildCommand(SparkSubmitCommandBuilder.java:152)
+	at org.apache.spark.launcher.Main.main(Main.java:87)

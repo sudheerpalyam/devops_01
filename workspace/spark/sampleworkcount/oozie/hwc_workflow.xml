@@ -1,0 +1,41 @@
+<workflow-app name="spark oozie hdp 3.1.5 v2" xmlns="uri:oozie:workflow:0.5">
+    <credentials>
+	<credential name="hive-creds" type="hive2">
+            <property>
+                <name>hive2.jdbc.url</name>
+                <value>jdbc:hive2://lxdsydstl-lxm02-s01-mhm20001.s01.oan:2181,lxdsydstl-lxm03-s01-mhm30001.s01.oan:2181,lxdsydstl-lxm04-s01-mhm40001.s01.oan:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2</value>
+            </property>
+            <property>
+                <name>hive2.server.principal</name>
+                <value>hive/_HOST@S01.OAN</value>
+            </property>
+        </credential>
+    </credentials>
+
+    <start to="spark-hwc"/>
+    <kill name="Kill">
+        <message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+    <action name="spark-hwc" cred="hive-creds">
+        <spark xmlns="uri:oozie:spark-action:0.2">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <configuration>
+                <property>
+                    <name>oozie.action.sharelib.for.spark</name>
+                    <value>spark2</value>
+                </property>
+            </configuration>
+            <master>yarn</master>
+            <mode>cluster</mode>
+            <name>sample-scala-spark-hwc-hive-manual-run</name>
+            <class>com.cloudera.sparkwordcount.SimpleHiveApp</class>
+            <jar>hdfs:///user/d917355/oozieapps/spark-scala-hwc-workflow/sparkwordcount-0.0.1-SNAPSHOT.jar</jar>
+            <spark-opts>--jars hdfs:///user/d917355/oozieapps/hive-warehouse-connector-patched.jar --conf spark.yarn.queue=adhoc --py-files hdfs://ONE-ANALYTICS/user/d917355/oozieapps/pyspark_hwc-1.0.0.3.1.5.0-152.zip --conf spark.yarn.security.tokens.hiveserver2.enabled=false --conf spark.yarn.security.tokens.hivestreaming.enabled=false --conf spark.sql.hive.hiveserver2.jdbc.url="jdbc:hive2://lxdsydstl-lxm02-s01-mhm20001.s01.oan:2181,lxdsydstl-lxm03-s01-mhm30001.s01.oan:2181,lxdsydstl-lxm04-s01-mhm40001.s01.oan:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2-interactive"  --conf spark.hadoop.hive.llap.daemon.service.hosts=@llap0  --conf spark.datasource.hive.warehouse.metastoreUri=thrift://lxdsydstl-lxm02-s01-mhm20001.s01.oan:9083  --conf spark.sql.hive.hiveserver2.jdbc.url.principal=hive/_HOST@S01.OAN  --conf spark.hadoop.hive.zookeeper.quorum=lxdsydstl-lxm02-s01-mhm20001.s01.oan:2181,lxdsydstl-lxm03-s01-mhm30001.s01.oan:2181,lxdsydstl-lxm04-s01-mhm40001.s01.oan:2181</spark-opts>
+            <arg>${nameNode}/user/d917355/README.md</arg>
+        </spark>
+        <ok to="End"/>
+        <error to="Kill"/>
+    </action>
+    <end name="End"/>
+</workflow-app>

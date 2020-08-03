@@ -1,0 +1,249 @@
+20/03/29 10:37:49 WARN SparkConf: The configuration key 'spark.yarn.executor.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.executor.memoryOverhead' instead.
+20/03/29 10:37:49 WARN SparkConf: The configuration key 'spark.yarn.driver.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.driver.memoryOverhead' instead.
+20/03/29 10:37:50 WARN SparkConf: The configuration key 'spark.yarn.executor.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.executor.memoryOverhead' instead.
+20/03/29 10:37:50 WARN SparkConf: The configuration key 'spark.yarn.driver.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.driver.memoryOverhead' instead.
+20/03/29 10:37:50 INFO SparkContext: Running Spark version 2.3.2.3.1.5.0-152
+20/03/29 10:37:50 INFO SparkContext: Submitted application: Spark Count
+20/03/29 10:37:50 INFO SecurityManager: Changing view acls to: d917355
+20/03/29 10:37:50 INFO SecurityManager: Changing modify acls to: d917355
+20/03/29 10:37:50 INFO SecurityManager: Changing view acls groups to: 
+20/03/29 10:37:50 INFO SecurityManager: Changing modify acls groups to: 
+20/03/29 10:37:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls enabled; users  with view permissions: Set(d917355); groups with view permissions: Set(); users  with modify permissions: Set(d917355); groups with modify permissions: Set()
+20/03/29 10:37:51 INFO Utils: Successfully started service 'sparkDriver' on port 45819.
+20/03/29 10:37:51 INFO SparkEnv: Registering MapOutputTracker
+20/03/29 10:37:51 INFO SparkEnv: Registering BlockManagerMaster
+20/03/29 10:37:51 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/03/29 10:37:51 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/03/29 10:37:51 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-dc18c741-bf43-4c9d-b8e3-1ceea965eed1
+20/03/29 10:37:51 INFO MemoryStore: MemoryStore started with capacity 366.3 MB
+20/03/29 10:37:51 INFO SparkEnv: Registering OutputCommitCoordinator
+20/03/29 10:37:51 INFO log: Logging initialized @2900ms
+20/03/29 10:37:51 INFO Server: jetty-9.3.z-SNAPSHOT, build timestamp: 2018-06-05T17:11:56Z, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+20/03/29 10:37:51 INFO Server: Started @3005ms
+20/03/29 10:37:51 INFO SslContextFactory: x509=X509@23cd4ff2(localhost,h=[lxdsydstl-lxe04-s01-ehc10001.s01.oan],w=[]) for SslContextFactory@70807224(file:///etc/security/serverKeys/spark2_keystore.jks,null)
+20/03/29 10:37:51 INFO AbstractConnector: Started ServerConnector@29e12a9{SSL,[ssl, http/1.1]}{0.0.0.0:4523}
+20/03/29 10:37:51 INFO Utils: Successfully started service 'SparkUI (HTTPS)' on port 4523.
+20/03/29 10:37:51 INFO AbstractConnector: Started ServerConnector@1d3e6d34{HTTP/1.1,[http/1.1]}{0.0.0.0:4123}
+20/03/29 10:37:51 INFO Utils: Successfully started service 'SparkUI' on port 4123.
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.h.ContextHandler@4303b7f0{/,null,AVAILABLE,@HttpsRedirect}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@45394b31{/jobs,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@648ee871{/jobs/json,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@375b5b7f{/jobs/job,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@28cb9120{/jobs/job/json,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3b152928{/stages,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@56781d96{/stages/json,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5173200b{/stages/stage,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2189e7a7{/stages/stage/json,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@69b2f8e5{/stages/pool,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6331250e{/stages/pool/json,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@a10c1b5{/storage,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@644abb8f{/storage/json,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1a411233{/storage/rdd,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@70325d20{/storage/rdd/json,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7c2327fa{/environment,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4d847d32{/environment/json,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5f462e3b{/executors,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3d7fa3ae{/executors/json,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@58065f0c{/executors/threadDump,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3605c4d3{/executors/threadDump/json,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@585c13de{/static,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7c8326a4{/,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@77128dab{/api,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6f012914{/jobs/job/kill,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@18fdb6cf{/stages/stage/kill,null,AVAILABLE,@Spark}
+20/03/29 10:37:51 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://lxdsydstl-lxe04-s01-ehc10001.s01.oan:4123
+20/03/29 10:37:51 INFO SparkContext: Added JAR file:/home/d917355/workspace/spark/sampleworkcount/sparkwordcount-0.0.1-SNAPSHOT.jar at spark://lxdsydstl-lxe04-s01-ehc10001.s01.oan:45819/jars/sparkwordcount-0.0.1-SNAPSHOT.jar with timestamp 1585478271834
+20/03/29 10:37:53 INFO RequestHedgingRMFailoverProxyProvider: Created wrapped proxy for [rm1, rm2]
+20/03/29 10:37:53 INFO RequestHedgingRMFailoverProxyProvider: Looking for the active RM in [rm1, rm2]...
+20/03/29 10:37:53 INFO RequestHedgingRMFailoverProxyProvider: Found active RM [rm2]
+20/03/29 10:37:53 INFO Client: Requesting a new application from cluster with 8 NodeManagers
+20/03/29 10:37:53 INFO Configuration: found resource resource-types.xml at file:/etc/hadoop/3.1.5.0-152/0/resource-types.xml
+20/03/29 10:37:53 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (28672 MB per container)
+20/03/29 10:37:53 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/03/29 10:37:53 INFO Client: Setting up container launch context for our AM
+20/03/29 10:37:53 INFO Client: Setting up the launch environment for our AM container
+20/03/29 10:37:53 INFO Client: Preparing resources for our AM container
+20/03/29 10:37:53 INFO HadoopFSDelegationTokenProvider: getting token for: DFS[DFSClient[clientName=DFSClient_NONMAPREDUCE_-457527672_1, ugi=d917355@S01.OAN (auth:KERBEROS)]]
+20/03/29 10:37:53 INFO DFSClient: Created token for d917355: HDFS_DELEGATION_TOKEN owner=d917355@S01.OAN, renewer=yarn, realUser=, issueDate=1585478273387, maxDate=1586083073387, sequenceNumber=2375, masterKeyId=212 on ha-hdfs:ONE-ANALYTICS
+20/03/29 10:37:53 INFO KMSClientProvider: New token created: (Kind: kms-dt, Service: kms://https@lxdsydstl-lxm01-s01-mhm10001.s01.oan:9393/kms, Ident: (kms-dt owner=d917355, renewer=yarn, realUser=, issueDate=1585478273667, maxDate=1586083073667, sequenceNumber=42, masterKeyId=6))
+20/03/29 10:37:54 WARN HiveConf: HiveConf of name hive.server2.http.endpoint does not exist
+20/03/29 10:37:55 INFO Client: Use hdfs cache file as spark.yarn.archive for HDP, hdfsCacheFile:hdfs://ONE-ANALYTICS/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-yarn-archive.tar.gz
+20/03/29 10:37:55 INFO Client: Source and destination file systems are the same. Not copying hdfs://ONE-ANALYTICS/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-yarn-archive.tar.gz
+20/03/29 10:37:55 INFO Client: Distribute hdfs cache file as spark.sql.hive.metastore.jars for HDP, hdfsCacheFile:hdfs://ONE-ANALYTICS/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-hive-archive.tar.gz
+20/03/29 10:37:55 INFO Client: Source and destination file systems are the same. Not copying hdfs://ONE-ANALYTICS/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-hive-archive.tar.gz
+20/03/29 10:37:55 INFO Client: Uploading resource file:/home/d917355/workspace/spark/sampleworkcount/log4j.properties -> hdfs://ONE-ANALYTICS/user/d917355/.sparkStaging/application_1585092847763_0054/log4j.properties
+20/03/29 10:37:56 INFO Client: Uploading resource file:/tmp/spark-a7038f34-0b9b-4a23-93f5-60e57725a224/__spark_conf__3002751138362288697.zip -> hdfs://ONE-ANALYTICS/user/d917355/.sparkStaging/application_1585092847763_0054/__spark_conf__.zip
+20/03/29 10:37:56 INFO SecurityManager: Changing view acls to: d917355
+20/03/29 10:37:56 INFO SecurityManager: Changing modify acls to: d917355
+20/03/29 10:37:56 INFO SecurityManager: Changing view acls groups to: 
+20/03/29 10:37:56 INFO SecurityManager: Changing modify acls groups to: 
+20/03/29 10:37:56 INFO SecurityManager: SecurityManager: authentication disabled; ui acls enabled; users  with view permissions: Set(d917355); groups with view permissions: Set(); users  with modify permissions: Set(d917355); groups with modify permissions: Set()
+20/03/29 10:37:56 INFO Client: Submitting application application_1585092847763_0054 to ResourceManager
+20/03/29 10:37:58 INFO YarnClientImpl: Submitted application application_1585092847763_0054
+20/03/29 10:37:58 INFO SchedulerExtensionServices: Starting Yarn extension services with app application_1585092847763_0054 and attemptId None
+20/03/29 10:37:59 INFO Client: Application report for application_1585092847763_0054 (state: ACCEPTED)
+20/03/29 10:37:59 INFO Client: 
+	 client token: Token { kind: YARN_CLIENT_TOKEN, service:  }
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: adhoc
+	 start time: 1585478276275
+	 final status: UNDEFINED
+	 tracking URL: https://lxdsydstl-lxm02-s01-mhm20001.s01.oan:8090/proxy/application_1585092847763_0054/
+	 user: d917355
+20/03/29 10:38:00 INFO Client: Application report for application_1585092847763_0054 (state: ACCEPTED)
+20/03/29 10:38:01 INFO Client: Application report for application_1585092847763_0054 (state: ACCEPTED)
+20/03/29 10:38:02 INFO Client: Application report for application_1585092847763_0054 (state: ACCEPTED)
+20/03/29 10:38:03 INFO Client: Application report for application_1585092847763_0054 (state: ACCEPTED)
+20/03/29 10:38:04 INFO Client: Application report for application_1585092847763_0054 (state: ACCEPTED)
+20/03/29 10:38:05 INFO Client: Application report for application_1585092847763_0054 (state: ACCEPTED)
+20/03/29 10:38:06 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> lxdsydstl-lxm01-s01-mhm10001.s01.oan,lxdsydstl-lxm02-s01-mhm20001.s01.oan, PROXY_URI_BASES -> https://lxdsydstl-lxm01-s01-mhm10001.s01.oan:8090/proxy/application_1585092847763_0054,https://lxdsydstl-lxm02-s01-mhm20001.s01.oan:8090/proxy/application_1585092847763_0054, RM_HA_URLS -> lxdsydstl-lxm01-s01-mhm10001.s01.oan:8090,lxdsydstl-lxm02-s01-mhm20001.s01.oan:8090), /proxy/application_1585092847763_0054
+20/03/29 10:38:06 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /jobs, /jobs/json, /jobs/job, /jobs/job/json, /stages, /stages/json, /stages/stage, /stages/stage/json, /stages/pool, /stages/pool/json, /storage, /storage/json, /storage/rdd, /storage/rdd/json, /environment, /environment/json, /executors, /executors/json, /executors/threadDump, /executors/threadDump/json, /static, /, /api, /jobs/job/kill, /stages/stage/kill.
+20/03/29 10:38:06 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/03/29 10:38:06 INFO Client: Application report for application_1585092847763_0054 (state: RUNNING)
+20/03/29 10:38:06 INFO Client: 
+	 client token: Token { kind: YARN_CLIENT_TOKEN, service:  }
+	 diagnostics: N/A
+	 ApplicationMaster host: 172.16.16.8
+	 ApplicationMaster RPC port: 0
+	 queue: adhoc
+	 start time: 1585478276275
+	 final status: UNDEFINED
+	 tracking URL: https://lxdsydstl-lxm02-s01-mhm20001.s01.oan:8090/proxy/application_1585092847763_0054/
+	 user: d917355
+20/03/29 10:38:06 INFO YarnClientSchedulerBackend: Application application_1585092847763_0054 has started running.
+20/03/29 10:38:06 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40887.
+20/03/29 10:38:06 INFO NettyBlockTransferService: Server created on lxdsydstl-lxe04-s01-ehc10001.s01.oan:40887
+20/03/29 10:38:06 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/03/29 10:38:06 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, lxdsydstl-lxe04-s01-ehc10001.s01.oan, 40887, None)
+20/03/29 10:38:06 INFO BlockManagerMasterEndpoint: Registering block manager lxdsydstl-lxe04-s01-ehc10001.s01.oan:40887 with 366.3 MB RAM, BlockManagerId(driver, lxdsydstl-lxe04-s01-ehc10001.s01.oan, 40887, None)
+20/03/29 10:38:06 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, lxdsydstl-lxe04-s01-ehc10001.s01.oan, 40887, None)
+20/03/29 10:38:06 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, lxdsydstl-lxe04-s01-ehc10001.s01.oan, 40887, None)
+20/03/29 10:38:06 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /metrics/json.
+20/03/29 10:38:06 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3855d9b2{/metrics/json,null,AVAILABLE,@Spark}
+20/03/29 10:38:06 INFO EventLoggingListener: Logging events to hdfs:/spark2-history/application_1585092847763_0054
+20/03/29 10:38:18 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.16.16.16:37930) with ID 1
+20/03/29 10:38:19 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+20/03/29 10:38:19 INFO BlockManagerMasterEndpoint: Registering block manager lxdsydstl-lxw01-s01-whw10006.s01.oan:41477 with 2004.6 MB RAM, BlockManagerId(1, lxdsydstl-lxw01-s01-whw10006.s01.oan, 41477, None)
+20/03/29 10:38:19 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 398.8 KB, free 365.9 MB)
+20/03/29 10:38:19 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 34.9 KB, free 365.9 MB)
+20/03/29 10:38:19 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on lxdsydstl-lxe04-s01-ehc10001.s01.oan:40887 (size: 34.9 KB, free: 366.3 MB)
+20/03/29 10:38:19 INFO SparkContext: Created broadcast 0 from textFile at SparkWordCount.scala:31
+20/03/29 10:38:19 INFO DFSClient: Created token for d917355: HDFS_DELEGATION_TOKEN owner=d917355@S01.OAN, renewer=yarn, realUser=, issueDate=1585478299659, maxDate=1586083099659, sequenceNumber=2376, masterKeyId=212 on ha-hdfs:ONE-ANALYTICS
+20/03/29 10:38:19 INFO KMSClientProvider: New token created: (Kind: kms-dt, Service: kms://https@lxdsydstl-lxm02-s01-mhm20001.s01.oan:9393/kms, Ident: (kms-dt owner=d917355, renewer=yarn, realUser=, issueDate=1585478299743, maxDate=1586083099743, sequenceNumber=19, masterKeyId=5))
+20/03/29 10:38:19 INFO TokenCache: Got dt for hdfs://ONE-ANALYTICS; Kind: HDFS_DELEGATION_TOKEN, Service: ha-hdfs:ONE-ANALYTICS, Ident: (token for d917355: HDFS_DELEGATION_TOKEN owner=d917355@S01.OAN, renewer=yarn, realUser=, issueDate=1585478299659, maxDate=1586083099659, sequenceNumber=2376, masterKeyId=212)
+20/03/29 10:38:19 INFO TokenCache: Got dt for hdfs://ONE-ANALYTICS; Kind: kms-dt, Service: kms://https@lxdsydstl-lxm01-s01-mhm10001.s01.oan;lxdsydstl-lxm02-s01-mhm20001.s01.oan;lxdsydstl-lxm03-s01-mhm30001.s01.oan:9393/kms, Ident: (kms-dt owner=d917355, renewer=yarn, realUser=, issueDate=1585478299743, maxDate=1586083099743, sequenceNumber=19, masterKeyId=5)
+20/03/29 10:38:19 INFO FileInputFormat: Total input files to process : 1
+20/03/29 10:38:19 INFO SparkContext: Starting job: collect at SparkWordCount.scala:42
+20/03/29 10:38:20 INFO DAGScheduler: Registering RDD 3 (map at SparkWordCount.scala:34)
+20/03/29 10:38:20 INFO DAGScheduler: Registering RDD 7 (map at SparkWordCount.scala:40)
+20/03/29 10:38:20 INFO DAGScheduler: Got job 0 (collect at SparkWordCount.scala:42) with 2 output partitions
+20/03/29 10:38:20 INFO DAGScheduler: Final stage: ResultStage 2 (collect at SparkWordCount.scala:42)
+20/03/29 10:38:20 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 1)
+20/03/29 10:38:20 INFO DAGScheduler: Missing parents: List(ShuffleMapStage 1)
+20/03/29 10:38:20 INFO DAGScheduler: Submitting ShuffleMapStage 0 (MapPartitionsRDD[3] at map at SparkWordCount.scala:34), which has no missing parents
+20/03/29 10:38:20 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 4.9 KB, free 365.9 MB)
+20/03/29 10:38:20 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 2.9 KB, free 365.9 MB)
+20/03/29 10:38:20 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on lxdsydstl-lxe04-s01-ehc10001.s01.oan:40887 (size: 2.9 KB, free: 366.3 MB)
+20/03/29 10:38:20 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1039
+20/03/29 10:38:20 INFO DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[3] at map at SparkWordCount.scala:34) (first 15 tasks are for partitions Vector(0, 1))
+20/03/29 10:38:20 INFO YarnScheduler: Adding task set 0.0 with 2 tasks
+20/03/29 10:38:20 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, lxdsydstl-lxw01-s01-whw10006.s01.oan, executor 1, partition 0, RACK_LOCAL, 7919 bytes)
+20/03/29 10:38:20 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, lxdsydstl-lxw01-s01-whw10006.s01.oan, executor 1, partition 1, RACK_LOCAL, 7919 bytes)
+20/03/29 10:38:20 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on lxdsydstl-lxw01-s01-whw10006.s01.oan:41477 (size: 2.9 KB, free: 2004.6 MB)
+20/03/29 10:38:21 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on lxdsydstl-lxw01-s01-whw10006.s01.oan:41477 (size: 34.9 KB, free: 2004.6 MB)
+20/03/29 10:38:24 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 4212 ms on lxdsydstl-lxw01-s01-whw10006.s01.oan (executor 1) (1/2)
+20/03/29 10:38:24 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 4241 ms on lxdsydstl-lxw01-s01-whw10006.s01.oan (executor 1) (2/2)
+20/03/29 10:38:24 INFO YarnScheduler: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+20/03/29 10:38:24 INFO DAGScheduler: ShuffleMapStage 0 (map at SparkWordCount.scala:34) finished in 4.457 s
+20/03/29 10:38:24 INFO DAGScheduler: looking for newly runnable stages
+20/03/29 10:38:24 INFO DAGScheduler: running: Set()
+20/03/29 10:38:24 INFO DAGScheduler: waiting: Set(ShuffleMapStage 1, ResultStage 2)
+20/03/29 10:38:24 INFO DAGScheduler: failed: Set()
+20/03/29 10:38:24 INFO DAGScheduler: Submitting ShuffleMapStage 1 (MapPartitionsRDD[7] at map at SparkWordCount.scala:40), which has no missing parents
+20/03/29 10:38:24 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 4.1 KB, free 365.9 MB)
+20/03/29 10:38:24 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 2.4 KB, free 365.9 MB)
+20/03/29 10:38:24 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on lxdsydstl-lxe04-s01-ehc10001.s01.oan:40887 (size: 2.4 KB, free: 366.3 MB)
+20/03/29 10:38:24 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1039
+20/03/29 10:38:24 INFO DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[7] at map at SparkWordCount.scala:40) (first 15 tasks are for partitions Vector(0, 1))
+20/03/29 10:38:24 INFO YarnScheduler: Adding task set 1.0 with 2 tasks
+20/03/29 10:38:24 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 2, lxdsydstl-lxw01-s01-whw10006.s01.oan, executor 1, partition 0, NODE_LOCAL, 7649 bytes)
+20/03/29 10:38:24 INFO TaskSetManager: Starting task 1.0 in stage 1.0 (TID 3, lxdsydstl-lxw01-s01-whw10006.s01.oan, executor 1, partition 1, NODE_LOCAL, 7649 bytes)
+20/03/29 10:38:24 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on lxdsydstl-lxw01-s01-whw10006.s01.oan:41477 (size: 2.4 KB, free: 2004.6 MB)
+20/03/29 10:38:24 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 1 to 172.16.16.16:37930
+20/03/29 10:38:24 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 2) in 233 ms on lxdsydstl-lxw01-s01-whw10006.s01.oan (executor 1) (1/2)
+20/03/29 10:38:24 INFO TaskSetManager: Finished task 1.0 in stage 1.0 (TID 3) in 237 ms on lxdsydstl-lxw01-s01-whw10006.s01.oan (executor 1) (2/2)
+20/03/29 10:38:24 INFO YarnScheduler: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+20/03/29 10:38:24 INFO DAGScheduler: ShuffleMapStage 1 (map at SparkWordCount.scala:40) finished in 0.250 s
+20/03/29 10:38:24 INFO DAGScheduler: looking for newly runnable stages
+20/03/29 10:38:24 INFO DAGScheduler: running: Set()
+20/03/29 10:38:24 INFO DAGScheduler: waiting: Set(ResultStage 2)
+20/03/29 10:38:24 INFO DAGScheduler: failed: Set()
+20/03/29 10:38:24 INFO DAGScheduler: Submitting ResultStage 2 (ShuffledRDD[8] at reduceByKey at SparkWordCount.scala:40), which has no missing parents
+20/03/29 10:38:24 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 3.3 KB, free 365.9 MB)
+20/03/29 10:38:24 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 2037.0 B, free 365.9 MB)
+20/03/29 10:38:24 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on lxdsydstl-lxe04-s01-ehc10001.s01.oan:40887 (size: 2037.0 B, free: 366.3 MB)
+20/03/29 10:38:24 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1039
+20/03/29 10:38:24 INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 2 (ShuffledRDD[8] at reduceByKey at SparkWordCount.scala:40) (first 15 tasks are for partitions Vector(0, 1))
+20/03/29 10:38:24 INFO YarnScheduler: Adding task set 2.0 with 2 tasks
+20/03/29 10:38:24 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 4, lxdsydstl-lxw01-s01-whw10006.s01.oan, executor 1, partition 0, PROCESS_LOCAL, 7660 bytes)
+20/03/29 10:38:24 INFO TaskSetManager: Starting task 1.0 in stage 2.0 (TID 5, lxdsydstl-lxw01-s01-whw10006.s01.oan, executor 1, partition 1, PROCESS_LOCAL, 7660 bytes)
+20/03/29 10:38:24 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on lxdsydstl-lxw01-s01-whw10006.s01.oan:41477 (size: 2037.0 B, free: 2004.6 MB)
+20/03/29 10:38:24 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 172.16.16.16:37930
+20/03/29 10:38:24 INFO TaskSetManager: Finished task 1.0 in stage 2.0 (TID 5) in 65 ms on lxdsydstl-lxw01-s01-whw10006.s01.oan (executor 1) (1/2)
+20/03/29 10:38:24 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 4) in 70 ms on lxdsydstl-lxw01-s01-whw10006.s01.oan (executor 1) (2/2)
+20/03/29 10:38:24 INFO YarnScheduler: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+20/03/29 10:38:24 INFO DAGScheduler: ResultStage 2 (collect at SparkWordCount.scala:42) finished in 0.078 s
+20/03/29 10:38:24 INFO DAGScheduler: Job 0 finished: collect at SparkWordCount.scala:42, took 5.081817 s
+
+20/03/29 10:38:24 INFO SparkContext: Invoking stop() from shutdown hook
+20/03/29 10:38:24 INFO AbstractConnector: Stopped Spark@29e12a9{SSL,[ssl, http/1.1]}{0.0.0.0:4523}
+20/03/29 10:38:24 INFO AbstractConnector: Stopped HttpsRedirect@1d3e6d34{HTTP/1.1,[http/1.1]}{0.0.0.0:4123}
+20/03/29 10:38:24 INFO SparkUI: Stopped Spark web UI at http://lxdsydstl-lxe04-s01-ehc10001.s01.oan:4123
+20/03/29 10:38:25 ERROR Client: Failed to contact YARN for application application_1585092847763_0054.
+java.io.InterruptedIOException: Call interrupted
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1492)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1444)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1354)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:228)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy15.getApplicationReport(Unknown Source)
+	at org.apache.hadoop.yarn.api.impl.pb.client.ApplicationClientProtocolPBClientImpl.getApplicationReport(ApplicationClientProtocolPBClientImpl.java:244)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.yarn.client.RequestHedgingRMFailoverProxyProvider$RMRequestHedgingInvocationHandler.invokeMethod(RequestHedgingRMFailoverProxyProvider.java:119)
+	at org.apache.hadoop.yarn.client.RequestHedgingRMFailoverProxyProvider$RMRequestHedgingInvocationHandler.invoke(RequestHedgingRMFailoverProxyProvider.java:143)
+	at com.sun.proxy.$Proxy16.getApplicationReport(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:422)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:165)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:157)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:359)
+	at com.sun.proxy.$Proxy16.getApplicationReport(Unknown Source)
+	at org.apache.hadoop.yarn.client.api.impl.YarnClientImpl.getApplicationReport(YarnClientImpl.java:512)
+	at org.apache.spark.deploy.yarn.Client.getApplicationReport(Client.scala:300)
+	at org.apache.spark.deploy.yarn.Client.monitorApplication(Client.scala:1163)
+	at org.apache.spark.scheduler.cluster.YarnClientSchedulerBackend$MonitorThread.run(YarnClientSchedulerBackend.scala:109)
+20/03/29 10:38:25 ERROR YarnClientSchedulerBackend: Yarn application has already exited with state FAILED!
+20/03/29 10:38:25 INFO SparkContext: SparkContext already stopped.
+20/03/29 10:38:25 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/03/29 10:38:25 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/03/29 10:38:25 INFO SchedulerExtensionServices: Stopping SchedulerExtensionServices
+(serviceOption=None,
+ services=List(),
+ started=false)
+20/03/29 10:38:25 INFO YarnClientSchedulerBackend: Stopped
+20/03/29 10:38:25 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/03/29 10:38:25 INFO MemoryStore: MemoryStore cleared
+20/03/29 10:38:25 INFO BlockManager: BlockManager stopped
+20/03/29 10:38:25 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/03/29 10:38:25 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/03/29 10:38:25 INFO SparkContext: Successfully stopped SparkContext
+20/03/29 10:38:25 INFO ShutdownHookManager: Shutdown hook called
+20/03/29 10:38:25 INFO ShutdownHookManager: Deleting directory /tmp/spark-47009d78-5694-4d09-8176-0bcbedb8d766
+20/03/29 10:38:25 INFO ShutdownHookManager: Deleting directory /tmp/spark-a7038f34-0b9b-4a23-93f5-60e57725a224

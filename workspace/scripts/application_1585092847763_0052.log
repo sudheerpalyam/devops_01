@@ -1,0 +1,1649 @@
+Container: container_e2766_1585092847763_0052_01_000002 on lxdsydstl-lxw01-s01-whw10001.s01.oan_8041
+LogAggregationType: AGGREGATED
+====================================================================================================
+LogType:container-localizer-syslog
+LogLastModifiedTime:Sun Mar 29 08:08:46 +0000 2020
+LogLength:506
+LogContents:
+2020-03-29 08:08:45,434 INFO [main] org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ContainerLocalizer: Disk Validator: yarn.nodemanager.disk-validator is loaded.
+2020-03-29 08:08:46,738 WARN [ContainerLocalizer Downloader] org.apache.hadoop.ipc.Client: Exception encountered while connecting to the server : org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.ipc.StandbyException): Operation category READ is not supported in state standby. Visit https://s.apache.org/sbnn-error
+
+End of LogType:container-localizer-syslog
+*******************************************************************************************
+
+Container: container_e2766_1585092847763_0052_01_000002 on lxdsydstl-lxw01-s01-whw10001.s01.oan_8041
+LogAggregationType: AGGREGATED
+====================================================================================================
+LogType:stderr
+LogLastModifiedTime:Sun Mar 29 08:08:59 +0000 2020
+LogLength:53025
+LogContents:
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/grid/20/hadoop/yarn/data/filecache/267/spark2-hdp-yarn-archive.tar.gz/slf4j-log4j12-1.7.16.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/hdp/3.1.5.0-152/hadoop/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+20/03/29 08:08:49 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 23443@lxdsydstl-lxw01-s01-whw10001.s01.oan
+20/03/29 08:08:49 INFO SignalUtils: Registered signal handler for TERM
+20/03/29 08:08:49 INFO SignalUtils: Registered signal handler for HUP
+20/03/29 08:08:49 INFO SignalUtils: Registered signal handler for INT
+20/03/29 08:08:49 INFO SecurityManager: Changing view acls to: d917355
+20/03/29 08:08:49 INFO SecurityManager: Changing modify acls to: d917355
+20/03/29 08:08:49 INFO SecurityManager: Changing view acls groups to: 
+20/03/29 08:08:49 INFO SecurityManager: Changing modify acls groups to: 
+20/03/29 08:08:49 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(d917355); groups with view permissions: Set(); users  with modify permissions: Set(d917355); groups with modify permissions: Set()
+20/03/29 08:08:50 INFO TransportClientFactory: Successfully created connection to lxdsydstl-lxe04-s01-ehc10001.s01.oan/172.16.6.13:40331 after 222 ms (0 ms spent in bootstraps)
+20/03/29 08:08:50 WARN SparkConf: The configuration key 'spark.yarn.driver.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.driver.memoryOverhead' instead.
+20/03/29 08:08:50 WARN SparkConf: The configuration key 'spark.yarn.executor.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.executor.memoryOverhead' instead.
+20/03/29 08:08:50 INFO SecurityManager: Changing view acls to: d917355
+20/03/29 08:08:50 INFO SecurityManager: Changing modify acls to: d917355
+20/03/29 08:08:50 INFO SecurityManager: Changing view acls groups to: 
+20/03/29 08:08:50 INFO SecurityManager: Changing modify acls groups to: 
+20/03/29 08:08:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls enabled; users  with view permissions: Set(d917355); groups with view permissions: Set(); users  with modify permissions: Set(d917355); groups with modify permissions: Set()
+20/03/29 08:08:50 INFO TransportClientFactory: Successfully created connection to lxdsydstl-lxe04-s01-ehc10001.s01.oan/172.16.6.13:40331 after 3 ms (0 ms spent in bootstraps)
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/01/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-7d471dbb-5ef4-4581-9bde-a52870279c1e
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/02/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-d81c8c83-3985-4b3e-bc46-09367571c1e0
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/03/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-df6b216e-3971-4d10-aeea-ac3da70456e7
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/04/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-14bd331a-9da3-4e2b-9c80-300e3f58ff41
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/05/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-7e2533a6-1166-4040-8a52-01fdaafce8bf
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/06/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-19ffab08-c281-483f-8714-ed889780a455
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/07/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-981508f5-fee6-43b0-8a23-b4ee0f11746e
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/08/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-de5d32d5-6511-47ff-b67d-3a54f897a15f
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/09/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-1ee36b5b-27bd-4e49-a096-7b3e0bf7ef68
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/10/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-7b7f144a-ad59-4ddc-a5f2-500d74e0b4ea
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/11/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-d954eb7e-dbd5-43d8-ae65-b5960462130d
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/12/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-d5f56d1f-fca6-49c2-8c2a-a015612b3f86
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/13/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-87a812fe-5dc5-4d17-9772-9317f96a3ffb
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/14/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-9e116de8-d54b-4f16-b80f-21d552414705
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/15/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-b816e41f-210d-44ab-ad43-a10d5da08fa2
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/16/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-872dabbd-64d0-4fdf-a3c6-7770b68efdcd
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/17/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-da040b70-c231-4394-9ab6-7f816cec7238
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/18/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-29528953-3187-4ae3-be9b-9bad095f0c19
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/19/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-028842f3-d717-4235-9796-05aa69e780c4
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/20/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-3696a7eb-54fb-4fb5-be8a-a7a66a3024cc
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/21/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-753bafa4-fadf-404a-80f4-b0660cd30b4f
+20/03/29 08:08:50 INFO DiskBlockManager: Created local directory at /grid/22/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/blockmgr-5391b3de-3918-42a3-8ffb-7f10fa5cd222
+20/03/29 08:08:51 INFO MemoryStore: MemoryStore started with capacity 2004.6 MB
+20/03/29 08:08:51 INFO CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@lxdsydstl-lxe04-s01-ehc10001.s01.oan:40331
+20/03/29 08:08:51 INFO CoarseGrainedExecutorBackend: Successfully registered with driver
+20/03/29 08:08:51 INFO Executor: Starting executor ID 1 on host lxdsydstl-lxw01-s01-whw10001.s01.oan
+20/03/29 08:08:51 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 37603.
+20/03/29 08:08:51 INFO NettyBlockTransferService: Server created on lxdsydstl-lxw01-s01-whw10001.s01.oan:37603
+20/03/29 08:08:51 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/03/29 08:08:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(1, lxdsydstl-lxw01-s01-whw10001.s01.oan, 37603, None)
+20/03/29 08:08:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(1, lxdsydstl-lxw01-s01-whw10001.s01.oan, 37603, None)
+20/03/29 08:08:51 INFO BlockManager: Initialized BlockManager: BlockManagerId(1, lxdsydstl-lxw01-s01-whw10001.s01.oan, 37603, None)
+20/03/29 08:08:57 INFO CoarseGrainedExecutorBackend: Got assigned task 0
+20/03/29 08:08:57 INFO CoarseGrainedExecutorBackend: Got assigned task 1
+20/03/29 08:08:57 INFO Executor: Running task 1.0 in stage 0.0 (TID 1)
+20/03/29 08:08:57 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+20/03/29 08:08:57 INFO Executor: Fetching spark://lxdsydstl-lxe04-s01-ehc10001.s01.oan:40331/jars/datacuration.jar with timestamp 1585469302522
+20/03/29 08:08:57 INFO TransportClientFactory: Successfully created connection to lxdsydstl-lxe04-s01-ehc10001.s01.oan/172.16.6.13:40331 after 9 ms (0 ms spent in bootstraps)
+20/03/29 08:08:57 INFO Utils: Fetching spark://lxdsydstl-lxe04-s01-ehc10001.s01.oan:40331/jars/datacuration.jar to /grid/01/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-9c545a61-3bc0-431e-8f65-945e628ab496/fetchFileTemp4774235463400881515.tmp
+20/03/29 08:08:57 INFO Utils: Copying /grid/01/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-9c545a61-3bc0-431e-8f65-945e628ab496/10396475231585469302522_cache to /grid/07/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/./datacuration.jar
+20/03/29 08:08:57 INFO Executor: Adding file:/grid/07/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/./datacuration.jar to class loader
+20/03/29 08:08:57 INFO TorrentBroadcast: Started reading broadcast variable 1
+20/03/29 08:08:57 INFO TransportClientFactory: Successfully created connection to lxdsydstl-lxe04-s01-ehc10001.s01.oan/172.16.6.13:44635 after 2 ms (0 ms spent in bootstraps)
+20/03/29 08:08:57 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 5.2 KB, free 2004.6 MB)
+20/03/29 08:08:57 INFO TorrentBroadcast: Reading broadcast variable 1 took 174 ms
+20/03/29 08:08:57 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 9.5 KB, free 2004.6 MB)
+20/03/29 08:08:58 INFO CodeGenerator: Code generated in 231.764401 ms
+20/03/29 08:08:58 INFO FileScanRDD: Reading File path: hdfs://ONE-ANALYTICS/data/r/nonsp/nem/device_bdcx/current/BDCX.2020-03-06.json.gz, range: 0-2458766352, partition values: [empty row]
+20/03/29 08:08:58 INFO FileScanRDD: Reading File path: hdfs://ONE-ANALYTICS/data/r/nonsp/nem/device_bdcx/current/BDCX.2020-03-06.json.gz, range: 0-2458766352, partition values: [empty row]
+20/03/29 08:08:58 INFO CodeGenerator: Code generated in 22.587594 ms
+20/03/29 08:08:58 INFO TorrentBroadcast: Started reading broadcast variable 0
+20/03/29 08:08:58 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 45.4 KB, free 2004.5 MB)
+20/03/29 08:08:58 INFO TorrentBroadcast: Reading broadcast variable 0 took 19 ms
+20/03/29 08:08:58 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 626.1 KB, free 2003.9 MB)
+20/03/29 08:08:58 ERROR Executor: Exception in task 1.0 in stage 0.0 (TID 1)
+java.lang.IllegalAccessError: class org.apache.hadoop.hdfs.web.HftpFileSystem cannot access its superinterface org.apache.hadoop.hdfs.web.TokenAspect$TokenManagementDelegator
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:370)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.apache.hadoop.fs.FileSystem.loadFileSystems(FileSystem.java:3217)
+	at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:3262)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3301)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:124)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3352)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3320)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:479)
+	at org.apache.hadoop.fs.Path.getFileSystem(Path.java:361)
+	at org.apache.hadoop.mapreduce.lib.input.LineRecordReader.initialize(LineRecordReader.java:85)
+	at org.apache.spark.sql.execution.datasources.HadoopFileLinesReader.<init>(HadoopFileLinesReader.scala:46)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:127)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:124)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:148)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:132)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:128)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:182)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:109)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anonfun$10$$anon$1.hasNext(WholeStageCodegenExec.scala:614)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:440)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:157)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.fold(TraversableOnce.scala:212)
+	at scala.collection.AbstractIterator.fold(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20/03/29 08:08:58 ERROR Executor: Exception in task 0.0 in stage 0.0 (TID 0)
+java.lang.IllegalAccessError: class org.apache.hadoop.hdfs.web.HftpFileSystem cannot access its superinterface org.apache.hadoop.hdfs.web.TokenAspect$TokenManagementDelegator
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:370)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.apache.hadoop.fs.FileSystem.loadFileSystems(FileSystem.java:3217)
+	at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:3262)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3301)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:124)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3352)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3320)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:479)
+	at org.apache.hadoop.fs.Path.getFileSystem(Path.java:361)
+	at org.apache.hadoop.mapreduce.lib.input.LineRecordReader.initialize(LineRecordReader.java:85)
+	at org.apache.spark.sql.execution.datasources.HadoopFileLinesReader.<init>(HadoopFileLinesReader.scala:46)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:127)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:124)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:148)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:132)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:128)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:182)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:109)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anonfun$10$$anon$1.hasNext(WholeStageCodegenExec.scala:614)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:440)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:157)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.fold(TraversableOnce.scala:212)
+	at scala.collection.AbstractIterator.fold(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20/03/29 08:08:58 INFO CoarseGrainedExecutorBackend: Got assigned task 2
+20/03/29 08:08:58 INFO Executor: Running task 1.1 in stage 0.0 (TID 2)
+20/03/29 08:08:58 INFO CoarseGrainedExecutorBackend: Got assigned task 3
+20/03/29 08:08:58 INFO Executor: Running task 0.1 in stage 0.0 (TID 3)
+20/03/29 08:08:58 INFO FileScanRDD: Reading File path: hdfs://ONE-ANALYTICS/data/r/nonsp/nem/device_bdcx/current/BDCX.2020-03-06.json.gz, range: 0-2458766352, partition values: [empty row]
+20/03/29 08:08:58 INFO FileScanRDD: Reading File path: hdfs://ONE-ANALYTICS/data/r/nonsp/nem/device_bdcx/current/BDCX.2020-03-06.json.gz, range: 0-2458766352, partition values: [empty row]
+20/03/29 08:08:58 ERROR Executor: Exception in task 0.1 in stage 0.0 (TID 3)
+java.lang.IllegalAccessError: class org.apache.hadoop.hdfs.web.HftpFileSystem cannot access its superinterface org.apache.hadoop.hdfs.web.TokenAspect$TokenManagementDelegator
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:370)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.apache.hadoop.fs.FileSystem.loadFileSystems(FileSystem.java:3217)
+	at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:3262)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3301)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:124)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3352)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3320)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:479)
+	at org.apache.hadoop.fs.Path.getFileSystem(Path.java:361)
+	at org.apache.hadoop.mapreduce.lib.input.LineRecordReader.initialize(LineRecordReader.java:85)
+	at org.apache.spark.sql.execution.datasources.HadoopFileLinesReader.<init>(HadoopFileLinesReader.scala:46)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:127)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:124)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:148)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:132)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:128)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:182)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:109)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anonfun$10$$anon$1.hasNext(WholeStageCodegenExec.scala:614)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:440)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:157)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.fold(TraversableOnce.scala:212)
+	at scala.collection.AbstractIterator.fold(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20/03/29 08:08:58 ERROR Executor: Exception in task 1.1 in stage 0.0 (TID 2)
+java.lang.IllegalAccessError: class org.apache.hadoop.hdfs.web.HftpFileSystem cannot access its superinterface org.apache.hadoop.hdfs.web.TokenAspect$TokenManagementDelegator
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:370)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.apache.hadoop.fs.FileSystem.loadFileSystems(FileSystem.java:3217)
+	at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:3262)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3301)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:124)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3352)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3320)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:479)
+	at org.apache.hadoop.fs.Path.getFileSystem(Path.java:361)
+	at org.apache.hadoop.mapreduce.lib.input.LineRecordReader.initialize(LineRecordReader.java:85)
+	at org.apache.spark.sql.execution.datasources.HadoopFileLinesReader.<init>(HadoopFileLinesReader.scala:46)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:127)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:124)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:148)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:132)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:128)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:182)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:109)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anonfun$10$$anon$1.hasNext(WholeStageCodegenExec.scala:614)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:440)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:157)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.fold(TraversableOnce.scala:212)
+	at scala.collection.AbstractIterator.fold(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20/03/29 08:08:58 INFO CoarseGrainedExecutorBackend: Got assigned task 4
+20/03/29 08:08:58 INFO Executor: Running task 1.2 in stage 0.0 (TID 4)
+20/03/29 08:08:58 INFO FileScanRDD: Reading File path: hdfs://ONE-ANALYTICS/data/r/nonsp/nem/device_bdcx/current/BDCX.2020-03-06.json.gz, range: 0-2458766352, partition values: [empty row]
+20/03/29 08:08:58 INFO CoarseGrainedExecutorBackend: Got assigned task 5
+20/03/29 08:08:58 INFO Executor: Running task 0.2 in stage 0.0 (TID 5)
+20/03/29 08:08:58 INFO FileScanRDD: Reading File path: hdfs://ONE-ANALYTICS/data/r/nonsp/nem/device_bdcx/current/BDCX.2020-03-06.json.gz, range: 0-2458766352, partition values: [empty row]
+20/03/29 08:08:59 ERROR Executor: Exception in task 0.2 in stage 0.0 (TID 5)
+java.lang.IllegalAccessError: class org.apache.hadoop.hdfs.web.HftpFileSystem cannot access its superinterface org.apache.hadoop.hdfs.web.TokenAspect$TokenManagementDelegator
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:370)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.apache.hadoop.fs.FileSystem.loadFileSystems(FileSystem.java:3217)
+	at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:3262)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3301)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:124)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3352)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3320)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:479)
+	at org.apache.hadoop.fs.Path.getFileSystem(Path.java:361)
+	at org.apache.hadoop.mapreduce.lib.input.LineRecordReader.initialize(LineRecordReader.java:85)
+	at org.apache.spark.sql.execution.datasources.HadoopFileLinesReader.<init>(HadoopFileLinesReader.scala:46)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:127)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:124)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:148)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:132)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:128)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:182)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:109)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anonfun$10$$anon$1.hasNext(WholeStageCodegenExec.scala:614)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:440)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:157)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.fold(TraversableOnce.scala:212)
+	at scala.collection.AbstractIterator.fold(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20/03/29 08:08:59 ERROR Executor: Exception in task 1.2 in stage 0.0 (TID 4)
+java.lang.IllegalAccessError: class org.apache.hadoop.hdfs.web.HftpFileSystem cannot access its superinterface org.apache.hadoop.hdfs.web.TokenAspect$TokenManagementDelegator
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:370)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.apache.hadoop.fs.FileSystem.loadFileSystems(FileSystem.java:3217)
+	at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:3262)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3301)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:124)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3352)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3320)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:479)
+	at org.apache.hadoop.fs.Path.getFileSystem(Path.java:361)
+	at org.apache.hadoop.mapreduce.lib.input.LineRecordReader.initialize(LineRecordReader.java:85)
+	at org.apache.spark.sql.execution.datasources.HadoopFileLinesReader.<init>(HadoopFileLinesReader.scala:46)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:127)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:124)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:148)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:132)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:128)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:182)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:109)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anonfun$10$$anon$1.hasNext(WholeStageCodegenExec.scala:614)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:440)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:157)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.fold(TraversableOnce.scala:212)
+	at scala.collection.AbstractIterator.fold(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20/03/29 08:08:59 INFO CoarseGrainedExecutorBackend: Got assigned task 6
+20/03/29 08:08:59 INFO Executor: Running task 0.3 in stage 0.0 (TID 6)
+20/03/29 08:08:59 INFO FileScanRDD: Reading File path: hdfs://ONE-ANALYTICS/data/r/nonsp/nem/device_bdcx/current/BDCX.2020-03-06.json.gz, range: 0-2458766352, partition values: [empty row]
+20/03/29 08:08:59 INFO CoarseGrainedExecutorBackend: Got assigned task 7
+20/03/29 08:08:59 INFO Executor: Running task 1.3 in stage 0.0 (TID 7)
+20/03/29 08:08:59 INFO FileScanRDD: Reading File path: hdfs://ONE-ANALYTICS/data/r/nonsp/nem/device_bdcx/current/BDCX.2020-03-06.json.gz, range: 0-2458766352, partition values: [empty row]
+20/03/29 08:08:59 ERROR Executor: Exception in task 0.3 in stage 0.0 (TID 6)
+java.lang.IllegalAccessError: class org.apache.hadoop.hdfs.web.HftpFileSystem cannot access its superinterface org.apache.hadoop.hdfs.web.TokenAspect$TokenManagementDelegator
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:370)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.apache.hadoop.fs.FileSystem.loadFileSystems(FileSystem.java:3217)
+	at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:3262)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3301)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:124)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3352)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3320)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:479)
+	at org.apache.hadoop.fs.Path.getFileSystem(Path.java:361)
+	at org.apache.hadoop.mapreduce.lib.input.LineRecordReader.initialize(LineRecordReader.java:85)
+	at org.apache.spark.sql.execution.datasources.HadoopFileLinesReader.<init>(HadoopFileLinesReader.scala:46)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:127)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:124)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:148)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:132)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:128)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:182)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:109)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anonfun$10$$anon$1.hasNext(WholeStageCodegenExec.scala:614)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:440)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:157)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.fold(TraversableOnce.scala:212)
+	at scala.collection.AbstractIterator.fold(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20/03/29 08:08:59 ERROR Executor: Exception in task 1.3 in stage 0.0 (TID 7)
+java.lang.IllegalAccessError: class org.apache.hadoop.hdfs.web.HftpFileSystem cannot access its superinterface org.apache.hadoop.hdfs.web.TokenAspect$TokenManagementDelegator
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:370)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.apache.hadoop.fs.FileSystem.loadFileSystems(FileSystem.java:3217)
+	at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:3262)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3301)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:124)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3352)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3320)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:479)
+	at org.apache.hadoop.fs.Path.getFileSystem(Path.java:361)
+	at org.apache.hadoop.mapreduce.lib.input.LineRecordReader.initialize(LineRecordReader.java:85)
+	at org.apache.spark.sql.execution.datasources.HadoopFileLinesReader.<init>(HadoopFileLinesReader.scala:46)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:127)
+	at org.apache.spark.sql.execution.datasources.text.TextFileFormat$$anonfun$readToUnsafeMem$1.apply(TextFileFormat.scala:124)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:148)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:132)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:128)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:182)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:109)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anonfun$10$$anon$1.hasNext(WholeStageCodegenExec.scala:614)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:440)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:157)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.fold(TraversableOnce.scala:212)
+	at scala.collection.AbstractIterator.fold(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.rdd.RDD$$anonfun$fold$1$$anonfun$19.apply(RDD.scala:1096)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2135)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20/03/29 08:08:59 INFO Executor: Executor is trying to kill task 1.3 in stage 0.0 (TID 7), reason: Stage cancelled
+20/03/29 08:08:59 INFO CoarseGrainedExecutorBackend: Driver commanded a shutdown
+20/03/29 08:08:59 INFO MemoryStore: MemoryStore cleared
+20/03/29 08:08:59 INFO BlockManager: BlockManager stopped
+20/03/29 08:08:59 INFO ShutdownHookManager: Shutdown hook called
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/17/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-34e61325-3e08-49e2-a24a-2d820a7e7945
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/11/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-c3efa22a-ee72-4412-96e2-02ef4519934b
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/05/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-244dd83a-8e75-41fc-9497-b8e107beea74
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/21/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-68c95d6d-bc2c-4ea0-b265-25c7a700b0e2
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/18/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-7a38872d-eb23-4560-8496-240487a7b197
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/16/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-3459ad19-1ed6-4fff-bd29-98e6d968ae0b
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/13/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-8464b253-1944-4189-a48e-01e88145dd64
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/09/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-0ee08092-37f8-4c39-9900-d3443f18d984
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/07/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-1f19489e-b396-4236-8f41-a2324f0a6bc5
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/15/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-6be096e7-760f-4ae5-84bd-e9c7e25ae08c
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/14/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-875227bb-2521-4d62-a15d-72b9bca1322f
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/03/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-bc86c3f6-c600-4a7a-a05d-cb38eebea6a7
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/19/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-114f44bb-4eaf-4add-a226-ba85202cc9ba
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/01/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-9c545a61-3bc0-431e-8f65-945e628ab496
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/08/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-1aca8a05-e50a-4268-900a-81f93ae34857
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/20/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-dbed1566-3004-4710-871d-1a228c724770
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/02/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-fcd77752-ff02-444e-a6a2-ce9d1890bcc7
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/10/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-1d501094-1af1-4ad6-add6-ef57d530a80a
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/12/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-26e7fbbb-f2ca-4dac-ab87-c872f52a17ca
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/22/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-51193da6-d284-42e2-b5d3-f81fb5b16159
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/04/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-94f1ca07-1d9d-4c5e-a91c-fb677d3ddb92
+20/03/29 08:08:59 INFO ShutdownHookManager: Deleting directory /grid/06/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/spark-e1be9fb0-713b-450a-a8e6-19dba3d0decd
+
+End of LogType:stderr
+***********************************************************************
+
+Container: container_e2766_1585092847763_0052_01_000002 on lxdsydstl-lxw01-s01-whw10001.s01.oan_8041
+LogAggregationType: AGGREGATED
+====================================================================================================
+LogType:directory.info
+LogLastModifiedTime:Sun Mar 29 08:08:48 +0000 2020
+LogLength:41904
+LogContents:
+ls -l:
+total 8
+-rw------- 1 d917355 hadoop   447 Mar 29 08:08 container_tokens
+lrwxrwxrwx 1 d917355 hadoop    76 Mar 29 08:08 HiveJDBC41-4.1.jar -> /grid/21/hadoop/yarn/data/usercache/d917355/filecache/148/HiveJDBC41-4.1.jar
+lrwxrwxrwx 1 d917355 hadoop    70 Mar 29 08:08 __hive_libs__ -> /grid/07/hadoop/yarn/data/filecache/268/spark2-hdp-hive-archive.tar.gz
+-rwx------ 1 d917355 hadoop 10588 Mar 29 08:08 launch_container.sh
+lrwxrwxrwx 1 d917355 hadoop    74 Mar 29 08:08 log4j.properties -> /grid/21/hadoop/yarn/data/usercache/d917355/filecache/154/log4j.properties
+lrwxrwxrwx 1 d917355 hadoop    87 Mar 29 08:08 mariadb-java-client-2.2.5.jar -> /grid/05/hadoop/yarn/data/usercache/d917355/filecache/147/mariadb-java-client-2.2.5.jar
+lrwxrwxrwx 1 d917355 hadoop    83 Mar 29 08:08 mssql-jdbc-7.0.0.jre8.jar -> /grid/19/hadoop/yarn/data/usercache/d917355/filecache/145/mssql-jdbc-7.0.0.jre8.jar
+lrwxrwxrwx 1 d917355 hadoop    88 Mar 29 08:08 mysql-connector-java-6.0.5.jar -> /grid/01/hadoop/yarn/data/usercache/d917355/filecache/155/mysql-connector-java-6.0.5.jar
+lrwxrwxrwx 1 d917355 hadoop    81 Mar 29 08:08 notificationService.jar -> /grid/07/hadoop/yarn/data/usercache/d917355/filecache/149/notificationService.jar
+lrwxrwxrwx 1 d917355 hadoop    73 Mar 29 08:08 ojdbc8-18.3.jar -> /grid/17/hadoop/yarn/data/usercache/d917355/filecache/152/ojdbc8-18.3.jar
+lrwxrwxrwx 1 d917355 hadoop    79 Mar 29 08:08 postgresql-42.1.4.jar -> /grid/05/hadoop/yarn/data/usercache/d917355/filecache/153/postgresql-42.1.4.jar
+lrwxrwxrwx 1 d917355 hadoop    76 Mar 29 08:08 __spark_conf__ -> /grid/18/hadoop/yarn/data/usercache/d917355/filecache/146/__spark_conf__.zip
+lrwxrwxrwx 1 d917355 hadoop    70 Mar 29 08:08 __spark_libs__ -> /grid/20/hadoop/yarn/data/filecache/267/spark2-hdp-yarn-archive.tar.gz
+lrwxrwxrwx 1 d917355 hadoop    79 Mar 29 08:08 tdgssconfig-16.10.jar -> /grid/03/hadoop/yarn/data/usercache/d917355/filecache/151/tdgssconfig-16.10.jar
+lrwxrwxrwx 1 d917355 hadoop    77 Mar 29 08:08 terajdbc4-16.10.jar -> /grid/16/hadoop/yarn/data/usercache/d917355/filecache/150/terajdbc4-16.10.jar
+drwxr-s--- 2 d917355 hadoop     2 Mar 29 08:08 tmp
+find -L . -maxdepth 5 -ls:
+ 49529    1 drwxr-s---   3 d917355  hadoop         18 Mar 29 08:08 .
+ 51519    1 -r-x------   1 d917355  d917355      2613 Mar 29 08:08 ./tdgssconfig-16.10.jar
+ 11864   33 drwxr-xr-x   2 yarn     aoneanalyticsoperator      260 Mar  3 10:58 ./__spark_libs__
+ 14127    6 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     4722 Dec 12 21:28 ./__spark_libs__/jcip-annotations-1.0-1.jar
+ 13900  114 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   115534 Dec 12 21:28 ./__spark_libs__/javax.ws.rs-api-2.0.1.jar
+ 13495  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   246918 Dec 12 21:28 ./__spark_libs__/commons-beanutils-1.9.4.jar
+ 14132  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   136363 Dec 12 21:28 ./__spark_libs__/HikariCP-2.5.1.jar
+ 13980   65 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    65464 Dec 12 21:28 ./__spark_libs__/kerb-common-1.0.1.jar
+ 11886  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   714194 Dec 12 21:28 ./__spark_libs__/javassist-3.18.1-GA.jar
+ 13973  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   796326 Dec 12 21:28 ./__spark_libs__/janino-3.0.8.jar
+ 11872   41 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    41123 Dec 12 21:28 ./__spark_libs__/commons-cli-1.2.jar
+ 13910   27 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    26366 Dec 12 21:28 ./__spark_libs__/javax.annotation-api-1.2.jar
+ 14116 1283 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1268196 Dec 12 21:28 ./__spark_libs__/arrow-vector-0.8.0.3.1.5.0-152.jar
+ 13508  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   764569 Dec 12 21:28 ./__spark_libs__/jtransforms-2.4.0.jar
+ 12789  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   204650 Dec 12 21:28 ./__spark_libs__/kerby-pkix-1.0.1.jar
+ 13969   72 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    72733 Dec 12 21:28 ./__spark_libs__/jersey-media-jaxb-2.22.2.jar
+ 12786  101 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   102174 Dec 12 21:28 ./__spark_libs__/kerby-asn1-1.0.1.jar
+ 14095   40 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    40341 Dec 12 21:28 ./__spark_libs__/json4s-jackson_2.11-3.2.11.jar
+ 13512  114 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   116120 Dec 12 21:28 ./__spark_libs__/kerb-crypto-1.0.1.jar
+ 14123  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   445288 Dec 12 21:28 ./__spark_libs__/antlr-2.7.7.jar
+ 11902   44 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    44399 Dec 12 21:28 ./__spark_libs__/jakarta.activation-api-1.2.1.jar
+ 14120   16 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    15824 Dec 12 21:28 ./__spark_libs__/metrics-json-3.1.5.jar
+ 13510   82 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    82756 Dec 12 21:28 ./__spark_libs__/kerb-server-1.0.1.jar
+ 13981 4998 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  4986447 Dec 12 21:28 ./__spark_libs__/hadoop-hdfs-client-3.1.1.3.1.5.0-152.jar
+ 12776  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   212453 Dec 12 21:28 ./__spark_libs__/commons-net-2.2.jar
+ 13513 7688 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  7773037 Dec 12 21:28 ./__spark_libs__/spark-mllib_2.11-2.3.2.3.1.5.0-152.jar
+ 11901  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   180736 Dec 12 21:28 ./__spark_libs__/avro-mapred-1.7.7-hadoop2.jar
+ 14149  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   299508 Dec 12 21:28 ./__spark_libs__/nimbus-jose-jwt-4.41.1.jar
+ 13907 8584 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  8712448 Dec 12 21:28 ./__spark_libs__/spark-sql_2.11-2.3.2.3.1.5.0-152.jar
+ 14121  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   183875 Dec 12 21:28 ./__spark_libs__/spark-mllib-local_2.11-2.3.2.3.1.5.0-152.jar
+ 14148  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   708990 Dec 12 21:28 ./__spark_libs__/spark-graphx_2.11-2.3.2.3.1.5.0-152.jar
+ 13516   65 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    65261 Dec 12 21:28 ./__spark_libs__/oro-2.0.8.jar
+ 13492   37 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    36708 Dec 12 21:28 ./__spark_libs__/kerb-util-1.0.1.jar
+ 13491   29 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    29134 Dec 12 21:28 ./__spark_libs__/kerby-xdr-1.0.1.jar
+ 13970   11 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    10166 Dec 12 21:28 ./__spark_libs__/flatbuffers-1.2.0-3f79e055.jar
+ 14145  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   190432 Dec 12 21:28 ./__spark_libs__/gson-2.2.4.jar
+ 14140   65 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    65928 Dec 12 21:28 ./__spark_libs__/okio-1.6.0.jar
+ 13909  114 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   115498 Dec 12 21:28 ./__spark_libs__/jakarta.xml.bind-api-2.3.2.jar
+ 11895  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   246445 Dec 12 21:28 ./__spark_libs__/libthrift-0.12.0.jar
+ 13914   66 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    66270 Dec 12 21:28 ./__spark_libs__/jersey-container-servlet-core-2.22.2.jar
+ 11879  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   232248 Dec 12 21:28 ./__spark_libs__/jackson-core-asl-1.9.13.jar
+ 14144  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   225702 Dec 12 21:28 ./__spark_libs__/hadoop-yarn-registry-3.1.1.3.1.5.0-152.jar
+ 12788   16 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    15071 Dec 12 21:28 ./__spark_libs__/jta-1.1.jar
+ 13727 9993 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 10121868 Dec 12 21:28 ./__spark_libs__/spire_2.11-0.13.0.jar
+ 13515  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   331034 Dec 12 21:28 ./__spark_libs__/okhttp-2.7.5.jar
+ 12781  117 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   118973 Dec 12 21:28 ./__spark_libs__/hk2-utils-2.4.0-b34.jar
+ 11878 1412 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1400944 Dec 12 21:28 ./__spark_libs__/jackson-databind-2.10.0.jar
+ 12783   33 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    33176 Dec 12 21:28 ./__spark_libs__/jackson-jaxrs-base-2.10.0.jar
+ 11898  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   284220 Dec 12 21:28 ./__spark_libs__/commons-lang-2.6.jar
+ 14114  119 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   120465 Dec 12 21:28 ./__spark_libs__/metrics-core-3.1.5.jar
+ 14100  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   802818 Dec 12 21:28 ./__spark_libs__/scalap-2.11.12.jar
+ 13723 1796 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1726527 Dec 12 21:28 ./__spark_libs__/ehcache-3.3.1.jar
+ 14117  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   134595 Dec 12 21:28 ./__spark_libs__/commons-crypto-1.0.0.jar
+ 14096  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   200629 Dec 12 21:28 ./__spark_libs__/checker-qual-2.8.1.jar
+ 14122  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   167421 Dec 12 21:28 ./__spark_libs__/jersey-client-2.22.2.jar
+ 14125  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   390733 Dec 12 21:28 ./__spark_libs__/parquet-format-2.3.1.jar
+ 11896  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   181271 Dec 12 21:28 ./__spark_libs__/hk2-locator-2.4.0-b34.jar
+ 13908 96576 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 98732349 Dec 12 21:28 ./__spark_libs__/aws-java-sdk-bundle-1.11.375.jar
+ 14112 4101 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  4080249 Dec 12 21:28 ./__spark_libs__/netty-all-4.1.42.Final.jar
+ 14130   19 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    18763 Dec 12 21:28 ./__spark_libs__/token-provider-1.0.1.jar
+ 14136   44 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    43634 Dec 12 21:28 ./__spark_libs__/hadoop-cloud-storage-3.1.1.3.1.5.0-152.jar
+ 14109    3 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     2497 Dec 12 21:28 ./__spark_libs__/javax.inject-1.jar
+ 14118  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   497322 Dec 12 21:28 ./__spark_libs__/hadoop-azure-3.1.1.3.1.5.0-152.jar
+ 12799  111 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   113017 Dec 12 21:28 ./__spark_libs__/kerb-client-1.0.1.jar
+ 13976 1412 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1330219 Dec 12 21:28 ./__spark_libs__/netty-3.9.9.Final.jar
+ 14107  118 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   120316 Dec 12 21:28 ./__spark_libs__/json-smart-2.3.jar
+ 14134  109 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   110600 Dec 12 21:28 ./__spark_libs__/bonecp-0.8.0.RELEASE.jar
+ 12797  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   138766 Dec 12 21:28 ./__spark_libs__/spark-repl_2.11-2.3.2.3.1.5.0-152.jar
+ 12793 12939 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 13137639 Dec 12 21:28 ./__spark_libs__/spark-core_2.11-2.3.2.3.1.5.0-152.jar
+ 14083   25 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    24239 Dec 12 21:28 ./__spark_libs__/commons-daemon-1.0.13.jar
+ 11880   42 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    41755 Dec 12 21:28 ./__spark_libs__/objenesis-2.1.jar
+ 14089 3461 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  3519262 Dec 12 21:28 ./__spark_libs__/calcite-core-1.2.0-incubating.jar
+ 14141  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   303191 Dec 12 21:28 ./__spark_libs__/hadoop-yarn-client-3.1.1.3.1.5.0-152.jar
+ 13501   69 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    69409 Dec 12 21:28 ./__spark_libs__/activation-1.1.1.jar
+ 13499   60 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    60483 Dec 12 21:28 ./__spark_libs__/chill-java-0.8.4.jar
+ 14115 3973 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  4050116 Dec 12 21:28 ./__spark_libs__/hadoop-common-3.1.1.3.1.5.0-152.jar
+ 13890   13 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    12131 Dec 12 21:28 ./__spark_libs__/jpam-1.1.jar
+ 12798   79 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    80133 Dec 12 21:28 ./__spark_libs__/arrow-memory-0.8.0.3.1.5.0-152.jar
+ 13975   21 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    20409 Dec 12 21:28 ./__spark_libs__/kerb-simplekdc-1.0.1.jar
+ 13962 8840 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  9030620 Dec 12 21:28 ./__spark_libs__/spark-catalyst_2.11-2.3.2.3.1.5.0-152.jar
+ 13901 3205 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  3224708 Dec 12 21:28 ./__spark_libs__/derby-10.12.1.1.jar
+ 13912 1027 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   951701 Dec 12 21:28 ./__spark_libs__/jersey-server-2.22.2.jar
+ 13895 1027 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   971310 Dec 12 21:28 ./__spark_libs__/jersey-guava-2.22.2.jar
+ 12796  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   436303 Dec 12 21:28 ./__spark_libs__/avro-1.7.7.jar
+ 13494   80 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    80533 Dec 12 21:28 ./__spark_libs__/hadoop-yarn-server-web-proxy-3.1.1.3.1.5.0-152.jar
+ 12557   15 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    14766 Dec 12 21:28 ./__spark_libs__/aopalliance-repackaged-2.4.0-b34.jar
+ 12791 1924 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1888550 Dec 12 21:28 ./__spark_libs__/datanucleus-rdbms-4.1.7.jar
+ 14139 4101 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  4141576 Dec 12 21:28 ./__spark_libs__/gcs-connector-hadoop3-1.9.17.3.1.5.0-152-shaded.jar
+ 13917 15373 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 15612191 Dec 12 21:28 ./__spark_libs__/scala-compiler-2.11.12.jar
+ 12787  643 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   589462 Dec 12 21:28 ./__spark_libs__/json4s-core_2.11-3.2.11.jar
+ 14131  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   178947 Dec 12 21:28 ./__spark_libs__/hk2-api-2.4.0-b34.jar
+ 13726 4101 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  4189874 Dec 12 21:28 ./__spark_libs__/bcprov-jdk15on-1.60.jar
+ 13511   22 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    21247 Dec 12 21:28 ./__spark_libs__/metrics-graphite-3.1.5.jar
+ 11889  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   515171 Dec 12 21:28 ./__spark_libs__/spark-hadoop-cloud_2.11-2.3.2.3.1.5.0-152.jar
+ 14101  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   489884 Dec 12 21:28 ./__spark_libs__/log4j-1.2.17.jar
+ 11874  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   160519 Dec 12 21:28 ./__spark_libs__/commons-dbcp-1.4.jar
+ 11873   41 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    40554 Dec 12 21:28 ./__spark_libs__/kerby-util-1.0.1.jar
+ 13906  101 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   102244 Dec 12 21:28 ./__spark_libs__/jaxb-api-2.2.11.jar
+ 14133   19 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    18482 Dec 12 21:28 ./__spark_libs__/eigenbase-properties-1.1.5.jar
+ 14090   35 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    34991 Dec 12 21:28 ./__spark_libs__/jackson-module-jaxb-annotations-2.10.0.jar
+ 13965   35 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    34603 Dec 12 21:28 ./__spark_libs__/machinist_2.11-0.6.1.jar
+ 11869  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   395195 Dec 12 21:28 ./__spark_libs__/javolution-5.5.1.jar
+ 11903    4 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     3142 Dec 12 21:28 ./__spark_libs__/macro-compat_2.11-1.1.1.jar
+ 14146  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   442406 Dec 12 21:28 ./__spark_libs__/calcite-linq4j-1.2.0-incubating.jar
+ 12560  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   796532 Dec 12 21:28 ./__spark_libs__/bcpkix-jdk15on-1.60.jar
+ 14085  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   241367 Dec 12 21:28 ./__spark_libs__/commons-compress-1.4.1.jar
+ 12562  643 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   616888 Dec 12 21:28 ./__spark_libs__/commons-configuration2-2.1.1.jar
+ 13514  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   148627 Dec 12 21:28 ./__spark_libs__/stringtemplate-3.2.1.jar
+ 14103  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   159756 Dec 12 21:28 ./__spark_libs__/hadoop-openstack-3.1.1.3.1.5.0-152.jar
+ 13913   99 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   100636 Dec 12 21:28 ./__spark_libs__/jsp-api-2.1.jar
+ 12569 4614 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  4623075 Dec 12 21:28 ./__spark_libs__/scala-reflect-2.11.12.jar
+ 14208  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   458642 Dec 12 21:28 ./__spark_libs__/jetty-util-9.3.24.v20180605.jar
+ 12618    7 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     5950 Dec 12 21:28 ./__spark_libs__/javax.inject-2.4.0-b34.jar
+ 13722  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   475328 Dec 12 21:28 ./__spark_libs__/jackson-module-scala_2.11-2.10.0.jar
+ 12574 1027 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1048115 Dec 12 21:28 ./__spark_libs__/parquet-jackson-1.8.3.jar
+ 14113  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   138292 Dec 12 21:28 ./__spark_libs__/hadoop-auth-3.1.1.3.1.5.0-152.jar
+ 13500 11274 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 11500371 Dec 12 21:28 ./__spark_libs__/hive-exec-1.21.2.3.1.5.0-152.jar
+ 12609  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   134308 Dec 12 21:28 ./__spark_libs__/HikariCP-java7-2.4.12.jar
+ 13974   81 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    82421 Dec 12 21:28 ./__spark_libs__/json4s-ast_2.11-3.2.11.jar
+ 11900  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   161867 Dec 12 21:28 ./__spark_libs__/stax2-api-3.1.4.jar
+ 12570  126 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   128414 Dec 12 21:28 ./__spark_libs__/re2j-1.1.jar
+ 14093 14860 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 15113382 Dec 12 21:28 ./__spark_libs__/breeze_2.11-0.13.2.jar
+ 13896   62 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    62050 Dec 12 21:28 ./__spark_libs__/commons-logging-1.1.3.jar
+ 12794  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   305001 Dec 12 21:28 ./__spark_libs__/commons-httpclient-3.1.jar
+ 12795  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   283598 Dec 12 21:28 ./__spark_libs__/curator-recipes-2.12.0.jar
+ 11894  643 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   627814 Dec 12 21:28 ./__spark_libs__/joda-time-2.9.3.jar
+ 11893   92 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    93210 Dec 12 21:28 ./__spark_libs__/super-csv-2.2.0.jar
+ 11891    5 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     4467 Dec 12 21:28 ./__spark_libs__/aopalliance-1.0.jar
+ 14104  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   448794 Dec 12 21:28 ./__spark_libs__/apache-log4j-extras-1.2.17.jar
+ 13972  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   313702 Dec 12 21:28 ./__spark_libs__/libfb303-0.9.3.jar
+ 14128   19 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    18098 Dec 12 21:28 ./__spark_libs__/jersey-container-servlet-2.22.2.jar
+ 13971  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   192993 Dec 12 21:28 ./__spark_libs__/avro-ipc-1.7.7.jar
+ 13967   95 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    96221 Dec 12 21:28 ./__spark_libs__/commons-pool-1.5.4.jar
+ 12779  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   224167 Dec 12 21:28 ./__spark_libs__/chill_2.11-0.8.4.jar
+ 12567 1155 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1056168 Dec 12 21:28 ./__spark_libs__/snappy-java-1.1.2.6.jar
+ 12616 2052 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2009163 Dec 12 21:28 ./__spark_libs__/datanucleus-core-4.1.6.jar
+ 12778 1283 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1282424 Dec 12 21:28 ./__spark_libs__/ivy-2.4.0.jar
+ 11876  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   672179 Dec 12 21:28 ./__spark_libs__/spark-yarn_2.11-2.3.2.3.1.5.0-152.jar
+ 12785   11 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     9939 Dec 12 21:28 ./__spark_libs__/slf4j-log4j12-1.7.16.jar
+ 14098 1540 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1442702 Dec 12 21:28 ./__spark_libs__/orc-core-1.4.4-nohive.jar
+ 14129   93 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    94672 Dec 12 21:28 ./__spark_libs__/xz-1.0.jar
+ 14105  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   258370 Dec 12 21:28 ./__spark_libs__/calcite-avatica-1.2.0-incubating.jar
+ 14111 1796 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1819635 Dec 12 21:28 ./__spark_libs__/spark-hive-thriftserver_2.11-2.3.2.3.1.5.0-152.jar
+ 12575  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   668235 Dec 12 21:28 ./__spark_libs__/guice-4.0.jar
+ 13496   33 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    33015 Dec 12 21:28 ./__spark_libs__/jsr305-1.3.9.jar
+ 13968   95 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    95806 Dec 12 21:28 ./__spark_libs__/javax.servlet-api-3.1.0.jar
+ 12773  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   520682 Dec 12 21:28 ./__spark_libs__/azure-data-lake-store-sdk-2.3.3.jar
+ 14091   94 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    94796 Dec 12 21:28 ./__spark_libs__/pyrolite-4.13.jar
+ 13891  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   174351 Dec 12 21:28 ./__spark_libs__/stream-2.7.0.jar
+ 14137   11 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    10288 Dec 12 21:28 ./__spark_libs__/azure-keyvault-core-1.0.0.jar
+ 14080  121 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   122774 Dec 12 21:28 ./__spark_libs__/py4j-0.10.7.jar
+ 12568   76 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    76983 Dec 12 21:28 ./__spark_libs__/guice-servlet-4.0.jar
+ 14106  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   144660 Dec 12 21:28 ./__spark_libs__/xbean-asm5-shaded-4.4.jar
+ 14081  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   334662 Dec 12 21:28 ./__spark_libs__/antlr4-runtime-4.7.jar
+ 12611 1027 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   961731 Dec 12 21:28 ./__spark_libs__/parquet-column-1.8.3.jar
+ 12559  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   139512 Dec 12 21:28 ./__spark_libs__/hive-beeline-1.21.2.3.1.5.0-152.jar
+ 13961   39 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    39283 Dec 12 21:28 ./__spark_libs__/metrics-jvm-3.1.5.jar
+ 11882   79 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    79845 Dec 12 21:28 ./__spark_libs__/compress-lzf-1.0.3.jar
+ 11871   86 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    87192 Dec 12 21:28 ./__spark_libs__/spire-macros_2.11-0.13.0.jar
+ 12610  129 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   130802 Dec 12 21:28 ./__spark_libs__/aircompressor-0.8.jar
+ 14143  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   473316 Dec 12 21:28 ./__spark_libs__/hadoop-aws-3.1.1.3.1.5.0-152.jar
+ 11870  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   268490 Dec 12 21:28 ./__spark_libs__/jline-2.14.3.jar
+ 12571   53 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    53030 Dec 12 21:28 ./__spark_libs__/spark-kvstore_2.11-2.3.2.3.1.5.0-152.jar
+ 12563    7 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     5711 Dec 12 21:28 ./__spark_libs__/minlog-1.3.0.jar
+ 12782 2180 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2171314 Dec 12 21:28 ./__spark_libs__/spark-streaming_2.11-2.3.2.3.1.5.0-152.jar
+ 14142    5 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     4596 Dec 12 21:28 ./__spark_libs__/jul-to-slf4j-1.7.16.jar
+ 11890  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   671138 Dec 12 21:28 ./__spark_libs__/scala-xml_2.11-1.0.5.jar
+ 13498   14 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    13166 Dec 12 21:28 ./__spark_libs__/error_prone_annotations-2.3.2.jar
+ 14099  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   366565 Dec 12 21:28 ./__spark_libs__/datanucleus-api-jdo-4.2.1.jar
+ 13905  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   324565 Dec 12 21:28 ./__spark_libs__/httpcore-4.4.8.jar
+ 13507  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   201124 Dec 12 21:28 ./__spark_libs__/jdo-api-3.0.1.jar
+ 12784 2692 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2746681 Dec 12 21:28 ./__spark_libs__/guava-28.0-jre.jar
+ 14082 1668 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1671083 Dec 12 21:28 ./__spark_libs__/hppc-0.7.2.jar
+ 14102  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   187882 Dec 12 21:28 ./__spark_libs__/breeze-macros_2.11-0.13.2.jar
+ 13720   52 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    51734 Dec 12 21:28 ./__spark_libs__/jetty-xml-9.3.24.v20180605.jar
+ 14110  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   780664 Dec 12 21:28 ./__spark_libs__/jackson-mapper-asl-1.9.13.jar
+ 12612   42 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    42064 Dec 12 21:28 ./__spark_libs__/parquet-common-1.8.3.jar
+ 11866   67 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    67889 Dec 12 21:28 ./__spark_libs__/jackson-annotations-2.10.0.jar
+ 13903  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   284184 Dec 12 21:28 ./__spark_libs__/commons-codec-1.10.jar
+ 14147   39 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    38526 Dec 12 21:28 ./__spark_libs__/jetty-util-ajax-9.3.24.v20180605.jar
+ 11877  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   201953 Dec 12 21:28 ./__spark_libs__/curator-framework-2.12.0.jar
+ 13904  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   424076 Dec 12 21:28 ./__spark_libs__/wildfly-openssl-1.0.7.Final.jar
+ 13493 1412 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1362268 Dec 12 21:28 ./__spark_libs__/spark-hive_2.11-2.3.2.3.1.5.0-152.jar
+ 12790  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   803565 Dec 12 21:28 ./__spark_libs__/hadoop-mapreduce-client-common-3.1.1.3.1.5.0-152.jar
+ 12565 3077 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  3099479 Dec 12 21:28 ./__spark_libs__/hadoop-yarn-api-3.1.1.3.1.5.0-152.jar
+ 14124 1668 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1654823 Dec 12 21:28 ./__spark_libs__/hadoop-mapreduce-client-core-3.1.1.3.1.5.0-152.jar
+ 12614   53 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    52938 Dec 12 21:28 ./__spark_libs__/arrow-format-0.8.0.3.1.5.0-152.jar
+ 12615   57 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    57757 Dec 12 21:28 ./__spark_libs__/jackson-dataformat-cbor-2.10.0.jar
+ 12564   59 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    59895 Dec 12 21:28 ./__spark_libs__/hadoop-annotations-3.1.1.3.1.5.0-152.jar
+ 11884  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   250989 Dec 12 21:28 ./__spark_libs__/parquet-hadoop-1.8.3.jar
+ 11868 1540 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1502280 Dec 12 21:28 ./__spark_libs__/htrace-core4-4.1.0-incubating.jar
+ 12566 3461 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  3522616 Dec 12 21:28 ./__spark_libs__/shapeless_2.11-2.3.2.jar
+ 14087  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   792442 Dec 12 21:28 ./__spark_libs__/mssql-jdbc-6.2.1.jre7.jar
+ 13490  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   201928 Dec 12 21:28 ./__spark_libs__/RoaringBitmap-0.5.11.jar
+ 13893   30 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    30101 Dec 12 21:28 ./__spark_libs__/spark-sketch_2.11-2.3.2.3.1.5.0-152.jar
+ 13503   67 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    67765 Dec 12 21:28 ./__spark_libs__/spark-network-shuffle_2.11-2.3.2.3.1.5.0-152.jar
+ 13894   38 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    37887 Dec 12 21:28 ./__spark_libs__/commons-compiler-3.0.8.jar
+ 12775  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   698375 Dec 12 21:28 ./__spark_libs__/jersey-common-2.22.2.jar
+ 12573  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   471925 Dec 12 21:28 ./__spark_libs__/scala-parser-combinators_2.11-1.1.0.jar
+ 13725   20 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    19827 Dec 12 21:28 ./__spark_libs__/opencsv-2.3.jar
+ 12619 2436 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2423138 Dec 12 21:28 ./__spark_libs__/curator-client-2.12.0.jar
+ 11888  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   479881 Dec 12 21:28 ./__spark_libs__/commons-lang3-3.5.jar
+ 14097  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   307637 Dec 12 21:28 ./__spark_libs__/dnsjava-2.1.7.jar
+ 11892  113 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   114983 Dec 12 21:28 ./__spark_libs__/jetty-webapp-9.3.24.v20180605.jar
+ 12608   10 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     8781 Dec 12 21:28 ./__spark_libs__/j2objc-annotations-1.3.jar
+ 11885   16 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    15488 Dec 12 21:28 ./__spark_libs__/spark-tags_2.11-2.3.2.3.1.5.0-152.jar
+ 13502   27 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    26514 Dec 12 21:28 ./__spark_libs__/stax-api-1.0.1.jar
+ 13977   21 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    20046 Dec 12 21:28 ./__spark_libs__/kerb-identity-1.0.1.jar
+ 11887 2949 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2957013 Dec 12 21:28 ./__spark_libs__/spark-network-common_2.11-2.3.2.3.1.5.0-152.jar
+ 13721  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   249790 Dec 12 21:28 ./__spark_libs__/javax.jdo-3.2.0-m3.jar
+ 13724  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   185140 Dec 12 21:28 ./__spark_libs__/commons-io-2.4.jar
+ 13897  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   370119 Dec 12 21:28 ./__spark_libs__/lz4-java-1.4.0.jar
+ 13979   79 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    80181 Dec 12 21:28 ./__spark_libs__/spark-launcher_2.11-2.3.2.3.1.5.0-152.jar
+ 14094  102 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   103130 Dec 12 21:28 ./__spark_libs__/hive-jdbc-1.21.2.3.1.5.0-152.jar
+ 11881  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   757253 Dec 12 21:28 ./__spark_libs__/orc-mapreduce-1.4.4-nohive.jar
+ 13517  643 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   533455 Dec 12 21:28 ./__spark_libs__/protobuf-java-2.5.0.jar
+ 13506   84 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    85477 Dec 12 21:28 ./__spark_libs__/hadoop-mapreduce-client-jobclient-3.1.1.3.1.5.0-152.jar
+ 13730  643 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   588337 Dec 12 21:28 ./__spark_libs__/commons-collections-3.2.2.jar
+ 12561  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   164422 Dec 12 21:28 ./__spark_libs__/core-1.1.2.jar
+ 14086   41 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    40509 Dec 12 21:28 ./__spark_libs__/slf4j-api-1.7.16.jar
+ 13902   44 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    43948 Dec 12 21:28 ./__spark_libs__/hadoop-client-3.1.1.3.1.5.0-152.jar
+ 14108  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   226672 Dec 12 21:28 ./__spark_libs__/kerb-core-1.0.1.jar
+ 13729   16 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    15071 Dec 12 21:28 ./__spark_libs__/transaction-api-1.1.jar
+ 12780    4 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     3448 Dec 12 21:28 ./__spark_libs__/animal-sniffer-annotations-1.17.jar
+ 11883 2820 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2839848 Dec 12 21:28 ./__spark_libs__/hadoop-yarn-common-3.1.1.3.1.5.0-152.jar
+ 11899  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   358390 Dec 12 21:28 ./__spark_libs__/kryo-shaded-3.0.3.jar
+ 12572   41 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    41251 Dec 12 21:28 ./__spark_libs__/hive-cli-1.21.2.3.1.5.0-152.jar
+ 13898   16 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    15529 Dec 12 21:28 ./__spark_libs__/jackson-jaxrs-json-provider-2.10.0.jar
+ 13960   49 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    48720 Dec 12 21:28 ./__spark_libs__/snappy-0.2.jar
+ 12774   31 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    30674 Dec 12 21:28 ./__spark_libs__/kerby-config-1.0.1.jar
+ 11875 2820 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2796935 Dec 12 21:28 ./__spark_libs__/parquet-hadoop-bundle-1.6.0.jar
+ 14138  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   427780 Dec 12 21:28 ./__spark_libs__/jodd-core-3.5.2.jar
+ 11897   67 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    67086 Dec 12 21:28 ./__spark_libs__/hadoop-azure-datalake-3.1.1.3.1.5.0-152.jar
+ 11865   18 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    16993 Dec 12 21:28 ./__spark_libs__/JavaEWAH-0.3.2.jar
+ 12617  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   512742 Dec 12 21:28 ./__spark_libs__/woodstox-core-5.0.3.jar
+ 12777  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   839856 Dec 12 21:28 ./__spark_libs__/zookeeper-3.4.6.3.1.5.0-152.jar
+ 14092    6 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     4617 Dec 12 21:28 ./__spark_libs__/failureaccess-1.0.1.jar
+ 13963   63 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    63777 Dec 12 21:28 ./__spark_libs__/validation-api-1.1.0.Final.jar
+ 14084  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   812977 Dec 12 21:28 ./__spark_libs__/azure-storage-7.0.0.jar
+ 14126   35 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    34654 Dec 12 21:28 ./__spark_libs__/paranamer-2.8.jar
+ 14088  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   348635 Dec 12 21:28 ./__spark_libs__/jackson-core-2.10.0.jar
+ 13509   17 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    16430 Dec 12 21:28 ./__spark_libs__/jcl-over-slf4j-1.7.16.jar
+ 13916 2308 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2333186 Dec 12 21:28 ./__spark_libs__/zstd-jni-1.3.2-2.jar
+ 13899   55 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    55236 Dec 12 21:28 ./__spark_libs__/geronimo-jcache_1.0_spec-1.0-alpha-1.jar
+ 13911   30 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    30035 Dec 12 21:28 ./__spark_libs__/accessors-smart-1.2.jar
+ 13966    3 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     2199 Dec 12 21:28 ./__spark_libs__/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+ 13915 2052 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2035066 Dec 12 21:28 ./__spark_libs__/commons-math3-3.4.1.jar
+ 11867   21 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    20235 Dec 12 21:28 ./__spark_libs__/osgi-resource-locator-1.0.1.jar
+ 14135 1283 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1194003 Dec 12 21:28 ./__spark_libs__/arpack_combined_all-0.1.jar
+ 12558 1027 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1045744 Dec 12 21:28 ./__spark_libs__/leveldbjni-all-1.8.jar
+ 12613   44 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    43740 Dec 12 21:28 ./__spark_libs__/jackson-module-paranamer-2.10.0.jar
+ 13518 5638 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  5749423 Dec 12 21:28 ./__spark_libs__/scala-library-2.11.12.jar
+ 13964 1412 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1336863 Dec 12 21:28 ./__spark_libs__/hadoop-yarn-server-common-3.1.1.3.1.5.0-152.jar
+ 13978   80 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    80980 Dec 12 21:28 ./__spark_libs__/kerb-admin-1.0.1.jar
+ 13892  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   286071 Dec 12 21:28 ./__spark_libs__/parquet-encoding-1.8.3.jar
+ 14119  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   384150 Dec 12 21:28 ./__spark_libs__/univocity-parsers-2.5.9.jar
+ 13728  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   781831 Dec 12 21:28 ./__spark_libs__/httpclient-4.5.4.jar
+ 13505  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   164368 Dec 12 21:28 ./__spark_libs__/antlr-runtime-3.4.jar
+ 13497   49 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    48993 Dec 12 21:28 ./__spark_libs__/spark-unsafe_2.11-2.3.2.3.1.5.0-152.jar
+ 13504  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   236660 Dec 12 21:28 ./__spark_libs__/ST4-4.0.4.jar
+ 12792 5382 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  5473397 Dec 12 21:28 ./__spark_libs__/hive-metastore-1.21.2.3.1.5.0-152.jar
+ 51530    1 -r-x------   1 d917355  d917355   4161744 Mar 29 08:08 ./ojdbc8-18.3.jar
+ 50576    1 -r-x------   1 d917355  d917355   1125536 Mar 29 08:08 ./terajdbc4-16.10.jar
+ 13394    1 drwxr-xr-x   2 yarn     aoneanalyticsoperator        3 Mar  3 10:58 ./__hive_libs__
+ 12756 49057 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 50148142 Dec 12 21:28 ./__hive_libs__/standalone-metastore-1.21.2.3.1.5.0-152-hive3.jar
+ 51210    2 drwx------   3 d917355  d917355         7 Mar 29 08:08 ./__spark_conf__
+ 51211    2 -r-x------   1 d917355  d917355      1240 Mar 29 08:08 ./__spark_conf__/log4j.properties
+ 51259  259 -r-x------   1 d917355  d917355    189181 Mar 29 08:08 ./__spark_conf__/__spark_hadoop_conf__.xml
+ 51260    7 -r-x------   1 d917355  d917355      6655 Mar 29 08:08 ./__spark_conf__/__spark_conf__.properties
+ 51212    6 -r-x------   1 d917355  d917355      4956 Mar 29 08:08 ./__spark_conf__/metrics.properties
+ 51213    3 drwx------   2 d917355  d917355        47 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__
+ 51223    3 -r-x------   1 d917355  d917355      2250 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn-env.cmd
+ 51228    2 -r-x------   1 d917355  d917355       758 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/mapred-site.xml.template
+ 51257    2 -r-x------   1 d917355  d917355       945 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/taskcontroller.cfg
+ 51225   10 -r-x------   1 d917355  d917355      8751 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/capacity-scheduler.xml
+ 51239    1 -r-x------   1 d917355  d917355       311 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/resource-types.xml
+ 51245    4 -r-x------   1 d917355  d917355      2683 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hive-site.xml
+ 51235    2 -r-x------   1 d917355  d917355      1020 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/commons-logging.properties
+ 51220    1 -r-x------   1 d917355  d917355       244 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/spark-thrift-fairscheduler.xml
+ 51248    2 -r-x------   1 d917355  d917355       598 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn_registry_dns_jaas.conf
+ 51214    8 -r-x------   1 d917355  d917355      6750 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hadoop-env.sh
+ 51252    2 -r-x------   1 d917355  d917355      1149 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/ssl-server.xml
+ 51241    3 -r-x------   1 d917355  d917355      2490 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hadoop-metrics.properties
+ 51232   15 -r-x------   1 d917355  d917355     13826 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hdfs-site.xml
+ 51238    2 -r-x------   1 d917355  d917355       541 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn_jaas.conf
+ 51236    1 -r-x------   1 d917355  d917355       318 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hdfs_nn_jaas.conf
+ 51218   33 -r-x------   1 d917355  d917355     32770 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn-site.xml
+ 51249    2 -r-x------   1 d917355  d917355      1352 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hadoop-policy.xml
+ 51226    4 -r-x------   1 d917355  d917355      3518 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/kms-acls.xml
+ 51240    5 -r-x------   1 d917355  d917355      4221 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/task-log4j.properties
+ 51224    2 -r-x------   1 d917355  d917355       916 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/ssl-client.xml
+ 51221   14 -r-x------   1 d917355  d917355     12911 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/core-site.xml
+ 51222    3 -r-x------   1 d917355  d917355      1631 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/kms-log4j.properties
+ 51246    3 -r-x------   1 d917355  d917355      2316 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/ssl-client.xml.example
+ 51217    3 -r-x------   1 d917355  d917355      2389 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hadoop-metrics2.properties
+ 51253    2 -r-x------   1 d917355  d917355       951 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/mapred-env.cmd
+ 51237    1 -r-x------   1 d917355  d917355       318 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hdfs_dn_jaas.conf
+ 51242    2 -r-x------   1 d917355  d917355      1237 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/mapred-env.sh
+ 51229    2 -r-x------   1 d917355  d917355       569 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn_nm_jaas.conf
+ 51233    2 -r-x------   1 d917355  d917355       577 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn_ats_jaas.conf
+ 51234    4 -r-x------   1 d917355  d917355      3274 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/container-executor.cfg
+ 51244    1 -r-x------   1 d917355  d917355       305 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/mapred_jaas.conf
+ 51219    5 -r-x------   1 d917355  d917355      3979 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hadoop-env.cmd
+ 51258    6 -r-x------   1 d917355  d917355      5511 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/kms-site.xml
+ 51230    2 -r-x------   1 d917355  d917355      1335 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/configuration.xsl
+ 51251    2 -r-x------   1 d917355  d917355       639 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/topology_mappings.data
+ 51227    3 -r-x------   1 d917355  d917355      2358 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/topology_script.py
+ 51256    5 -r-x------   1 d917355  d917355      4113 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/mapred-queues.xml.template
+ 51243    3 -r-x------   1 d917355  d917355      1602 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/health_check
+ 51250    1 -r-x------   1 d917355  d917355       297 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/slaves
+ 51247    2 -r-x------   1 d917355  d917355      1527 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/kms-env.sh
+ 51216   12 -r-x------   1 d917355  d917355     11459 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/log4j.properties
+ 51215    9 -r-x------   1 d917355  d917355      8399 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/mapred-site.xml
+ 51231    7 -r-x------   1 d917355  d917355      6172 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn-env.sh
+ 51255    4 -r-x------   1 d917355  d917355      2697 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/ssl-server.xml.example
+ 51254    1 -r-x------   1 d917355  d917355       318 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hdfs_jn_jaas.conf
+ 50985 17806 -r-x------   1 d917355  d917355  18171238 Mar 29 08:08 ./HiveJDBC41-4.1.jar
+ 49530    1 drwxr-s---   2 d917355  hadoop          2 Mar 29 08:08 ./tmp
+ 50823 34072 -r-x------   1 d917355  d917355  51906226 Mar 29 08:08 ./notificationService.jar
+ 49531    1 -rwx------   1 d917355  hadoop      10588 Mar 29 08:08 ./launch_container.sh
+ 50384  643 -r-x------   1 d917355  d917355    570719 Mar 29 08:08 ./mariadb-java-client-2.2.5.jar
+ 83693    1 -r-x------   1 d917355  d917355   1891236 Mar 29 08:08 ./mysql-connector-java-6.0.5.jar
+ 51014    1 -r-x------   1 d917355  d917355    713037 Mar 29 08:08 ./postgresql-42.1.4.jar
+ 50002    1 -r-x------   1 d917355  d917355      2023 Mar 29 08:08 ./log4j.properties
+ 58903 1155 -r-x------   1 d917355  d917355   1166239 Mar 29 08:08 ./mssql-jdbc-7.0.0.jre8.jar
+ 49532    1 -rw-------   1 d917355  hadoop        447 Mar 29 08:08 ./container_tokens
+broken symlinks(find -L . -maxdepth 5 -type l -ls):
+
+End of LogType:directory.info
+*******************************************************************************
+
+Container: container_e2766_1585092847763_0052_01_000002 on lxdsydstl-lxw01-s01-whw10001.s01.oan_8041
+LogAggregationType: AGGREGATED
+====================================================================================================
+LogType:prelaunch.out
+LogLastModifiedTime:Sun Mar 29 08:08:48 +0000 2020
+LogLength:100
+LogContents:
+Setting up env variables
+Setting up job resources
+Copying debugging information
+Launching container
+
+End of LogType:prelaunch.out
+******************************************************************************
+
+
+End of LogType:prelaunch.err
+******************************************************************************
+
+
+End of LogType:stdout
+***********************************************************************
+
+Container: container_e2766_1585092847763_0052_01_000002 on lxdsydstl-lxw01-s01-whw10001.s01.oan_8041
+LogAggregationType: AGGREGATED
+====================================================================================================
+LogType:launch_container.sh
+LogLastModifiedTime:Sun Mar 29 08:08:48 +0000 2020
+LogLength:10588
+LogContents:
+#!/bin/bash
+
+set -o pipefail -e
+export PRELAUNCH_OUT="/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/prelaunch.out"
+exec >"${PRELAUNCH_OUT}"
+export PRELAUNCH_ERR="/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/prelaunch.err"
+exec 2>"${PRELAUNCH_ERR}"
+echo "Setting up env variables"
+export JAVA_HOME=${JAVA_HOME:-"/usr/jdk64/jdk1.8.0_112"}
+export HADOOP_CONF_DIR=${HADOOP_CONF_DIR:-"/usr/hdp/3.1.5.0-152/hadoop/conf"}
+export HADOOP_YARN_HOME=${HADOOP_YARN_HOME:-"/usr/hdp/3.1.5.0-152/hadoop-yarn"}
+export HADOOP_HOME=${HADOOP_HOME:-"/usr/hdp/3.1.5.0-152/hadoop"}
+export PATH=${PATH:-"/usr/sbin:/sbin:/usr/lib/ambari-server/*:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/var/lib/ambari-agent"}
+export LANG=${LANG:-"en_US.UTF-8"}
+export HADOOP_TOKEN_FILE_LOCATION="/grid/07/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/container_tokens"
+export CONTAINER_ID="container_e2766_1585092847763_0052_01_000002"
+export NM_PORT="8041"
+export NM_HOST="lxdsydstl-lxw01-s01-whw10001.s01.oan"
+export NM_HTTP_PORT="8044"
+export LOCAL_DIRS="/grid/01/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/02/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/03/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/04/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/05/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/06/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/07/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/08/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/09/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/10/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/11/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/12/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/13/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/14/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/15/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/16/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/17/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/18/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/19/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/20/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/21/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/22/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052"
+export LOCAL_USER_DIRS="/grid/01/hadoop/yarn/data/usercache/d917355/,/grid/02/hadoop/yarn/data/usercache/d917355/,/grid/03/hadoop/yarn/data/usercache/d917355/,/grid/04/hadoop/yarn/data/usercache/d917355/,/grid/05/hadoop/yarn/data/usercache/d917355/,/grid/06/hadoop/yarn/data/usercache/d917355/,/grid/07/hadoop/yarn/data/usercache/d917355/,/grid/08/hadoop/yarn/data/usercache/d917355/,/grid/09/hadoop/yarn/data/usercache/d917355/,/grid/10/hadoop/yarn/data/usercache/d917355/,/grid/11/hadoop/yarn/data/usercache/d917355/,/grid/12/hadoop/yarn/data/usercache/d917355/,/grid/13/hadoop/yarn/data/usercache/d917355/,/grid/14/hadoop/yarn/data/usercache/d917355/,/grid/15/hadoop/yarn/data/usercache/d917355/,/grid/16/hadoop/yarn/data/usercache/d917355/,/grid/17/hadoop/yarn/data/usercache/d917355/,/grid/18/hadoop/yarn/data/usercache/d917355/,/grid/19/hadoop/yarn/data/usercache/d917355/,/grid/20/hadoop/yarn/data/usercache/d917355/,/grid/21/hadoop/yarn/data/usercache/d917355/,/grid/22/hadoop/yarn/data/usercache/d917355/"
+export LOG_DIRS="/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002"
+export USER="d917355"
+export LOGNAME="d917355"
+export HOME="/home/"
+export PWD="/grid/07/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002"
+export JVM_PID="$$"
+export MALLOC_ARENA_MAX="4"
+export NM_AUX_SERVICE_timeline_collector=""
+export NM_AUX_SERVICE_mapreduce_shuffle="AAA0+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+export NM_AUX_SERVICE_spark2_shuffle=""
+export SPARK_YARN_STAGING_DIR="hdfs://ONE-ANALYTICS/user/d917355/.sparkStaging/application_1585092847763_0052"
+export CLASSPATH="$PWD:$PWD/__spark_conf__:$PWD/__spark_libs__/*:/etc/hadoop/conf:/usr/hdp/current/hadoop-client/*:/usr/hdp/current/hadoop-client/lib/*:/usr/hdp/current/hadoop-hdfs-client/*:/usr/hdp/current/hadoop-hdfs-client/lib/*:/usr/hdp/current/hadoop-yarn-client/*:/usr/hdp/current/hadoop-yarn-client/lib/*:$PWD/mr-framework/hadoop/share/hadoop/mapreduce/*:$PWD/mr-framework/hadoop/share/hadoop/mapreduce/lib/*:$PWD/mr-framework/hadoop/share/hadoop/common/*:$PWD/mr-framework/hadoop/share/hadoop/common/lib/*:$PWD/mr-framework/hadoop/share/hadoop/yarn/*:$PWD/mr-framework/hadoop/share/hadoop/yarn/lib/*:$PWD/mr-framework/hadoop/share/hadoop/hdfs/*:$PWD/mr-framework/hadoop/share/hadoop/hdfs/lib/*:$PWD/mr-framework/hadoop/share/hadoop/tools/lib/*:/usr/hdp/3.1.5.0-152/hadoop/lib/hadoop-lzo-0.6.0.3.1.5.0-152.jar:/etc/hadoop/conf/secure:$PWD/__spark_conf__/__hadoop_conf__"
+export SPARK_LOG_URL_STDOUT="https://lxdsydstl-lxw01-s01-whw10001.s01.oan:8044/node/containerlogs/container_e2766_1585092847763_0052_01_000002/d917355/stdout?start=-4096"
+export SPARK_USER="d917355"
+export SPARK_LOG_URL_STDERR="https://lxdsydstl-lxw01-s01-whw10001.s01.oan:8044/node/containerlogs/container_e2766_1585092847763_0052_01_000002/d917355/stderr?start=-4096"
+echo "Setting up job resources"
+ln -sf "/grid/21/hadoop/yarn/data/usercache/d917355/filecache/154/log4j.properties" "log4j.properties"
+ln -sf "/grid/07/hadoop/yarn/data/usercache/d917355/filecache/149/notificationService.jar" "notificationService.jar"
+ln -sf "/grid/03/hadoop/yarn/data/usercache/d917355/filecache/151/tdgssconfig-16.10.jar" "tdgssconfig-16.10.jar"
+ln -sf "/grid/07/hadoop/yarn/data/filecache/268/spark2-hdp-hive-archive.tar.gz" "__hive_libs__"
+ln -sf "/grid/20/hadoop/yarn/data/filecache/267/spark2-hdp-yarn-archive.tar.gz" "__spark_libs__"
+ln -sf "/grid/21/hadoop/yarn/data/usercache/d917355/filecache/148/HiveJDBC41-4.1.jar" "HiveJDBC41-4.1.jar"
+ln -sf "/grid/19/hadoop/yarn/data/usercache/d917355/filecache/145/mssql-jdbc-7.0.0.jre8.jar" "mssql-jdbc-7.0.0.jre8.jar"
+ln -sf "/grid/16/hadoop/yarn/data/usercache/d917355/filecache/150/terajdbc4-16.10.jar" "terajdbc4-16.10.jar"
+ln -sf "/grid/01/hadoop/yarn/data/usercache/d917355/filecache/155/mysql-connector-java-6.0.5.jar" "mysql-connector-java-6.0.5.jar"
+ln -sf "/grid/17/hadoop/yarn/data/usercache/d917355/filecache/152/ojdbc8-18.3.jar" "ojdbc8-18.3.jar"
+ln -sf "/grid/05/hadoop/yarn/data/usercache/d917355/filecache/147/mariadb-java-client-2.2.5.jar" "mariadb-java-client-2.2.5.jar"
+ln -sf "/grid/18/hadoop/yarn/data/usercache/d917355/filecache/146/__spark_conf__.zip" "__spark_conf__"
+ln -sf "/grid/05/hadoop/yarn/data/usercache/d917355/filecache/153/postgresql-42.1.4.jar" "postgresql-42.1.4.jar"
+echo "Copying debugging information"
+# Creating copy of launch script
+cp "launch_container.sh" "/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/launch_container.sh"
+chmod 640 "/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/launch_container.sh"
+# Determining directory contents
+echo "ls -l:" 1>"/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/directory.info"
+ls -l 1>>"/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/directory.info"
+echo "find -L . -maxdepth 5 -ls:" 1>>"/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/directory.info"
+find -L . -maxdepth 5 -ls 1>>"/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/directory.info"
+echo "broken symlinks(find -L . -maxdepth 5 -type l -ls):" 1>>"/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/directory.info"
+find -L . -maxdepth 5 -type l -ls 1>>"/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/directory.info"
+echo "Launching container"
+exec /bin/bash -c "LD_LIBRARY_PATH="/usr/hdp/current/hadoop-client/lib/native:/usr/hdp/current/hadoop-client/lib/native/Linux-amd64-64:$LD_LIBRARY_PATH" $JAVA_HOME/bin/java -server -Xmx4096m '-Dlog4j.configuration=file:log4j.properties' -Djava.io.tmpdir=$PWD/tmp '-Dspark.history.ui.port=18081' '-Dspark.ssl.keyStorePassword=1bMTh8fldxr8f5yTcQ3qMMhMXJVtxZ2MyrLMeNsVkO' '-Dspark.ssl.trustStorePassword=9Rof1BOp9YVHD0S7YcIvvru89YVdmufNf0Qi8crR9q' '-Dspark.driver.port=40331' '-Dspark.ui.port=4123' '-Dspark.ssl.trustStore=/etc/security/clientKeys/all.jks' '-Dspark.ssl.enabled=true' '-Dspark.ssl.keyPassword=1bMTh8fldxr8f5yTcQ3qMMhMXJVtxZ2MyrLMeNsVkO' '-Dspark.ssl.keyStore=/etc/security/serverKeys/spark2_keystore.jks' '-Dspark.ssl.protocol=TLS' -Dspark.yarn.app.container.log.dir=/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002 -XX:OnOutOfMemoryError='kill %p' org.apache.spark.executor.CoarseGrainedExecutorBackend --driver-url spark://CoarseGrainedScheduler@lxdsydstl-lxe04-s01-ehc10001.s01.oan:40331 --executor-id 1 --hostname lxdsydstl-lxw01-s01-whw10001.s01.oan --cores 4 --app-id application_1585092847763_0052 --user-class-path file:$PWD/__app__.jar --user-class-path file:$PWD/HiveJDBC41-4.1.jar --user-class-path file:$PWD/mariadb-java-client-2.2.5.jar --user-class-path file:$PWD/mssql-jdbc-7.0.0.jre8.jar --user-class-path file:$PWD/mysql-connector-java-6.0.5.jar --user-class-path file:$PWD/notificationService.jar --user-class-path file:$PWD/ojdbc8-18.3.jar --user-class-path file:$PWD/postgresql-42.1.4.jar --user-class-path file:$PWD/tdgssconfig-16.10.jar --user-class-path file:$PWD/terajdbc4-16.10.jar 1>/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/stdout 2>/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000002/stderr"
+
+End of LogType:launch_container.sh
+************************************************************************************
+
+Container: container_e2766_1585092847763_0052_01_000001 on lxdsydstl-lxw01-s01-whw10008.s01.oan_8041
+LogAggregationType: AGGREGATED
+====================================================================================================
+LogType:stderr
+LogLastModifiedTime:Sun Mar 29 08:08:59 +0000 2020
+LogLength:11769
+LogContents:
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/grid/18/hadoop/yarn/data/filecache/269/spark2-hdp-yarn-archive.tar.gz/slf4j-log4j12-1.7.16.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/hdp/3.1.5.0-152/hadoop/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+20/03/29 08:08:39 INFO SignalUtils: Registered signal handler for TERM
+20/03/29 08:08:39 INFO SignalUtils: Registered signal handler for HUP
+20/03/29 08:08:39 INFO SignalUtils: Registered signal handler for INT
+20/03/29 08:08:39 WARN SparkConf: The configuration key 'spark.yarn.executor.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.executor.memoryOverhead' instead.
+20/03/29 08:08:39 WARN SparkConf: The configuration key 'spark.yarn.driver.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.driver.memoryOverhead' instead.
+20/03/29 08:08:39 INFO SecurityManager: Changing view acls to: d917355
+20/03/29 08:08:39 INFO SecurityManager: Changing modify acls to: d917355
+20/03/29 08:08:39 INFO SecurityManager: Changing view acls groups to: 
+20/03/29 08:08:39 INFO SecurityManager: Changing modify acls groups to: 
+20/03/29 08:08:39 INFO SecurityManager: SecurityManager: authentication disabled; ui acls enabled; users  with view permissions: Set(d917355); groups with view permissions: Set(); users  with modify permissions: Set(d917355); groups with modify permissions: Set()
+20/03/29 08:08:40 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/03/29 08:08:40 INFO ApplicationMaster: Preparing Local resources
+20/03/29 08:08:41 WARN DomainSocketFactory: The short-circuit local reads feature cannot be used because libhadoop cannot be loaded.
+20/03/29 08:08:41 WARN Client: Exception encountered while connecting to the server : org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.ipc.StandbyException): Operation category READ is not supported in state standby. Visit https://s.apache.org/sbnn-error
+20/03/29 08:08:41 INFO ApplicationMaster: ApplicationAttemptId: appattempt_1585092847763_0052_000001
+20/03/29 08:08:41 INFO ApplicationMaster: Waiting for Spark driver to be reachable.
+20/03/29 08:08:41 INFO ApplicationMaster: Driver now available: lxdsydstl-lxe04-s01-ehc10001.s01.oan:40331
+20/03/29 08:08:41 INFO TransportClientFactory: Successfully created connection to lxdsydstl-lxe04-s01-ehc10001.s01.oan/172.16.6.13:40331 after 86 ms (0 ms spent in bootstraps)
+20/03/29 08:08:41 WARN SparkConf: The configuration key 'spark.yarn.executor.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.executor.memoryOverhead' instead.
+20/03/29 08:08:41 WARN SparkConf: The configuration key 'spark.yarn.driver.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.driver.memoryOverhead' instead.
+20/03/29 08:08:42 INFO ApplicationMaster: 
+===============================================================================
+YARN executor launch context:
+  env:
+    CLASSPATH -> {{PWD}}<CPS>{{PWD}}/__spark_conf__<CPS>{{PWD}}/__spark_libs__/*<CPS>/etc/hadoop/conf<CPS>/usr/hdp/current/hadoop-client/*<CPS>/usr/hdp/current/hadoop-client/lib/*<CPS>/usr/hdp/current/hadoop-hdfs-client/*<CPS>/usr/hdp/current/hadoop-hdfs-client/lib/*<CPS>/usr/hdp/current/hadoop-yarn-client/*<CPS>/usr/hdp/current/hadoop-yarn-client/lib/*<CPS>$PWD/mr-framework/hadoop/share/hadoop/mapreduce/*:$PWD/mr-framework/hadoop/share/hadoop/mapreduce/lib/*:$PWD/mr-framework/hadoop/share/hadoop/common/*:$PWD/mr-framework/hadoop/share/hadoop/common/lib/*:$PWD/mr-framework/hadoop/share/hadoop/yarn/*:$PWD/mr-framework/hadoop/share/hadoop/yarn/lib/*:$PWD/mr-framework/hadoop/share/hadoop/hdfs/*:$PWD/mr-framework/hadoop/share/hadoop/hdfs/lib/*:$PWD/mr-framework/hadoop/share/hadoop/tools/lib/*:/usr/hdp/3.1.5.0-152/hadoop/lib/hadoop-lzo-0.6.0.3.1.5.0-152.jar:/etc/hadoop/conf/secure<CPS>{{PWD}}/__spark_conf__/__hadoop_conf__
+    SPARK_YARN_STAGING_DIR -> hdfs://ONE-ANALYTICS/user/d917355/.sparkStaging/application_1585092847763_0052
+    SPARK_USER -> d917355
+
+  command:
+    LD_LIBRARY_PATH="/usr/hdp/current/hadoop-client/lib/native:/usr/hdp/current/hadoop-client/lib/native/Linux-amd64-64:$LD_LIBRARY_PATH" \ 
+      {{JAVA_HOME}}/bin/java \ 
+      -server \ 
+      -Xmx4096m \ 
+      '-Dlog4j.configuration=file:log4j.properties' \ 
+      -Djava.io.tmpdir={{PWD}}/tmp \ 
+      '-Dspark.history.ui.port=18081' \ 
+      '-Dspark.ssl.keyStorePassword=1bMTh8fldxr8f5yTcQ3qMMhMXJVtxZ2MyrLMeNsVkO' \ 
+      '-Dspark.ssl.trustStorePassword=9Rof1BOp9YVHD0S7YcIvvru89YVdmufNf0Qi8crR9q' \ 
+      '-Dspark.driver.port=40331' \ 
+      '-Dspark.ui.port=4123' \ 
+      '-Dspark.ssl.trustStore=/etc/security/clientKeys/all.jks' \ 
+      '-Dspark.ssl.enabled=true' \ 
+      '-Dspark.ssl.keyPassword=1bMTh8fldxr8f5yTcQ3qMMhMXJVtxZ2MyrLMeNsVkO' \ 
+      '-Dspark.ssl.keyStore=/etc/security/serverKeys/spark2_keystore.jks' \ 
+      '-Dspark.ssl.protocol=TLS' \ 
+      -Dspark.yarn.app.container.log.dir=<LOG_DIR> \ 
+      -XX:OnOutOfMemoryError='kill %p' \ 
+      org.apache.spark.executor.CoarseGrainedExecutorBackend \ 
+      --driver-url \ 
+      spark://CoarseGrainedScheduler@lxdsydstl-lxe04-s01-ehc10001.s01.oan:40331 \ 
+      --executor-id \ 
+      <executorId> \ 
+      --hostname \ 
+      <hostname> \ 
+      --cores \ 
+      4 \ 
+      --app-id \ 
+      application_1585092847763_0052 \ 
+      --user-class-path \ 
+      file:$PWD/__app__.jar \ 
+      --user-class-path \ 
+      file:$PWD/HiveJDBC41-4.1.jar \ 
+      --user-class-path \ 
+      file:$PWD/mariadb-java-client-2.2.5.jar \ 
+      --user-class-path \ 
+      file:$PWD/mssql-jdbc-7.0.0.jre8.jar \ 
+      --user-class-path \ 
+      file:$PWD/mysql-connector-java-6.0.5.jar \ 
+      --user-class-path \ 
+      file:$PWD/notificationService.jar \ 
+      --user-class-path \ 
+      file:$PWD/ojdbc8-18.3.jar \ 
+      --user-class-path \ 
+      file:$PWD/postgresql-42.1.4.jar \ 
+      --user-class-path \ 
+      file:$PWD/tdgssconfig-16.10.jar \ 
+      --user-class-path \ 
+      file:$PWD/terajdbc4-16.10.jar \ 
+      1><LOG_DIR>/stdout \ 
+      2><LOG_DIR>/stderr
+
+  resources:
+    terajdbc4-16.10.jar -> resource { scheme: "hdfs" host: "ONE-ANALYTICS" port: -1 file: "/user/d917355/.sparkStaging/application_1585092847763_0052/terajdbc4-16.10.jar" } size: 1125536 timestamp: 1585469311355 type: FILE visibility: PRIVATE
+    mariadb-java-client-2.2.5.jar -> resource { scheme: "hdfs" host: "ONE-ANALYTICS" port: -1 file: "/user/d917355/.sparkStaging/application_1585092847763_0052/mariadb-java-client-2.2.5.jar" } size: 570719 timestamp: 1585469309952 type: FILE visibility: PRIVATE
+    mssql-jdbc-7.0.0.jre8.jar -> resource { scheme: "hdfs" host: "ONE-ANALYTICS" port: -1 file: "/user/d917355/.sparkStaging/application_1585092847763_0052/mssql-jdbc-7.0.0.jre8.jar" } size: 1166239 timestamp: 1585469310027 type: FILE visibility: PRIVATE
+    __spark_conf__ -> resource { scheme: "hdfs" host: "ONE-ANALYTICS" port: -1 file: "/user/d917355/.sparkStaging/application_1585092847763_0052/__spark_conf__.zip" } size: 372427 timestamp: 1585469311627 type: ARCHIVE visibility: PRIVATE
+    HiveJDBC41-4.1.jar -> resource { scheme: "hdfs" host: "ONE-ANALYTICS" port: -1 file: "/user/d917355/.sparkStaging/application_1585092847763_0052/HiveJDBC41-4.1.jar" } size: 18171238 timestamp: 1585469309867 type: FILE visibility: PRIVATE
+    postgresql-42.1.4.jar -> resource { scheme: "hdfs" host: "ONE-ANALYTICS" port: -1 file: "/user/d917355/.sparkStaging/application_1585092847763_0052/postgresql-42.1.4.jar" } size: 713037 timestamp: 1585469311247 type: FILE visibility: PRIVATE
+    tdgssconfig-16.10.jar -> resource { scheme: "hdfs" host: "ONE-ANALYTICS" port: -1 file: "/user/d917355/.sparkStaging/application_1585092847763_0052/tdgssconfig-16.10.jar" } size: 2613 timestamp: 1585469311289 type: FILE visibility: PRIVATE
+    mysql-connector-java-6.0.5.jar -> resource { scheme: "hdfs" host: "ONE-ANALYTICS" port: -1 file: "/user/d917355/.sparkStaging/application_1585092847763_0052/mysql-connector-java-6.0.5.jar" } size: 1891236 timestamp: 1585469310121 type: FILE visibility: PRIVATE
+    log4j.properties -> resource { scheme: "hdfs" host: "ONE-ANALYTICS" port: -1 file: "/user/d917355/.sparkStaging/application_1585092847763_0052/log4j.properties" } size: 2023 timestamp: 1585469311398 type: FILE visibility: PRIVATE
+    __spark_libs__ -> resource { scheme: "hdfs" host: "ONE-ANALYTICS" port: -1 file: "/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-yarn-archive.tar.gz" } size: 298724787 timestamp: 1583228874444 type: ARCHIVE visibility: PUBLIC
+    notificationService.jar -> resource { scheme: "hdfs" host: "ONE-ANALYTICS" port: -1 file: "/user/d917355/.sparkStaging/application_1585092847763_0052/notificationService.jar" } size: 51906226 timestamp: 1585469311043 type: FILE visibility: PRIVATE
+    __hive_libs__ -> resource { scheme: "hdfs" host: "ONE-ANALYTICS" port: -1 file: "/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-hive-archive.tar.gz" } size: 45036332 timestamp: 1583228881238 type: ARCHIVE visibility: PUBLIC
+    ojdbc8-18.3.jar -> resource { scheme: "hdfs" host: "ONE-ANALYTICS" port: -1 file: "/user/d917355/.sparkStaging/application_1585092847763_0052/ojdbc8-18.3.jar" } size: 4161744 timestamp: 1585469311187 type: FILE visibility: PRIVATE
+
+===============================================================================
+20/03/29 08:08:42 INFO RequestHedgingRMFailoverProxyProvider: Created wrapped proxy for [rm1, rm2]
+20/03/29 08:08:42 INFO YarnRMClient: Registering the ApplicationMaster
+20/03/29 08:08:42 INFO RequestHedgingRMFailoverProxyProvider: Looking for the active RM in [rm1, rm2]...
+20/03/29 08:08:42 INFO RequestHedgingRMFailoverProxyProvider: Found active RM [rm2]
+20/03/29 08:08:42 INFO Configuration: found resource resource-types.xml at file:/etc/hadoop/3.1.5.0-152/0/resource-types.xml
+20/03/29 08:08:42 INFO YarnAllocator: Will request 1 executor container(s), each with 4 core(s) and 8192 MB memory (including 4096 MB of overhead)
+20/03/29 08:08:42 INFO YarnAllocator: Submitted 1 unlocalized container requests.
+20/03/29 08:08:42 INFO ApplicationMaster: Started progress reporter thread with (heartbeat : 3000, initial allocation : 200) intervals
+20/03/29 08:08:43 INFO YarnAllocator: Launching container container_e2766_1585092847763_0052_01_000002 on host lxdsydstl-lxw01-s01-whw10001.s01.oan for executor with ID 1
+20/03/29 08:08:43 INFO YarnAllocator: Received 1 containers from YARN, launching executors on 1 of them.
+20/03/29 08:08:59 INFO YarnAllocator: Driver requested a total number of 0 executor(s).
+20/03/29 08:08:59 INFO ApplicationMaster$AMEndpoint: Driver terminated or disconnected! Shutting down. lxdsydstl-lxe04-s01-ehc10001.s01.oan:40331
+20/03/29 08:08:59 INFO ApplicationMaster$AMEndpoint: Driver terminated or disconnected! Shutting down. lxdsydstl-lxe04-s01-ehc10001.s01.oan:40331
+20/03/29 08:08:59 INFO ApplicationMaster: Final app status: SUCCEEDED, exitCode: 0
+20/03/29 08:08:59 INFO ApplicationMaster: Unregistering ApplicationMaster with SUCCEEDED
+20/03/29 08:08:59 INFO AMRMClientImpl: Waiting for application to be successfully unregistered.
+20/03/29 08:08:59 INFO ApplicationMaster: Deleting staging directory hdfs://ONE-ANALYTICS/user/d917355/.sparkStaging/application_1585092847763_0052
+20/03/29 08:08:59 INFO ShutdownHookManager: Shutdown hook called
+
+End of LogType:stderr
+***********************************************************************
+
+Container: container_e2766_1585092847763_0052_01_000001 on lxdsydstl-lxw01-s01-whw10008.s01.oan_8041
+LogAggregationType: AGGREGATED
+====================================================================================================
+LogType:prelaunch.out
+LogLastModifiedTime:Sun Mar 29 08:08:37 +0000 2020
+LogLength:100
+LogContents:
+Setting up env variables
+Setting up job resources
+Copying debugging information
+Launching container
+
+End of LogType:prelaunch.out
+******************************************************************************
+
+Container: container_e2766_1585092847763_0052_01_000001 on lxdsydstl-lxw01-s01-whw10008.s01.oan_8041
+LogAggregationType: AGGREGATED
+====================================================================================================
+LogType:directory.info
+LogLastModifiedTime:Sun Mar 29 08:08:37 +0000 2020
+LogLength:41888
+LogContents:
+ls -l:
+total 8
+-rw------- 1 d917355 hadoop  414 Mar 29 08:08 container_tokens
+lrwxrwxrwx 1 d917355 hadoop   76 Mar 29 08:08 HiveJDBC41-4.1.jar -> /grid/04/hadoop/yarn/data/usercache/d917355/filecache/138/HiveJDBC41-4.1.jar
+lrwxrwxrwx 1 d917355 hadoop   70 Mar 29 08:08 __hive_libs__ -> /grid/08/hadoop/yarn/data/filecache/270/spark2-hdp-hive-archive.tar.gz
+-rwx------ 1 d917355 hadoop 9231 Mar 29 08:08 launch_container.sh
+lrwxrwxrwx 1 d917355 hadoop   74 Mar 29 08:08 log4j.properties -> /grid/05/hadoop/yarn/data/usercache/d917355/filecache/144/log4j.properties
+lrwxrwxrwx 1 d917355 hadoop   87 Mar 29 08:08 mariadb-java-client-2.2.5.jar -> /grid/17/hadoop/yarn/data/usercache/d917355/filecache/137/mariadb-java-client-2.2.5.jar
+lrwxrwxrwx 1 d917355 hadoop   83 Mar 29 08:08 mssql-jdbc-7.0.0.jre8.jar -> /grid/15/hadoop/yarn/data/usercache/d917355/filecache/135/mssql-jdbc-7.0.0.jre8.jar
+lrwxrwxrwx 1 d917355 hadoop   88 Mar 29 08:08 mysql-connector-java-6.0.5.jar -> /grid/16/hadoop/yarn/data/usercache/d917355/filecache/145/mysql-connector-java-6.0.5.jar
+lrwxrwxrwx 1 d917355 hadoop   81 Mar 29 08:08 notificationService.jar -> /grid/18/hadoop/yarn/data/usercache/d917355/filecache/139/notificationService.jar
+lrwxrwxrwx 1 d917355 hadoop   73 Mar 29 08:08 ojdbc8-18.3.jar -> /grid/03/hadoop/yarn/data/usercache/d917355/filecache/142/ojdbc8-18.3.jar
+lrwxrwxrwx 1 d917355 hadoop   79 Mar 29 08:08 postgresql-42.1.4.jar -> /grid/22/hadoop/yarn/data/usercache/d917355/filecache/143/postgresql-42.1.4.jar
+lrwxrwxrwx 1 d917355 hadoop   76 Mar 29 08:08 __spark_conf__ -> /grid/10/hadoop/yarn/data/usercache/d917355/filecache/136/__spark_conf__.zip
+lrwxrwxrwx 1 d917355 hadoop   70 Mar 29 08:08 __spark_libs__ -> /grid/18/hadoop/yarn/data/filecache/269/spark2-hdp-yarn-archive.tar.gz
+lrwxrwxrwx 1 d917355 hadoop   79 Mar 29 08:08 tdgssconfig-16.10.jar -> /grid/06/hadoop/yarn/data/usercache/d917355/filecache/141/tdgssconfig-16.10.jar
+lrwxrwxrwx 1 d917355 hadoop   77 Mar 29 08:08 terajdbc4-16.10.jar -> /grid/03/hadoop/yarn/data/usercache/d917355/filecache/140/terajdbc4-16.10.jar
+drwxr-s--- 2 d917355 hadoop    2 Mar 29 08:08 tmp
+find -L . -maxdepth 5 -ls:
+ 45579    1 drwxr-s---   3 d917355  hadoop         18 Mar 29 08:08 .
+ 45581    1 -rwx------   1 d917355  hadoop       9231 Mar 29 08:08 ./launch_container.sh
+ 45629 26515 -r-x------   1 d917355  d917355  51906226 Mar 29 08:08 ./notificationService.jar
+ 44782    1 -r-x------   1 d917355  d917355    713037 Mar 29 08:08 ./postgresql-42.1.4.jar
+ 45537  643 -r-x------   1 d917355  d917355    570719 Mar 29 08:08 ./mariadb-java-client-2.2.5.jar
+ 45580    1 drwxr-s---   2 d917355  hadoop          2 Mar 29 08:08 ./tmp
+ 45785    1 -r-x------   1 d917355  d917355      2613 Mar 29 08:08 ./tdgssconfig-16.10.jar
+ 44233    2 drwx------   3 d917355  d917355         7 Mar 29 08:08 ./__spark_conf__
+ 44236    3 drwx------   2 d917355  d917355        47 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__
+ 44602    2 -r-x------   1 d917355  d917355      1149 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/ssl-server.xml
+ 44246    3 -r-x------   1 d917355  d917355      2250 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn-env.cmd
+ 44604    1 -r-x------   1 d917355  d917355       318 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hdfs_jn_jaas.conf
+ 44588    2 -r-x------   1 d917355  d917355       541 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn_jaas.conf
+ 44239   12 -r-x------   1 d917355  d917355     11459 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/log4j.properties
+ 44605    4 -r-x------   1 d917355  d917355      2697 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/ssl-server.xml.example
+ 44606    5 -r-x------   1 d917355  d917355      4113 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/mapred-queues.xml.template
+ 44243    1 -r-x------   1 d917355  d917355       244 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/spark-thrift-fairscheduler.xml
+ 44579    2 -r-x------   1 d917355  d917355       569 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn_nm_jaas.conf
+ 44578    2 -r-x------   1 d917355  d917355       758 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/mapred-site.xml.template
+ 44589    1 -r-x------   1 d917355  d917355       311 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/resource-types.xml
+ 44592    2 -r-x------   1 d917355  d917355      1237 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/mapred-env.sh
+ 44580    2 -r-x------   1 d917355  d917355      1335 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/configuration.xsl
+ 44596    3 -r-x------   1 d917355  d917355      2316 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/ssl-client.xml.example
+ 44607    2 -r-x------   1 d917355  d917355       945 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/taskcontroller.cfg
+ 44245    3 -r-x------   1 d917355  d917355      1631 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/kms-log4j.properties
+ 44584    4 -r-x------   1 d917355  d917355      3274 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/container-executor.cfg
+ 44594    1 -r-x------   1 d917355  d917355       305 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/mapred_jaas.conf
+ 44240    3 -r-x------   1 d917355  d917355      2389 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hadoop-metrics2.properties
+ 44590    5 -r-x------   1 d917355  d917355      4221 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/task-log4j.properties
+ 44581    7 -r-x------   1 d917355  d917355      6172 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn-env.sh
+ 44244   14 -r-x------   1 d917355  d917355     12911 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/core-site.xml
+ 44597    2 -r-x------   1 d917355  d917355      1527 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/kms-env.sh
+ 44249    4 -r-x------   1 d917355  d917355      3518 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/kms-acls.xml
+ 44601    2 -r-x------   1 d917355  d917355       639 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/topology_mappings.data
+ 44587    1 -r-x------   1 d917355  d917355       318 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hdfs_dn_jaas.conf
+ 44599    2 -r-x------   1 d917355  d917355      1352 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hadoop-policy.xml
+ 44586    1 -r-x------   1 d917355  d917355       318 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hdfs_nn_jaas.conf
+ 44241   33 -r-x------   1 d917355  d917355     32770 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn-site.xml
+ 44598    2 -r-x------   1 d917355  d917355       598 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn_registry_dns_jaas.conf
+ 44600    1 -r-x------   1 d917355  d917355       297 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/slaves
+ 44582   15 -r-x------   1 d917355  d917355     13826 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hdfs-site.xml
+ 44237    8 -r-x------   1 d917355  d917355      6750 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hadoop-env.sh
+ 44577    3 -r-x------   1 d917355  d917355      2358 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/topology_script.py
+ 44608    6 -r-x------   1 d917355  d917355      5511 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/kms-site.xml
+ 44247    2 -r-x------   1 d917355  d917355       916 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/ssl-client.xml
+ 44593    3 -r-x------   1 d917355  d917355      1602 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/health_check
+ 44238    9 -r-x------   1 d917355  d917355      8399 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/mapred-site.xml
+ 44585    2 -r-x------   1 d917355  d917355      1020 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/commons-logging.properties
+ 44583    2 -r-x------   1 d917355  d917355       577 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/yarn_ats_jaas.conf
+ 44595    4 -r-x------   1 d917355  d917355      2683 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hive-site.xml
+ 44603    2 -r-x------   1 d917355  d917355       951 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/mapred-env.cmd
+ 44248   10 -r-x------   1 d917355  d917355      8751 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/capacity-scheduler.xml
+ 44591    3 -r-x------   1 d917355  d917355      2490 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hadoop-metrics.properties
+ 44242    5 -r-x------   1 d917355  d917355      3979 Mar 29 08:08 ./__spark_conf__/__hadoop_conf__/hadoop-env.cmd
+ 44610    7 -r-x------   1 d917355  d917355      6655 Mar 29 08:08 ./__spark_conf__/__spark_conf__.properties
+ 44609  259 -r-x------   1 d917355  d917355    189181 Mar 29 08:08 ./__spark_conf__/__spark_hadoop_conf__.xml
+ 44234    2 -r-x------   1 d917355  d917355      1240 Mar 29 08:08 ./__spark_conf__/log4j.properties
+ 44235    6 -r-x------   1 d917355  d917355      4956 Mar 29 08:08 ./__spark_conf__/metrics.properties
+ 45582    1 -rw-------   1 d917355  hadoop        414 Mar 29 08:08 ./container_tokens
+ 44527    1 -r-x------   1 d917355  d917355      2023 Mar 29 08:08 ./log4j.properties
+ 45344    1 -r-x------   1 d917355  d917355   1891236 Mar 29 08:08 ./mysql-connector-java-6.0.5.jar
+  7467    1 drwxr-xr-x   2 yarn     aoneanalyticsoperator        3 Mar  3 10:13 ./__hive_libs__
+  7690 49058 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 50148142 Dec 12 21:28 ./__hive_libs__/standalone-metastore-1.21.2.3.1.5.0-152-hive3.jar
+ 45831    1 -r-x------   1 d917355  d917355   4161744 Mar 29 08:08 ./ojdbc8-18.3.jar
+  7064   34 drwxr-xr-x   2 yarn     aoneanalyticsoperator      260 Mar  3 10:13 ./__spark_libs__
+  7076   49 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    48720 Dec 12 21:28 ./__spark_libs__/snappy-0.2.jar
+  7071   27 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    26514 Dec 12 21:28 ./__spark_libs__/stax-api-1.0.1.jar
+  7091  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   764569 Dec 12 21:28 ./__spark_libs__/jtransforms-2.4.0.jar
+  7403 2820 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2839848 Dec 12 21:28 ./__spark_libs__/hadoop-yarn-common-3.1.1.3.1.5.0-152.jar
+  6781   21 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    20409 Dec 12 21:28 ./__spark_libs__/kerb-simplekdc-1.0.1.jar
+  7382 1155 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1056168 Dec 12 21:28 ./__spark_libs__/snappy-java-1.1.2.6.jar
+  6762  126 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   128414 Dec 12 21:28 ./__spark_libs__/re2j-1.1.jar
+  6842   65 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    65464 Dec 12 21:28 ./__spark_libs__/kerb-common-1.0.1.jar
+  7553 1027 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   951701 Dec 12 21:28 ./__spark_libs__/jersey-server-2.22.2.jar
+  6361  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   139512 Dec 12 21:28 ./__spark_libs__/hive-beeline-1.21.2.3.1.5.0-152.jar
+  6818  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   520682 Dec 12 21:28 ./__spark_libs__/azure-data-lake-store-sdk-2.3.3.jar
+  7572  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   144660 Dec 12 21:28 ./__spark_libs__/xbean-asm5-shaded-4.4.jar
+  7399   53 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    52938 Dec 12 21:28 ./__spark_libs__/arrow-format-0.8.0.3.1.5.0-152.jar
+  7400   57 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    57757 Dec 12 21:28 ./__spark_libs__/jackson-dataformat-cbor-2.10.0.jar
+  6358   15 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    14766 Dec 12 21:28 ./__spark_libs__/aopalliance-repackaged-2.4.0-b34.jar
+  4606  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   796532 Dec 12 21:28 ./__spark_libs__/bcpkix-jdk15on-1.60.jar
+  7093   82 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    82756 Dec 12 21:28 ./__spark_libs__/kerb-server-1.0.1.jar
+  7566 1540 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1442702 Dec 12 21:28 ./__spark_libs__/orc-core-1.4.4-nohive.jar
+  7452   35 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    34991 Dec 12 21:28 ./__spark_libs__/jackson-module-jaxb-annotations-2.10.0.jar
+  6841   79 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    80181 Dec 12 21:28 ./__spark_libs__/spark-launcher_2.11-2.3.2.3.1.5.0-152.jar
+  7095  114 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   116120 Dec 12 21:28 ./__spark_libs__/kerb-crypto-1.0.1.jar
+  7108 4101 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  4141576 Dec 12 21:28 ./__spark_libs__/gcs-connector-hadoop3-1.9.17.3.1.5.0-152-shaded.jar
+  6372  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   424076 Dec 12 21:28 ./__spark_libs__/wildfly-openssl-1.0.7.Final.jar
+  6826  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   185140 Dec 12 21:28 ./__spark_libs__/commons-io-2.4.jar
+  7559   65 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    65261 Dec 12 21:28 ./__spark_libs__/oro-2.0.8.jar
+  6827  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   370119 Dec 12 21:28 ./__spark_libs__/lz4-java-1.4.0.jar
+  6771   35 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    34603 Dec 12 21:28 ./__spark_libs__/machinist_2.11-0.6.1.jar
+  7405   16 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    15488 Dec 12 21:28 ./__spark_libs__/spark-tags_2.11-2.3.2.3.1.5.0-152.jar
+  7565  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   307637 Dec 12 21:28 ./__spark_libs__/dnsjava-2.1.7.jar
+  7451 3461 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  3519262 Dec 12 21:28 ./__spark_libs__/calcite-core-1.2.0-incubating.jar
+  6838 9993 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 10121868 Dec 12 21:28 ./__spark_libs__/spire_2.11-0.13.0.jar
+  6355   18 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    16993 Dec 12 21:28 ./__spark_libs__/JavaEWAH-0.3.2.jar
+  6757  643 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   616888 Dec 12 21:28 ./__spark_libs__/commons-configuration2-2.1.1.jar
+  6774   95 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    95806 Dec 12 21:28 ./__spark_libs__/javax.servlet-api-3.1.0.jar
+  6829 4101 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  4189874 Dec 12 21:28 ./__spark_libs__/bcprov-jdk15on-1.60.jar
+  7401 2052 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2009163 Dec 12 21:28 ./__spark_libs__/datanucleus-core-4.1.6.jar
+  6831   55 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    55236 Dec 12 21:28 ./__spark_libs__/geronimo-jcache_1.0_spec-1.0-alpha-1.jar
+  7557  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   148627 Dec 12 21:28 ./__spark_libs__/stringtemplate-3.2.1.jar
+  7193    7 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     5711 Dec 12 21:28 ./__spark_libs__/minlog-1.3.0.jar
+  7200 5382 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  5473397 Dec 12 21:28 ./__spark_libs__/hive-metastore-1.21.2.3.1.5.0-152.jar
+  6356   67 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    67889 Dec 12 21:28 ./__spark_libs__/jackson-annotations-2.10.0.jar
+  7556  643 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   588337 Dec 12 21:28 ./__spark_libs__/commons-collections-3.2.2.jar
+  6362  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   268490 Dec 12 21:28 ./__spark_libs__/jline-2.14.3.jar
+  7428 11274 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 11500371 Dec 12 21:28 ./__spark_libs__/hive-exec-1.21.2.3.1.5.0-152.jar
+  7070 1027 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   971310 Dec 12 21:28 ./__spark_libs__/jersey-guava-2.22.2.jar
+  7430   52 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    51734 Dec 12 21:28 ./__spark_libs__/jetty-xml-9.3.24.v20180605.jar
+  7087  111 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   113017 Dec 12 21:28 ./__spark_libs__/kerb-client-1.0.1.jar
+  7431   13 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    12131 Dec 12 21:28 ./__spark_libs__/jpam-1.1.jar
+  7089 1412 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1330219 Dec 12 21:28 ./__spark_libs__/netty-3.9.9.Final.jar
+  6825   67 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    67765 Dec 12 21:28 ./__spark_libs__/spark-network-shuffle_2.11-2.3.2.3.1.5.0-152.jar
+  7455 14860 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 15113382 Dec 12 21:28 ./__spark_libs__/breeze_2.11-0.13.2.jar
+  7569  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   159756 Dec 12 21:28 ./__spark_libs__/hadoop-openstack-3.1.1.3.1.5.0-152.jar
+  7079   99 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   100636 Dec 12 21:28 ./__spark_libs__/jsp-api-2.1.jar
+  7410  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   183875 Dec 12 21:28 ./__spark_libs__/spark-mllib-local_2.11-2.3.2.3.1.5.0-152.jar
+  6758  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   475328 Dec 12 21:28 ./__spark_libs__/jackson-module-scala_2.11-2.10.0.jar
+  4607  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   164422 Dec 12 21:28 ./__spark_libs__/core-1.1.2.jar
+  7432  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   174351 Dec 12 21:28 ./__spark_libs__/stream-2.7.0.jar
+  7415   35 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    34654 Dec 12 21:28 ./__spark_libs__/paranamer-2.8.jar
+  6773   95 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    96221 Dec 12 21:28 ./__spark_libs__/commons-pool-1.5.4.jar
+  7066   33 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    33015 Dec 12 21:28 ./__spark_libs__/jsr305-1.3.9.jar
+  7202 1412 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1336863 Dec 12 21:28 ./__spark_libs__/hadoop-yarn-server-common-3.1.1.3.1.5.0-152.jar
+  6770 8584 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  8712448 Dec 12 21:28 ./__spark_libs__/spark-sql_2.11-2.3.2.3.1.5.0-152.jar
+  6369    4 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     3448 Dec 12 21:28 ./__spark_libs__/animal-sniffer-annotations-1.17.jar
+  6820   53 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    53030 Dec 12 21:28 ./__spark_libs__/spark-kvstore_2.11-2.3.2.3.1.5.0-152.jar
+  7434  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   839856 Dec 12 21:28 ./__spark_libs__/zookeeper-3.4.6.3.1.5.0-152.jar
+  7576  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   780664 Dec 12 21:28 ./__spark_libs__/jackson-mapper-asl-1.9.13.jar
+  6387  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   178947 Dec 12 21:28 ./__spark_libs__/hk2-api-2.4.0-b34.jar
+  6367   44 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    43948 Dec 12 21:28 ./__spark_libs__/hadoop-client-3.1.1.3.1.5.0-152.jar
+  6384 1668 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1671083 Dec 12 21:28 ./__spark_libs__/hppc-0.7.2.jar
+  6363 2820 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2796935 Dec 12 21:28 ./__spark_libs__/parquet-hadoop-bundle-1.6.0.jar
+  7107  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   427780 Dec 12 21:28 ./__spark_libs__/jodd-core-3.5.2.jar
+  7096 7687 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  7773037 Dec 12 21:28 ./__spark_libs__/spark-mllib_2.11-2.3.2.3.1.5.0-152.jar
+  7206  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   757253 Dec 12 21:28 ./__spark_libs__/orc-mapreduce-1.4.4-nohive.jar
+  7412  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   445288 Dec 12 21:28 ./__spark_libs__/antlr-2.7.7.jar
+  7097  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   366565 Dec 12 21:28 ./__spark_libs__/datanucleus-api-jdo-4.2.1.jar
+  6380   44 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    44399 Dec 12 21:28 ./__spark_libs__/jakarta.activation-api-1.2.1.jar
+  6370  117 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   118973 Dec 12 21:28 ./__spark_libs__/hk2-utils-2.4.0-b34.jar
+  6844  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   781831 Dec 12 21:28 ./__spark_libs__/httpclient-4.5.4.jar
+  7196  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   286071 Dec 12 21:28 ./__spark_libs__/parquet-encoding-1.8.3.jar
+  7409   16 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    15824 Dec 12 21:28 ./__spark_libs__/metrics-json-3.1.5.jar
+  6840   80 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    80980 Dec 12 21:28 ./__spark_libs__/kerb-admin-1.0.1.jar
+  6837 2436 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2423138 Dec 12 21:28 ./__spark_libs__/curator-client-2.12.0.jar
+  7408  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   384150 Dec 12 21:28 ./__spark_libs__/univocity-parsers-2.5.9.jar
+  6759  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   672179 Dec 12 21:28 ./__spark_libs__/spark-yarn_2.11-2.3.2.3.1.5.0-152.jar
+  7393  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   803565 Dec 12 21:28 ./__spark_libs__/hadoop-mapreduce-client-common-3.1.1.3.1.5.0-152.jar
+  6357   21 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    20235 Dec 12 21:28 ./__spark_libs__/osgi-resource-locator-1.0.1.jar
+  7453   94 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    94796 Dec 12 21:28 ./__spark_libs__/pyrolite-4.13.jar
+  7104 1283 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1194003 Dec 12 21:28 ./__spark_libs__/arpack_combined_all-0.1.jar
+  7568  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   187882 Dec 12 21:28 ./__spark_libs__/breeze-macros_2.11-0.13.2.jar
+  6365   80 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    80533 Dec 12 21:28 ./__spark_libs__/hadoop-yarn-server-web-proxy-3.1.1.3.1.5.0-152.jar
+  6845 2308 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2333186 Dec 12 21:28 ./__spark_libs__/zstd-jni-1.3.2-2.jar
+  7449  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   792442 Dec 12 21:28 ./__spark_libs__/mssql-jdbc-6.2.1.jre7.jar
+  7117  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   708990 Dec 12 21:28 ./__spark_libs__/spark-graphx_2.11-2.3.2.3.1.5.0-152.jar
+  7426 3077 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  3099479 Dec 12 21:28 ./__spark_libs__/hadoop-yarn-api-3.1.1.3.1.5.0-152.jar
+  6823   10 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     8781 Dec 12 21:28 ./__spark_libs__/j2objc-annotations-1.3.jar
+  7205   44 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    43740 Dec 12 21:28 ./__spark_libs__/jackson-module-paranamer-2.10.0.jar
+  7561 5638 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  5749423 Dec 12 21:28 ./__spark_libs__/scala-library-2.11.12.jar
+  7194   59 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    59895 Dec 12 21:28 ./__spark_libs__/hadoop-annotations-3.1.1.3.1.5.0-152.jar
+  6775   72 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    72733 Dec 12 21:28 ./__spark_libs__/jersey-media-jaxb-2.22.2.jar
+  7385 1412 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1362268 Dec 12 21:28 ./__spark_libs__/spark-hive_2.11-2.3.2.3.1.5.0-152.jar
+  6373  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   324565 Dec 12 21:28 ./__spark_libs__/httpcore-4.4.8.jar
+  6834 2692 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2746681 Dec 12 21:28 ./__spark_libs__/guava-28.0-jre.jar
+  7113  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   225702 Dec 12 21:28 ./__spark_libs__/hadoop-yarn-registry-3.1.1.3.1.5.0-152.jar
+  6783   27 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    26366 Dec 12 21:28 ./__spark_libs__/javax.annotation-api-1.2.jar
+  7198   38 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    37887 Dec 12 21:28 ./__spark_libs__/commons-compiler-3.0.8.jar
+  6848  119 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   120465 Dec 12 21:28 ./__spark_libs__/metrics-core-3.1.5.jar
+  6821   41 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    41251 Dec 12 21:28 ./__spark_libs__/hive-cli-1.21.2.3.1.5.0-152.jar
+  7411  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   167421 Dec 12 21:28 ./__spark_libs__/jersey-client-2.22.2.jar
+  7090  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   201124 Dec 12 21:28 ./__spark_libs__/jdo-api-3.0.1.jar
+  7201   63 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    63777 Dec 12 21:28 ./__spark_libs__/validation-api-1.1.0.Final.jar
+  6772    3 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     2199 Dec 12 21:28 ./__spark_libs__/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+  7105   44 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    43634 Dec 12 21:28 ./__spark_libs__/hadoop-cloud-storage-3.1.1.3.1.5.0-152.jar
+  7414  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   390733 Dec 12 21:28 ./__spark_libs__/parquet-format-2.3.1.jar
+  6847  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   138292 Dec 12 21:28 ./__spark_libs__/hadoop-auth-3.1.1.3.1.5.0-152.jar
+  7406  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   134595 Dec 12 21:28 ./__spark_libs__/commons-crypto-1.0.0.jar
+  7092   17 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    16430 Dec 12 21:28 ./__spark_libs__/jcl-over-slf4j-1.7.16.jar
+  7564  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   200629 Dec 12 21:28 ./__spark_libs__/checker-qual-2.8.1.jar
+  7574  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   226672 Dec 12 21:28 ./__spark_libs__/kerb-core-1.0.1.jar
+  6375 2949 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2957013 Dec 12 21:28 ./__spark_libs__/spark-network-common_2.11-2.3.2.3.1.5.0-152.jar
+  7398 96576 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 98732349 Dec 12 21:28 ./__spark_libs__/aws-java-sdk-bundle-1.11.375.jar
+  6386   19 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    18763 Dec 12 21:28 ./__spark_libs__/token-provider-1.0.1.jar
+  7448   41 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    40509 Dec 12 21:28 ./__spark_libs__/slf4j-api-1.7.16.jar
+  7103  109 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   110600 Dec 12 21:28 ./__spark_libs__/bonecp-0.8.0.RELEASE.jar
+  7106   11 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    10288 Dec 12 21:28 ./__spark_libs__/azure-keyvault-core-1.0.0.jar
+  6374  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   714194 Dec 12 21:28 ./__spark_libs__/javassist-3.18.1-GA.jar
+  7391   16 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    15071 Dec 12 21:28 ./__spark_libs__/jta-1.1.jar
+  6366 1283 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1282424 Dec 12 21:28 ./__spark_libs__/ivy-2.4.0.jar
+  7383  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   201928 Dec 12 21:28 ./__spark_libs__/RoaringBitmap-0.5.11.jar
+  7442   67 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    67086 Dec 12 21:28 ./__spark_libs__/hadoop-azure-datalake-3.1.1.3.1.5.0-152.jar
+  7443  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   284220 Dec 12 21:28 ./__spark_libs__/commons-lang-2.6.jar
+  7427 3461 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  3522616 Dec 12 21:28 ./__spark_libs__/shapeless_2.11-2.3.2.jar
+  6760   76 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    76983 Dec 12 21:28 ./__spark_libs__/guice-servlet-4.0.jar
+  7074  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   232248 Dec 12 21:28 ./__spark_libs__/jackson-core-asl-1.9.13.jar
+  7386  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   698375 Dec 12 21:28 ./__spark_libs__/jersey-common-2.22.2.jar
+  7440  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   246445 Dec 12 21:28 ./__spark_libs__/libthrift-0.12.0.jar
+  6765 1412 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1400944 Dec 12 21:28 ./__spark_libs__/jackson-databind-2.10.0.jar
+  7197   30 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    30101 Dec 12 21:28 ./__spark_libs__/spark-sketch_2.11-2.3.2.3.1.5.0-152.jar
+  6822  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   668235 Dec 12 21:28 ./__spark_libs__/guice-4.0.jar
+  6764  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   471925 Dec 12 21:28 ./__spark_libs__/scala-parser-combinators_2.11-1.1.0.jar
+  7552   30 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    30035 Dec 12 21:28 ./__spark_libs__/accessors-smart-1.2.jar
+  7078 8840 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  9030620 Dec 12 21:28 ./__spark_libs__/spark-catalyst_2.11-2.3.2.3.1.5.0-152.jar
+  7081 2052 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2035066 Dec 12 21:28 ./__spark_libs__/commons-math3-3.4.1.jar
+  7199  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   249790 Dec 12 21:28 ./__spark_libs__/javax.jdo-3.2.0-m3.jar
+  7454    6 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     4617 Dec 12 21:28 ./__spark_libs__/failureaccess-1.0.1.jar
+  6835  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   512742 Dec 12 21:28 ./__spark_libs__/woodstox-core-5.0.3.jar
+  7446  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   812977 Dec 12 21:28 ./__spark_libs__/azure-storage-7.0.0.jar
+  7407  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   497322 Dec 12 21:28 ./__spark_libs__/hadoop-azure-3.1.1.3.1.5.0-152.jar
+  7563   40 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    40341 Dec 12 21:28 ./__spark_libs__/json4s-jackson_2.11-3.2.11.jar
+  7562  102 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   103130 Dec 12 21:28 ./__spark_libs__/hive-jdbc-1.21.2.3.1.5.0-152.jar
+  6828   20 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    19827 Dec 12 21:28 ./__spark_libs__/opencsv-2.3.jar
+  7450  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   348635 Dec 12 21:28 ./__spark_libs__/jackson-core-2.10.0.jar
+  7099 1796 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1819635 Dec 12 21:28 ./__spark_libs__/spark-hive-thriftserver_2.11-2.3.2.3.1.5.0-152.jar
+  7077   39 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    39283 Dec 12 21:28 ./__spark_libs__/metrics-jvm-3.1.5.jar
+  7110  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   303191 Dec 12 21:28 ./__spark_libs__/hadoop-yarn-client-3.1.1.3.1.5.0-152.jar
+  6832  114 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   115534 Dec 12 21:28 ./__spark_libs__/javax.ws.rs-api-2.0.1.jar
+  7558  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   331034 Dec 12 21:28 ./__spark_libs__/okhttp-2.7.5.jar
+  7100 4101 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  4080249 Dec 12 21:28 ./__spark_libs__/netty-all-4.1.42.Final.jar
+  7075  129 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   130802 Dec 12 21:28 ./__spark_libs__/aircompressor-0.8.jar
+  7191 1540 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1502280 Dec 12 21:28 ./__spark_libs__/htrace-core4-4.1.0-incubating.jar
+  7389  101 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   102174 Dec 12 21:28 ./__spark_libs__/kerby-asn1-1.0.1.jar
+  7445   25 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    24239 Dec 12 21:28 ./__spark_libs__/commons-daemon-1.0.13.jar
+  7555   16 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    15071 Dec 12 21:28 ./__spark_libs__/transaction-api-1.1.jar
+  7392  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   204650 Dec 12 21:28 ./__spark_libs__/kerby-pkix-1.0.1.jar
+  6364   31 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    30674 Dec 12 21:28 ./__spark_libs__/kerby-config-1.0.1.jar
+  7416    6 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     4722 Dec 12 21:28 ./__spark_libs__/jcip-annotations-1.0-1.jar
+  7084  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   436303 Dec 12 21:28 ./__spark_libs__/avro-1.7.7.jar
+  7424   41 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    41123 Dec 12 21:28 ./__spark_libs__/commons-cli-1.2.jar
+  7413 1668 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1654823 Dec 12 21:28 ./__spark_libs__/hadoop-mapreduce-client-core-3.1.1.3.1.5.0-152.jar
+  7441  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   181271 Dec 12 21:28 ./__spark_libs__/hk2-locator-2.4.0-b34.jar
+  6385 1283 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1268196 Dec 12 21:28 ./__spark_libs__/arrow-vector-0.8.0.3.1.5.0-152.jar
+  7387  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   246918 Dec 12 21:28 ./__spark_libs__/commons-beanutils-1.9.4.jar
+  7560  643 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   533455 Dec 12 21:28 ./__spark_libs__/protobuf-java-2.5.0.jar
+  6779  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   796326 Dec 12 21:28 ./__spark_libs__/janino-3.0.8.jar
+  7065   29 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    29134 Dec 12 21:28 ./__spark_libs__/kerby-xdr-1.0.1.jar
+  6777  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   192993 Dec 12 21:28 ./__spark_libs__/avro-ipc-1.7.7.jar
+  7384   37 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    36708 Dec 12 21:28 ./__spark_libs__/kerb-util-1.0.1.jar
+  6778  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   313702 Dec 12 21:28 ./__spark_libs__/libfb303-0.9.3.jar
+  7118  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   299508 Dec 12 21:28 ./__spark_libs__/nimbus-jose-jwt-4.41.1.jar
+  6839   21 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    20046 Dec 12 21:28 ./__spark_libs__/kerb-identity-1.0.1.jar
+  6359 1027 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1045744 Dec 12 21:28 ./__spark_libs__/leveldbjni-all-1.8.jar
+  7418   93 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    94672 Dec 12 21:28 ./__spark_libs__/xz-1.0.jar
+  6776   11 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    10166 Dec 12 21:28 ./__spark_libs__/flatbuffers-1.2.0-3f79e055.jar
+  7433  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   212453 Dec 12 21:28 ./__spark_libs__/commons-net-2.2.jar
+  6830   16 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    15529 Dec 12 21:28 ./__spark_libs__/jackson-jaxrs-json-provider-2.10.0.jar
+  6782  114 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   115498 Dec 12 21:28 ./__spark_libs__/jakarta.xml.bind-api-2.3.2.jar
+  7067   49 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    48993 Dec 12 21:28 ./__spark_libs__/spark-unsafe_2.11-2.3.2.3.1.5.0-152.jar
+  7068   14 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    13166 Dec 12 21:28 ./__spark_libs__/error_prone_annotations-2.3.2.jar
+  7102   19 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    18482 Dec 12 21:28 ./__spark_libs__/eigenbase-properties-1.1.5.jar
+  7114  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   190432 Dec 12 21:28 ./__spark_libs__/gson-2.2.4.jar
+  6376  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   479881 Dec 12 21:28 ./__spark_libs__/commons-lang3-3.5.jar
+  6836    7 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     5950 Dec 12 21:28 ./__spark_libs__/javax.inject-2.4.0-b34.jar
+  7109   65 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    65928 Dec 12 21:28 ./__spark_libs__/okio-1.6.0.jar
+  7088  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   458642 Dec 12 21:28 ./__spark_libs__/jetty-util-9.3.24.v20180605.jar
+  7388   11 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     9939 Dec 12 21:28 ./__spark_libs__/slf4j-log4j12-1.7.16.jar
+  6381    4 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     3142 Dec 12 21:28 ./__spark_libs__/macro-compat_2.11-1.1.1.jar
+  7447  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   241367 Dec 12 21:28 ./__spark_libs__/commons-compress-1.4.1.jar
+  7203 1027 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   961731 Dec 12 21:28 ./__spark_libs__/parquet-column-1.8.3.jar
+  7101  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   136363 Dec 12 21:28 ./__spark_libs__/HikariCP-2.5.1.jar
+  6843 4998 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  4986447 Dec 12 21:28 ./__spark_libs__/hadoop-hdfs-client-3.1.1.3.1.5.0-152.jar
+  6383  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   334662 Dec 12 21:28 ./__spark_libs__/antlr4-runtime-4.7.jar
+  7082  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   305001 Dec 12 21:28 ./__spark_libs__/commons-httpclient-3.1.jar
+  6819  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   224167 Dec 12 21:28 ./__spark_libs__/chill_2.11-0.8.4.jar
+  7083  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   283598 Dec 12 21:28 ./__spark_libs__/curator-recipes-2.12.0.jar
+  6382  121 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   122774 Dec 12 21:28 ./__spark_libs__/py4j-0.10.7.jar
+  7397   84 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    85477 Dec 12 21:28 ./__spark_libs__/hadoop-mapreduce-client-jobclient-3.1.1.3.1.5.0-152.jar
+  7436    5 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     4467 Dec 12 21:28 ./__spark_libs__/aopalliance-1.0.jar
+  7444  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   358390 Dec 12 21:28 ./__spark_libs__/kryo-shaded-3.0.3.jar
+  7437  113 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   114983 Dec 12 21:28 ./__spark_libs__/jetty-webapp-9.3.24.v20180605.jar
+  7402   79 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    79845 Dec 12 21:28 ./__spark_libs__/compress-lzf-1.0.3.jar
+  7438   92 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    93210 Dec 12 21:28 ./__spark_libs__/super-csv-2.2.0.jar
+  7439  643 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   627814 Dec 12 21:28 ./__spark_libs__/joda-time-2.9.3.jar
+  6371 2180 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  2171314 Dec 12 21:28 ./__spark_libs__/spark-streaming_2.11-2.3.2.3.1.5.0-152.jar
+  6763  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   201953 Dec 12 21:28 ./__spark_libs__/curator-framework-2.12.0.jar
+  7112  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   473316 Dec 12 21:28 ./__spark_libs__/hadoop-aws-3.1.1.3.1.5.0-152.jar
+  6833   33 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    33176 Dec 12 21:28 ./__spark_libs__/jackson-jaxrs-base-2.10.0.jar
+  6849 3973 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  4050116 Dec 12 21:28 ./__spark_libs__/hadoop-common-3.1.1.3.1.5.0-152.jar
+  6780   81 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    82421 Dec 12 21:28 ./__spark_libs__/json4s-ast_2.11-3.2.11.jar
+  7571  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   258370 Dec 12 21:28 ./__spark_libs__/calcite-avatica-1.2.0-incubating.jar
+  6378  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   161867 Dec 12 21:28 ./__spark_libs__/stax2-api-3.1.4.jar
+  7417   19 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    18098 Dec 12 21:28 ./__spark_libs__/jersey-container-servlet-2.22.2.jar
+  7394 1924 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1888550 Dec 12 21:28 ./__spark_libs__/datanucleus-rdbms-4.1.7.jar
+  7435  771 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   671138 Dec 12 21:28 ./__spark_libs__/scala-xml_2.11-1.0.5.jar
+  7567  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   489884 Dec 12 21:28 ./__spark_libs__/log4j-1.2.17.jar
+  7098  899 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   802818 Dec 12 21:28 ./__spark_libs__/scalap-2.11.12.jar
+  7390  643 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   589462 Dec 12 21:28 ./__spark_libs__/json4s-core_2.11-3.2.11.jar
+  7111    5 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     4596 Dec 12 21:28 ./__spark_libs__/jul-to-slf4j-1.7.16.jar
+  6768 3205 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  3224708 Dec 12 21:28 ./__spark_libs__/derby-10.12.1.1.jar
+  6846 15373 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 15612191 Dec 12 21:28 ./__spark_libs__/scala-compiler-2.11.12.jar
+  7570  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   448794 Dec 12 21:28 ./__spark_libs__/apache-log4j-extras-1.2.17.jar
+  6766   42 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    41755 Dec 12 21:28 ./__spark_libs__/objenesis-2.1.jar
+  7554 12939 -r-xr-xr-x   1 yarn     aoneanalyticsoperator 13137639 Dec 12 21:28 ./__spark_libs__/spark-core_2.11-2.3.2.3.1.5.0-152.jar
+  6767   62 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    62050 Dec 12 21:28 ./__spark_libs__/commons-logging-1.1.3.jar
+  7086   79 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    80133 Dec 12 21:28 ./__spark_libs__/arrow-memory-0.8.0.3.1.5.0-152.jar
+  7116   39 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    38526 Dec 12 21:28 ./__spark_libs__/jetty-util-ajax-9.3.24.v20180605.jar
+  6379  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   180736 Dec 12 21:28 ./__spark_libs__/avro-mapred-1.7.7-hadoop2.jar
+  6824  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   134308 Dec 12 21:28 ./__spark_libs__/HikariCP-java7-2.4.12.jar
+  7069   60 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    60483 Dec 12 21:28 ./__spark_libs__/chill-java-0.8.4.jar
+  7085  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   138766 Dec 12 21:28 ./__spark_libs__/spark-repl_2.11-2.3.2.3.1.5.0-152.jar
+  7429   69 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    69409 Dec 12 21:28 ./__spark_libs__/activation-1.1.1.jar
+  6360  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   395195 Dec 12 21:28 ./__spark_libs__/javolution-5.5.1.jar
+  6368  387 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   284184 Dec 12 21:28 ./__spark_libs__/commons-codec-1.10.jar
+  7204   42 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    42064 Dec 12 21:28 ./__spark_libs__/parquet-common-1.8.3.jar
+  7073 1027 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1048115 Dec 12 21:28 ./__spark_libs__/parquet-jackson-1.8.3.jar
+  7080   66 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    66270 Dec 12 21:28 ./__spark_libs__/jersey-container-servlet-core-2.22.2.jar
+  7573  118 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   120316 Dec 12 21:28 ./__spark_libs__/json-smart-2.3.jar
+  6761 4614 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  4623075 Dec 12 21:28 ./__spark_libs__/scala-reflect-2.11.12.jar
+  7575    3 -r-xr-xr-x   1 yarn     aoneanalyticsoperator     2497 Dec 12 21:28 ./__spark_libs__/javax.inject-1.jar
+  6769  101 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   102244 Dec 12 21:28 ./__spark_libs__/jaxb-api-2.2.11.jar
+  7396  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   164368 Dec 12 21:28 ./__spark_libs__/antlr-runtime-3.4.jar
+  7072 1796 -r-xr-xr-x   1 yarn     aoneanalyticsoperator  1726527 Dec 12 21:28 ./__spark_libs__/ehcache-3.3.1.jar
+  6377  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   515171 Dec 12 21:28 ./__spark_libs__/spark-hadoop-cloud_2.11-2.3.2.3.1.5.0-152.jar
+  7094   22 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    21247 Dec 12 21:28 ./__spark_libs__/metrics-graphite-3.1.5.jar
+  7425   41 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    40554 Dec 12 21:28 ./__spark_libs__/kerby-util-1.0.1.jar
+  7192  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   160519 Dec 12 21:28 ./__spark_libs__/commons-dbcp-1.4.jar
+  7115  515 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   442406 Dec 12 21:28 ./__spark_libs__/calcite-linq4j-1.2.0-incubating.jar
+  7395  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   236660 Dec 12 21:28 ./__spark_libs__/ST4-4.0.4.jar
+  7381   86 -r-xr-xr-x   1 yarn     aoneanalyticsoperator    87192 Dec 12 21:28 ./__spark_libs__/spire-macros_2.11-0.13.0.jar
+  7404  259 -r-xr-xr-x   1 yarn     aoneanalyticsoperator   250989 Dec 12 21:28 ./__spark_libs__/parquet-hadoop-1.8.3.jar
+ 45543    1 -r-x------   1 d917355  d917355   1125536 Mar 29 08:08 ./terajdbc4-16.10.jar
+ 44760 17806 -r-x------   1 d917355  d917355  18171238 Mar 29 08:08 ./HiveJDBC41-4.1.jar
+ 45824 1155 -r-x------   1 d917355  d917355   1166239 Mar 29 08:08 ./mssql-jdbc-7.0.0.jre8.jar
+broken symlinks(find -L . -maxdepth 5 -type l -ls):
+
+End of LogType:directory.info
+*******************************************************************************
+
+
+End of LogType:prelaunch.err
+******************************************************************************
+
+Container: container_e2766_1585092847763_0052_01_000001 on lxdsydstl-lxw01-s01-whw10008.s01.oan_8041
+LogAggregationType: AGGREGATED
+====================================================================================================
+LogType:container-localizer-syslog
+LogLastModifiedTime:Sun Mar 29 08:08:35 +0000 2020
+LogLength:506
+LogContents:
+2020-03-29 08:08:34,536 INFO [main] org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ContainerLocalizer: Disk Validator: yarn.nodemanager.disk-validator is loaded.
+2020-03-29 08:08:35,882 WARN [ContainerLocalizer Downloader] org.apache.hadoop.ipc.Client: Exception encountered while connecting to the server : org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.ipc.StandbyException): Operation category READ is not supported in state standby. Visit https://s.apache.org/sbnn-error
+
+End of LogType:container-localizer-syslog
+*******************************************************************************************
+
+
+End of LogType:stdout
+***********************************************************************
+
+Container: container_e2766_1585092847763_0052_01_000001 on lxdsydstl-lxw01-s01-whw10008.s01.oan_8041
+LogAggregationType: AGGREGATED
+====================================================================================================
+LogType:launch_container.sh
+LogLastModifiedTime:Sun Mar 29 08:08:37 +0000 2020
+LogLength:9231
+LogContents:
+#!/bin/bash
+
+set -o pipefail -e
+export PRELAUNCH_OUT="/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001/prelaunch.out"
+exec >"${PRELAUNCH_OUT}"
+export PRELAUNCH_ERR="/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001/prelaunch.err"
+exec 2>"${PRELAUNCH_ERR}"
+echo "Setting up env variables"
+export JAVA_HOME=${JAVA_HOME:-"/usr/jdk64/jdk1.8.0_112"}
+export HADOOP_CONF_DIR=${HADOOP_CONF_DIR:-"/usr/hdp/3.1.5.0-152/hadoop/conf"}
+export HADOOP_YARN_HOME=${HADOOP_YARN_HOME:-"/usr/hdp/3.1.5.0-152/hadoop-yarn"}
+export HADOOP_HOME=${HADOOP_HOME:-"/usr/hdp/3.1.5.0-152/hadoop"}
+export PATH=${PATH:-"/usr/sbin:/sbin:/usr/lib/ambari-server/*:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/var/lib/ambari-agent"}
+export LANG=${LANG:-"en_US.UTF-8"}
+export HADOOP_TOKEN_FILE_LOCATION="/grid/12/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001/container_tokens"
+export CONTAINER_ID="container_e2766_1585092847763_0052_01_000001"
+export NM_PORT="8041"
+export NM_HOST="lxdsydstl-lxw01-s01-whw10008.s01.oan"
+export NM_HTTP_PORT="8044"
+export LOCAL_DIRS="/grid/01/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/02/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/03/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/04/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/05/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/06/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/07/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/08/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/09/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/10/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/11/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/12/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/13/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/14/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/15/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/16/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/17/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/18/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/19/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/20/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/21/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052,/grid/22/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052"
+export LOCAL_USER_DIRS="/grid/01/hadoop/yarn/data/usercache/d917355/,/grid/02/hadoop/yarn/data/usercache/d917355/,/grid/03/hadoop/yarn/data/usercache/d917355/,/grid/04/hadoop/yarn/data/usercache/d917355/,/grid/05/hadoop/yarn/data/usercache/d917355/,/grid/06/hadoop/yarn/data/usercache/d917355/,/grid/07/hadoop/yarn/data/usercache/d917355/,/grid/08/hadoop/yarn/data/usercache/d917355/,/grid/09/hadoop/yarn/data/usercache/d917355/,/grid/10/hadoop/yarn/data/usercache/d917355/,/grid/11/hadoop/yarn/data/usercache/d917355/,/grid/12/hadoop/yarn/data/usercache/d917355/,/grid/13/hadoop/yarn/data/usercache/d917355/,/grid/14/hadoop/yarn/data/usercache/d917355/,/grid/15/hadoop/yarn/data/usercache/d917355/,/grid/16/hadoop/yarn/data/usercache/d917355/,/grid/17/hadoop/yarn/data/usercache/d917355/,/grid/18/hadoop/yarn/data/usercache/d917355/,/grid/19/hadoop/yarn/data/usercache/d917355/,/grid/20/hadoop/yarn/data/usercache/d917355/,/grid/21/hadoop/yarn/data/usercache/d917355/,/grid/22/hadoop/yarn/data/usercache/d917355/"
+export LOG_DIRS="/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001"
+export USER="d917355"
+export LOGNAME="d917355"
+export HOME="/home/"
+export PWD="/grid/12/hadoop/yarn/data/usercache/d917355/appcache/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001"
+export JVM_PID="$$"
+export MALLOC_ARENA_MAX="4"
+export NM_AUX_SERVICE_timeline_collector=""
+export NM_AUX_SERVICE_mapreduce_shuffle="AAA0+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+export NM_AUX_SERVICE_spark2_shuffle=""
+export SPARK_YARN_STAGING_DIR="hdfs://ONE-ANALYTICS/user/d917355/.sparkStaging/application_1585092847763_0052"
+export APP_SUBMIT_TIME_ENV="1585469311710"
+export TIMELINE_FLOW_NAME_TAG="nem-manual-run"
+export TIMELINE_FLOW_VERSION_TAG="1"
+export APPLICATION_WEB_PROXY_BASE="/proxy/application_1585092847763_0052"
+export CLASSPATH=":$PWD:$PWD/__spark_conf__:$PWD/__spark_libs__/*:/etc/hadoop/conf:/usr/hdp/current/hadoop-client/*:/usr/hdp/current/hadoop-client/lib/*:/usr/hdp/current/hadoop-hdfs-client/*:/usr/hdp/current/hadoop-hdfs-client/lib/*:/usr/hdp/current/hadoop-yarn-client/*:/usr/hdp/current/hadoop-yarn-client/lib/*:$PWD/mr-framework/hadoop/share/hadoop/mapreduce/*:$PWD/mr-framework/hadoop/share/hadoop/mapreduce/lib/*:$PWD/mr-framework/hadoop/share/hadoop/common/*:$PWD/mr-framework/hadoop/share/hadoop/common/lib/*:$PWD/mr-framework/hadoop/share/hadoop/yarn/*:$PWD/mr-framework/hadoop/share/hadoop/yarn/lib/*:$PWD/mr-framework/hadoop/share/hadoop/hdfs/*:$PWD/mr-framework/hadoop/share/hadoop/hdfs/lib/*:$PWD/mr-framework/hadoop/share/hadoop/tools/lib/*:/usr/hdp/3.1.5.0-152/hadoop/lib/hadoop-lzo-0.6.0.3.1.5.0-152.jar:/etc/hadoop/conf/secure:$PWD/__spark_conf__/__hadoop_conf__"
+export SPARK_USER="d917355"
+export TIMELINE_FLOW_RUN_ID_TAG="1585469311725"
+echo "Setting up job resources"
+ln -sf "/grid/04/hadoop/yarn/data/usercache/d917355/filecache/138/HiveJDBC41-4.1.jar" "HiveJDBC41-4.1.jar"
+ln -sf "/grid/03/hadoop/yarn/data/usercache/d917355/filecache/140/terajdbc4-16.10.jar" "terajdbc4-16.10.jar"
+ln -sf "/grid/18/hadoop/yarn/data/filecache/269/spark2-hdp-yarn-archive.tar.gz" "__spark_libs__"
+ln -sf "/grid/16/hadoop/yarn/data/usercache/d917355/filecache/145/mysql-connector-java-6.0.5.jar" "mysql-connector-java-6.0.5.jar"
+ln -sf "/grid/10/hadoop/yarn/data/usercache/d917355/filecache/136/__spark_conf__.zip" "__spark_conf__"
+ln -sf "/grid/17/hadoop/yarn/data/usercache/d917355/filecache/137/mariadb-java-client-2.2.5.jar" "mariadb-java-client-2.2.5.jar"
+ln -sf "/grid/18/hadoop/yarn/data/usercache/d917355/filecache/139/notificationService.jar" "notificationService.jar"
+ln -sf "/grid/06/hadoop/yarn/data/usercache/d917355/filecache/141/tdgssconfig-16.10.jar" "tdgssconfig-16.10.jar"
+ln -sf "/grid/03/hadoop/yarn/data/usercache/d917355/filecache/142/ojdbc8-18.3.jar" "ojdbc8-18.3.jar"
+ln -sf "/grid/08/hadoop/yarn/data/filecache/270/spark2-hdp-hive-archive.tar.gz" "__hive_libs__"
+ln -sf "/grid/22/hadoop/yarn/data/usercache/d917355/filecache/143/postgresql-42.1.4.jar" "postgresql-42.1.4.jar"
+ln -sf "/grid/05/hadoop/yarn/data/usercache/d917355/filecache/144/log4j.properties" "log4j.properties"
+ln -sf "/grid/15/hadoop/yarn/data/usercache/d917355/filecache/135/mssql-jdbc-7.0.0.jre8.jar" "mssql-jdbc-7.0.0.jre8.jar"
+echo "Copying debugging information"
+# Creating copy of launch script
+cp "launch_container.sh" "/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001/launch_container.sh"
+chmod 640 "/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001/launch_container.sh"
+# Determining directory contents
+echo "ls -l:" 1>"/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001/directory.info"
+ls -l 1>>"/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001/directory.info"
+echo "find -L . -maxdepth 5 -ls:" 1>>"/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001/directory.info"
+find -L . -maxdepth 5 -ls 1>>"/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001/directory.info"
+echo "broken symlinks(find -L . -maxdepth 5 -type l -ls):" 1>>"/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001/directory.info"
+find -L . -maxdepth 5 -type l -ls 1>>"/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001/directory.info"
+echo "Launching container"
+exec /bin/bash -c "$JAVA_HOME/bin/java -server -Xmx512m -Djava.io.tmpdir=$PWD/tmp -Dhdp.version=3.1.5.0-152 -Dspark.yarn.app.container.log.dir=/var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001 org.apache.spark.deploy.yarn.ExecutorLauncher --arg 'lxdsydstl-lxe04-s01-ehc10001.s01.oan:40331' --properties-file $PWD/__spark_conf__/__spark_conf__.properties 1> /var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001/stdout 2> /var/log/yarn-local/application_1585092847763_0052/container_e2766_1585092847763_0052_01_000001/stderr"
+
+End of LogType:launch_container.sh
+************************************************************************************
+

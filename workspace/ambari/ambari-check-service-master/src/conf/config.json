@@ -1,0 +1,8 @@
+{
+  "hostname": "lxdsydstl-lxe01-s01-eadm0001.s01.oan",
+  "port": 8444,
+  "cluster_name": "ONE-ANALYTICS",
+  "user": "admin",
+  "password": "FHTMDakA9hGS522IDl8wcJlGi0MlAmhrdAHmQceery",
+  "ssl": true
+}

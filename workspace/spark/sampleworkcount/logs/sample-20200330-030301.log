@@ -1,0 +1,199 @@
+20/03/30 03:03:02 WARN SparkConf: The configuration key 'spark.yarn.executor.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.executor.memoryOverhead' instead.
+20/03/30 03:03:02 WARN SparkConf: The configuration key 'spark.yarn.driver.memoryOverhead' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.driver.memoryOverhead' instead.
+20/03/30 03:03:03 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/03/30 03:03:04 WARN DomainSocketFactory: The short-circuit local reads feature cannot be used because libhadoop cannot be loaded.
+20/03/30 03:03:05 INFO RequestHedgingRMFailoverProxyProvider: Created wrapped proxy for [rm1, rm2]
+20/03/30 03:03:05 INFO RequestHedgingRMFailoverProxyProvider: Looking for the active RM in [rm1, rm2]...
+20/03/30 03:03:05 INFO RequestHedgingRMFailoverProxyProvider: Found active RM [rm1]
+20/03/30 03:03:05 INFO Client: Requesting a new application from cluster with 8 NodeManagers
+20/03/30 03:03:05 INFO Configuration: found resource resource-types.xml at file:/etc/hadoop/3.1.5.0-152/0/resource-types.xml
+20/03/30 03:03:05 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (28672 MB per container)
+20/03/30 03:03:05 INFO Client: Will allocate AM container, with 5120 MB memory including 4096 MB overhead
+20/03/30 03:03:05 INFO Client: Setting up container launch context for our AM
+20/03/30 03:03:05 INFO Client: Setting up the launch environment for our AM container
+20/03/30 03:03:05 INFO Client: Preparing resources for our AM container
+20/03/30 03:03:05 INFO HadoopFSDelegationTokenProvider: getting token for: DFS[DFSClient[clientName=DFSClient_NONMAPREDUCE_-1871338154_1, ugi=d917355@S01.OAN (auth:KERBEROS)]]
+20/03/30 03:03:05 INFO DFSClient: Created token for d917355: HDFS_DELEGATION_TOKEN owner=d917355@S01.OAN, renewer=yarn, realUser=, issueDate=1585537385558, maxDate=1586142185558, sequenceNumber=2397, masterKeyId=213 on ha-hdfs:ONE-ANALYTICS
+20/03/30 03:03:06 INFO KMSClientProvider: New token created: (Kind: kms-dt, Service: kms://https@lxdsydstl-lxm03-s01-mhm30001.s01.oan:9393/kms, Ident: (kms-dt owner=d917355, renewer=yarn, realUser=, issueDate=1585537386017, maxDate=1586142186017, sequenceNumber=54, masterKeyId=7))
+20/03/30 03:03:06 WARN HiveConf: HiveConf of name hive.llap.daemon.service.hosts does not exist
+20/03/30 03:03:06 WARN HiveConf: HiveConf of name hive.server2.http.endpoint does not exist
+20/03/30 03:03:06 WARN HiveConf: HiveConf of name hive.llap.daemon.service.hosts does not exist
+20/03/30 03:03:06 WARN HiveConf: HiveConf of name hive.server2.http.endpoint does not exist
+20/03/30 03:03:06 WARN HiveConf: HiveConf of name hive.server2.http.endpoint does not exist
+20/03/30 03:03:06 INFO metastore: Trying to connect to metastore with URI thrift://lxdsydstl-lxm02-s01-mhm20001.s01.oan:9083
+20/03/30 03:03:06 INFO metastore: Connected to metastore.
+20/03/30 03:03:08 INFO HiveStreamingCredentialProvider: Obtaining delegation token (secure metastore) for hive streaming..
+20/03/30 03:03:08 INFO HiveConf: Found configuration file file:/etc/spark2/3.1.5.0-152/0/hive-site.xml
+20/03/30 03:03:08 WARN HiveConf: HiveConf of name hive.server2.http.endpoint does not exist
+20/03/30 03:03:08 INFO HiveStreamingCredentialProvider: Getting Hive delegation token for d917355@S01.OAN against hive/_HOST@S01.OAN at thrift://lxdsydstl-lxm01-s01-mhm10001.s01.oan:9083,thrift://lxdsydstl-lxm02-s01-mhm20001.s01.oan:9083
+20/03/30 03:03:08 INFO HiveMetaStoreClient: Trying to connect to metastore with URI thrift://lxdsydstl-lxm02-s01-mhm20001.s01.oan:9083
+20/03/30 03:03:08 INFO HiveMetaStoreClient: HMSC::open(): Could not find delegation token. Creating KERBEROS-based thrift connection.
+20/03/30 03:03:08 INFO HiveMetaStoreClient: Opened a connection to metastore, current connections: 1
+20/03/30 03:03:08 INFO HiveMetaStoreClient: Connected to metastore.
+20/03/30 03:03:08 INFO HiveStreamingCredentialProvider: Added delegation token (secure metastore) for hive streaming: Kind: HIVE_DELEGATION_TOKEN, Service: , Ident: 00 0f 64 39 31 37 33 35 35 40 53 30 31 2e 4f 41 4e 04 68 69 76 65 0f 64 39 31 37 33 35 35 40 53 30 31 2e 4f 41 4e 8a 01 71 29 64 8f 4e 8a 01 71 4d 71 13 4e 8e 0a 0b 8e 01 83 alias: HIVE_DELEGATION_TOKEN
+20/03/30 03:03:08 INFO HiveMetaStoreClient: Closed a connection to metastore, current connections: 0
+20/03/30 03:03:08 INFO Client: Use hdfs cache file as spark.yarn.archive for HDP, hdfsCacheFile:hdfs://ONE-ANALYTICS/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-yarn-archive.tar.gz
+20/03/30 03:03:08 INFO Client: Source and destination file systems are the same. Not copying hdfs://ONE-ANALYTICS/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-yarn-archive.tar.gz
+20/03/30 03:03:08 INFO Client: Distribute hdfs cache file as spark.sql.hive.metastore.jars for HDP, hdfsCacheFile:hdfs://ONE-ANALYTICS/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-hive-archive.tar.gz
+20/03/30 03:03:08 INFO Client: Source and destination file systems are the same. Not copying hdfs://ONE-ANALYTICS/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-hive-archive.tar.gz
+20/03/30 03:03:08 INFO Client: Uploading resource file:/home/d917355/workspace/spark/sampleworkcount/sparkwordcount-0.0.1-SNAPSHOT.jar -> hdfs://ONE-ANALYTICS/user/d917355/.sparkStaging/application_1585509150056_0008/sparkwordcount-0.0.1-SNAPSHOT.jar
+20/03/30 03:03:08 INFO Client: Uploading resource file:/usr/hdp/current/hive_warehouse_connector/hive-warehouse-connector-assembly-1.0.0.3.1.5.0-152.jar -> hdfs://ONE-ANALYTICS/user/d917355/.sparkStaging/application_1585509150056_0008/hive-warehouse-connector-assembly-1.0.0.3.1.5.0-152.jar
+20/03/30 03:03:12 INFO Client: Uploading resource file:/home/d917355/workspace/spark/sampleworkcount/log4j.properties -> hdfs://ONE-ANALYTICS/user/d917355/.sparkStaging/application_1585509150056_0008/log4j.properties
+20/03/30 03:03:12 INFO Client: Uploading resource file:/tmp/spark-67e4d276-b821-4c65-982c-fe5050c7f0da/__spark_conf__8059682151697783590.zip -> hdfs://ONE-ANALYTICS/user/d917355/.sparkStaging/application_1585509150056_0008/__spark_conf__.zip
+20/03/30 03:03:12 INFO SecurityManager: Changing view acls to: d917355
+20/03/30 03:03:12 INFO SecurityManager: Changing modify acls to: d917355
+20/03/30 03:03:12 INFO SecurityManager: Changing view acls groups to: 
+20/03/30 03:03:12 INFO SecurityManager: Changing modify acls groups to: 
+20/03/30 03:03:12 INFO SecurityManager: SecurityManager: authentication disabled; ui acls enabled; users  with view permissions: Set(d917355); groups with view permissions: Set(); users  with modify permissions: Set(d917355); groups with modify permissions: Set()
+20/03/30 03:03:12 INFO Client: Submitting application application_1585509150056_0008 to ResourceManager
+20/03/30 03:03:12 INFO YarnClientImpl: Submitted application application_1585509150056_0008
+20/03/30 03:03:13 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:13 INFO Client: 
+	 client token: Token { kind: YARN_CLIENT_TOKEN, service:  }
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: adhoc
+	 start time: 1585537392599
+	 final status: UNDEFINED
+	 tracking URL: https://lxdsydstl-lxm01-s01-mhm10001.s01.oan:8090/proxy/application_1585509150056_0008/
+	 user: d917355
+20/03/30 03:03:14 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:15 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:16 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:17 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:18 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:19 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:20 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:21 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:22 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:23 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:23 INFO Client: 
+	 client token: Token { kind: YARN_CLIENT_TOKEN, service:  }
+	 diagnostics: N/A
+	 ApplicationMaster host: 172.16.16.16
+	 ApplicationMaster RPC port: 0
+	 queue: adhoc
+	 start time: 1585537392599
+	 final status: UNDEFINED
+	 tracking URL: https://lxdsydstl-lxm01-s01-mhm10001.s01.oan:8090/proxy/application_1585509150056_0008/
+	 user: d917355
+20/03/30 03:03:24 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:25 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:26 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:27 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:28 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:29 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:30 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:31 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:32 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:33 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:33 INFO Client: 
+	 client token: N/A
+	 diagnostics: [Mon Mar 30 03:03:33 +0000 2020] Application is Activated, waiting for resources to be assigned for AM.  Details : AM Partition = <DEFAULT_PARTITION> ; Partition Resource = <memory:327680, vCores:320> ; Queue's Absolute capacity = 20.0 % ; Queue's Absolute used capacity = 27.5 % ; Queue's Absolute max capacity = 40.0 % ; Queue's capacity (absolute resource) = <memory:65536, vCores:64> ; Queue's used capacity (absolute resource) = <memory:90112, vCores:4> ; Queue's max capacity (absolute resource) = <memory:131072, vCores:128> ; 
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: adhoc
+	 start time: 1585537392599
+	 final status: UNDEFINED
+	 tracking URL: https://lxdsydstl-lxm01-s01-mhm10001.s01.oan:8090/proxy/application_1585509150056_0008/
+	 user: d917355
+20/03/30 03:03:34 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:35 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:36 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:37 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:38 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:39 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:40 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:41 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:42 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:43 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:44 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:45 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:46 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:47 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:48 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:49 INFO Client: Application report for application_1585509150056_0008 (state: ACCEPTED)
+20/03/30 03:03:50 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:50 INFO Client: 
+	 client token: Token { kind: YARN_CLIENT_TOKEN, service:  }
+	 diagnostics: N/A
+	 ApplicationMaster host: 172.16.16.9
+	 ApplicationMaster RPC port: 0
+	 queue: adhoc
+	 start time: 1585537392599
+	 final status: UNDEFINED
+	 tracking URL: https://lxdsydstl-lxm01-s01-mhm10001.s01.oan:8090/proxy/application_1585509150056_0008/
+	 user: d917355
+20/03/30 03:03:51 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:52 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:53 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:54 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:55 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:56 INFO Client: Application report for application_1585509150056_0008 (state: RUNNING)
+20/03/30 03:03:57 INFO Client: Application report for application_1585509150056_0008 (state: FINISHED)
+20/03/30 03:03:57 INFO Client: 
+	 client token: Token { kind: YARN_CLIENT_TOKEN, service:  }
+	 diagnostics: User class threw exception: java.lang.RuntimeException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Could not open client transport for any of the Server URI's in ZooKeeper: Could not establish connection to jdbc:hive2://lxdsydstl-lxe05-s01-ehc20001.s01.oan:10501/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2-interactive;auth=delegationToken: HTTP Response code: 401)
+	at com.hortonworks.spark.sql.hive.llap.HiveWarehouseSessionImpl.executeInternal(HiveWarehouseSessionImpl.java:194)
+	at com.hortonworks.spark.sql.hive.llap.HiveWarehouseSessionImpl.executeSmart(HiveWarehouseSessionImpl.java:183)
+	at com.hortonworks.spark.sql.hive.llap.HiveWarehouseSessionImpl.execute(HiveWarehouseSessionImpl.java:176)
+	at com.hortonworks.spark.sql.hive.llap.HiveWarehouseSessionImpl.showDatabases(HiveWarehouseSessionImpl.java:251)
+	at com.cloudera.sparkwordcount.SimpleHiveApp$.main(SimpleHiveApp.scala:16)
+	at com.cloudera.sparkwordcount.SimpleHiveApp.main(SimpleHiveApp.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$4.run(ApplicationMaster.scala:721)
+Caused by: java.sql.SQLException: Cannot create PoolableConnectionFactory (Could not open client transport for any of the Server URI's in ZooKeeper: Could not establish connection to jdbc:hive2://lxdsydstl-lxe05-s01-ehc20001.s01.oan:10501/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2-interactive;auth=delegationToken: HTTP Response code: 401)
+	at org.apache.commons.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2385)
+	at org.apache.commons.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:2110)
+	at org.apache.commons.dbcp2.BasicDataSource.getLogWriter(BasicDataSource.java:1622)
+	at org.apache.commons.dbcp2.BasicDataSourceFactory.createDataSource(BasicDataSourceFactory.java:554)
+	at com.hortonworks.spark.sql.hive.llap.JDBCWrapper.getConnector(HS2JDBCWrapper.scala:446)
+	at com.hortonworks.spark.sql.hive.llap.JDBCWrapper.getConnector(HS2JDBCWrapper.scala:453)
+	at com.hortonworks.spark.sql.hive.llap.DefaultJDBCWrapper.getConnector(HS2JDBCWrapper.scala)
+	at com.hortonworks.spark.sql.hive.llap.HiveWarehouseSessionImpl.lambda$new$0(HiveWarehouseSessionImpl.java:85)
+	at com.hortonworks.spark.sql.hive.llap.HiveWarehouseSessionImpl.executeInternal(HiveWarehouseSessionImpl.java:190)
+	... 10 more
+Caused by: java.sql.SQLException: Could not open client transport for any of the Server URI's in ZooKeeper: Could not establish connection to jdbc:hive2://lxdsydstl-lxe05-s01-ehc20001.s01.oan:10501/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2-interactive;auth=delegationToken: HTTP Response code: 401
+	at shadehive.org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:344)
+	at shadehive.org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:107)
+	at org.apache.commons.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:53)
+	at org.apache.commons.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:291)
+	at org.apache.commons.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:2395)
+	at org.apache.commons.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2381)
+	... 18 more
+Caused by: java.sql.SQLException: Could not establish connection to jdbc:hive2://lxdsydstl-lxe05-s01-ehc20001.s01.oan:10501/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2-interactive;auth=delegationToken: HTTP Response code: 401
+	at shadehive.org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:872)
+	at shadehive.org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:316)
+	... 23 more
+Caused by: org.apache.thrift.transport.TTransportException: HTTP Response code: 401
+	at org.apache.thrift.transport.THttpClient.flushUsingHttpClient(THttpClient.java:262)
+	at org.apache.thrift.transport.THttpClient.flush(THttpClient.java:316)
+	at org.apache.thrift.TServiceClient.sendBase(TServiceClient.java:73)
+	at org.apache.thrift.TServiceClient.sendBase(TServiceClient.java:62)
+	at shadehive.org.apache.hive.service.rpc.thrift.TCLIService$Client.send_OpenSession(TCLIService.java:170)
+	at shadehive.org.apache.hive.service.rpc.thrift.TCLIService$Client.OpenSession(TCLIService.java:162)
+	at shadehive.org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:853)
+	... 24 more
+
+	 ApplicationMaster host: 172.16.16.9
+	 ApplicationMaster RPC port: 0
+	 queue: adhoc
+	 start time: 1585537392599
+	 final status: FAILED
+	 tracking URL: https://lxdsydstl-lxm01-s01-mhm10001.s01.oan:8090/proxy/application_1585509150056_0008/
+	 user: d917355
+Exception in thread "main" org.apache.spark.SparkException: Application application_1585509150056_0008 finished with failed status
+	at org.apache.spark.deploy.yarn.Client.run(Client.scala:1269)
+	at org.apache.spark.deploy.yarn.YarnClusterApplication.start(Client.scala:1627)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:900)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:192)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:217)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:137)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+20/03/30 03:03:57 INFO ShutdownHookManager: Shutdown hook called
+20/03/30 03:03:57 INFO ShutdownHookManager: Deleting directory /tmp/spark-67e4d276-b821-4c65-982c-fe5050c7f0da
+20/03/30 03:03:57 INFO ShutdownHookManager: Deleting directory /tmp/spark-f84f1cf8-4896-453f-827e-cb83e7dcf662
